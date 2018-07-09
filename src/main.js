@@ -13,10 +13,6 @@ const routes = [{
 
 const router = new VueRouter({ routes })
 
-router.get('/', (req, res) => {
-  res.render('index')
-})
-
 new Vue({
   el: '#app',
   router,
