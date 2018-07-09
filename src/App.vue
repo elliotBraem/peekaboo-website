@@ -1,15 +1,11 @@
 <template lang="pug">
-  #app
-    h1 {{ msg }}
+    #app
+      router-view
+      h1 Working
 </template>
 
 <script>
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome'
-    }
-  }
 }
 </script>
