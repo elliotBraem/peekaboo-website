@@ -1,15 +1,16 @@
 <template lang="pug">
-  b-container
-    //- Navbar
-    nav
-      b-navbar(variant="faded" type="light")
-        b-navbar-brand.mb-0(tag="h1") Peekaboo Pediatric Therapy LLC
-        a(href="#" target="_blank")
-          i.fa.fa-facebook
+  div
     //- Header
     header
       b-container
-        h1 Peekaboo Pediatric Therapy LLC
+        //- Navbar + Social Media
+        nav
+          b-navbar(variant="faded" type="light")
+            b-navbar-brand.mb-0(tag="h1") 
+            a.float-right(href="#" target="_blank")
+              i.fa.fa-facebook
+        //- Logo
+        b-img(src="http://via.placeholder.com/400x200" fluid )
     //- Main content
     main
       //- Services
