@@ -20,6 +20,8 @@
     main
       //- Services
       section.services
+        .title-container
+          h1 Services
         b-container
           .row
             .col

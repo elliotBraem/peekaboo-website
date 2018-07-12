@@ -24,7 +24,6 @@ $theme-colors: (
   }
 
   header {
-    min-height: 250px;
     background-color: #FFFFFF;
   }
 
@@ -37,6 +36,7 @@ $theme-colors: (
   .services {
     min-height: 740px;
     background-color: #FFFFFF;
+    z-index: 10px
   }
   .rates {
     min-height: 350px;
@@ -48,14 +48,26 @@ $theme-colors: (
   }
   
   .logo {
-    padding-top: 56px;
+    padding: 50px 0px;
     max-width: 500px;
   }
 
-  h1, h2 {
-    font-weight: normal;
+  .title-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #CBC5EA; //- change this color
+    // -webkit-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.4);
+    // -moz-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.4);
+    // box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.4);
+
+    h1{
+      padding: 5px;
+      text-align: center;
+      color: #E8046A;
+    }
   }
-  
+
   ul {
     list-style-type: none;
     padding: 0;

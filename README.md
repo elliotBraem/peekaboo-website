@@ -23,7 +23,6 @@ Colors
 Green (Pantone): #00A740
 Red-Purple: #E8046A
 Unbleached Silk: #FFE1C8
-White Smoke: #F3F8F2
 
 
 Things to Inlude
