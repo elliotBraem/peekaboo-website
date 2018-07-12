@@ -14,9 +14,21 @@ body {
 
 header {
   min-height: 350px;
-  background-color: #f2f2f2;
+  background-color: #FFFFFF;
 }
 
+.services {
+  min-height: 740px;
+  background-color: blue;
+}
+.rates {
+  min-height: 350px;
+  background-color: red;
+}
+.about {
+  min-height: 390px;
+  background-color: green;
+}
   
   h1, h2 {
     font-weight: normal;
