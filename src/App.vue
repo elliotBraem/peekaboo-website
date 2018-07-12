@@ -5,12 +5,17 @@
       b-container
         //- Navbar + Social Media
         nav
-          b-navbar(variant="faded" type="light")
-            b-navbar-brand.mb-0(tag="h1") 
-            a.float-right(href="#" target="_blank")
-              i.fa.fa-facebook
+          b-navbar.float-right(variant="faded" type="light")
+            b-nav-item
+              a(href="#" target="_blank")
+                i.fa.fa-facebook-square
+                | Facebook
+            b-nav-item
+              a(href="#" target="_blank")
+                i.fa.fa-envelope
+                | Email
         //- Logo
-        b-img(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC" float height=200)
+        b-img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
     //- Main content
     main
       //- Services

@@ -18,30 +18,41 @@ $theme-colors: (
   font-style: normal;
 }
 
-body {
-    background-color: #f7f7f7;
+  body {
+    font-family: 'Marker-Felt';
+    background-color: #FFFFFF;
   }
 
-header {
-  min-height: 300px;
-  background-color: #FFFFFF;
-}
+  header {
+    min-height: 250px;
+    background-color: #FFFFFF;
+  }
 
-.services {
-  min-height: 740px;
-  background-color: #EEEBD0;
-}
-.rates {
-  min-height: 350px;
-  background-color: red;
-}
-.about {
-  min-height: 390px;
-  background-color: green;
-}
+  nav {
+    i {
+      padding-right: 5px;
+    }
+  }
+
+  .services {
+    min-height: 740px;
+    background-color: #FFFFFF;
+  }
+  .rates {
+    min-height: 350px;
+    background-color: red;
+  }
+  .about {
+    min-height: 390px;
+    background-color: green;
+  }
   
+  .logo {
+    padding-top: 56px;
+    max-width: 500px;
+  }
+
   h1, h2 {
-    font-family: 'Marker-Felt';
     font-weight: normal;
   }
   
@@ -53,8 +64,4 @@ header {
   li {
     display: inline-block;
     margin: 0 10px;
-  }
-  
-  a {
-    color: #42b983;
   }
