@@ -8,6 +8,16 @@ $theme-colors: (
   'primary': #48297c
 );
 
+@font-face {
+  font-family: 'Marker-Felt';
+  src:url('webfonts_Marker-Felt/Marker-Felt.ttf.woff') format('woff'),
+      url('webfonts_Marker-Felt/Marker-Felt.ttf.svg#Marker-Felt') format('svg'),
+      url('webfonts_Marker-Felt/Marker-Felt.ttf.eot'),
+      url('webfonts_Marker-Felt/Marker-Felt.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     background-color: #f7f7f7;
   }
@@ -19,7 +29,7 @@ header {
 
 .services {
   min-height: 740px;
-  background-color: blue;
+  background-color: #EEEBD0;
 }
 .rates {
   min-height: 350px;
@@ -31,6 +41,7 @@ header {
 }
   
   h1, h2 {
+    font-family: 'Marker-Felt';
     font-weight: normal;
   }
   

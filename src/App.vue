@@ -16,32 +16,31 @@
       //- Services
       section.services
         b-container
-          h1 Our Services
-          b-card.mb-2(title="Card Title"
-            img-src="https://picsum.photos/600/300/?image=25"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 18rem; display: inline-block;")
-            p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
-          b-card.mb-2(title="Card Title"
-            img-src="https://picsum.photos/600/300/?image=25"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 18rem; display: inline-block;")
-            p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
-          b-card.mb-2(title="Card Title"
-            img-src="https://picsum.photos/600/300/?image=25"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 18rem; display: inline-block;")
-            p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
-        // b-container
-        //   b-jumbotron(header="Bootstrap Vue" lead="Bootstrap 4 Components for Vue.js 2")
-        //     p For more information visit our website
-        //     b-btn(variant="primary" href="https://bootstrap-vue.js.org/") More Info
+          .row
+            .col
+              b-card.mb-2(title="Card Title"
+                img-src="http://via.placeholder.com/380x400"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 18rem; display: inline-block;")
+                p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+            .col
+              b-card.mb-2(title="Card Title"
+                img-src="http://via.placeholder.com/380x400"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 18rem; display: inline-block;")
+                p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+            .col
+              b-card.mb-2(title="Card Title"
+                img-src="http://via.placeholder.com/380x400"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 18rem; display: inline-block;")
+                p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
       //- Rates
       section.rates
         h1 Our Rates
