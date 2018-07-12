@@ -10,7 +10,7 @@
             a.float-right(href="#" target="_blank")
               i.fa.fa-facebook
         //- Logo
-        b-img(src="./assets/img/logo-big.png" alt="Peekaboo Pediatric Therapy LLC" fluid style="max-height:260px")
+        b-img(src="./assets/img/logo-big.png" alt="Peekaboo Pediatric Therapy LLC" fluid style="max-height:200px")
     //- Main content
     main
       //- Services
