@@ -19,8 +19,8 @@
           h5.text-right Occupational Therapy Office in Denver, CO
     //- Main content
     main
-      section.landing-image
-        b-img(src="http://via.placeholder.com/1204x240" alt="Blank")
+      section
+        b-img.landing-image(src="./assets/img/kid-painted-hands.jpeg" alt="Happy kid with painted hands" fluid)
       //- Services
       section.services
         .title-container
@@ -51,11 +51,13 @@
           b-button(style="background-image: url('https://static.wixstatic.com/media/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png/v1/fill/w_530,h_152,al_c,usm_0.66_1.00_0.01/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png')")
           b-button(style="background-image: url('https://ddrcco.com/images/brand/logo.png'")
 
-        h2 Our Rates
+        .title-container
+          h2 Our Rates
 
       //- About us
       section.about
-        h2 About Us
+        .title-container
+          h2 Meet the Therapists!
 
     footer
  

@@ -52,13 +52,16 @@ $--color-secondary: #E8046A;
     }
   }
 
+  .landing-image {
+    z-index: -2000;
+    width: 50%;
+  }
   .services {
     min-height: 740px;
     z-index: 10px
   }
   .rates {
     min-height: 350px;
-    background-color: red;
   }
 
   .provider {
@@ -67,7 +70,6 @@ $--color-secondary: #E8046A;
 
   .about {
     min-height: 390px;
-    background-color: green;
   }
 
   .btn-group-vertical {
