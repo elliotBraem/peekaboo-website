@@ -14,9 +14,7 @@ $--color-secondary: #E8046A;
 }
 
   body {
-    h1, h2, h3 {
-      font-family: 'Marker-Felt';
-    }
+    font-family: 'Marker-Felt';
 
     p {
       font-family: Futura;
@@ -24,11 +22,30 @@ $--color-secondary: #E8046A;
     background-color: #FFFFFF;
   }
 
+  .full-wrapper {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
   header {
-    min-height: 300px;
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    height: 50vh;
+    transform: translateZ(-1px) translateY(-175px) scale(2);
+    z-index: -1;
     background-color: #FFFFFF;
   }
 
+  main {
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+  }
   nav {
     i {
       padding-right: 5px;
@@ -37,7 +54,6 @@ $--color-secondary: #E8046A;
 
   .services {
     min-height: 740px;
-    background-color: #FFFFFF;
     z-index: 10px
   }
   .rates {
@@ -61,11 +77,13 @@ $--color-secondary: #E8046A;
       background-color: white;
       background-repeat: no-repeat;
       background-size: contain;
+      border: none;
       height: 80px;
     }
   }
+
   .logo {
-    padding: 50px 0px;
+    margin: 50px 0px 50px 0px;
     max-width: 500px;
   }
 
@@ -75,9 +93,9 @@ $--color-secondary: #E8046A;
 
   .title-container {
     width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    height: 80px;
     background-color: #CBC5EA; //- change this color
+    margin-bottom: 20px;
     // -webkit-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.4);
     // -moz-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.4);
     // box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.4);

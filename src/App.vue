@@ -1,23 +1,26 @@
 <template lang="pug">
-  div
+  div.full-wrapper
     //- Header
     header
       b-container
-        //- Navbar + Social Media
-        nav
-          b-navbar.float-right(variant="faded" type="light")
-            b-nav-item
-              a(href="#" target="_blank")
-                i.fa.fa-facebook-square
-                | Facebook
-            b-nav-item
-              a(href="#" target="_blank")
-                i.fa.fa-envelope
-                | Email
-        //- Logo
-        b-img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
+          //- Navbar + Social Media
+          nav
+            b-navbar.float-right(variant="faded" type="light")
+              b-nav-item
+                a(href="#" target="_blank")
+                  i.fa.fa-facebook-square
+                  | Facebook
+              b-nav-item
+                a(href="#" target="_blank")
+                  i.fa.fa-envelope
+                  | Email
+          //- Logo
+          b-img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
+          h5.text-right Occupational Therapy Office in Denver, CO
     //- Main content
     main
+      section.landing-image
+        b-img(src="http://via.placeholder.com/1204x240" alt="Blank")
       //- Services
       section.services
         .title-container
@@ -30,7 +33,7 @@
                 img-alt="Image"
                 img-top
                 tag="article"
-                style="max-width: 18rem; display: inline-block;")
+                style="display: inline-block;")
                 p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
             .col
               b-card.mb-2(title="Card Title"
@@ -38,7 +41,7 @@
                 img-alt="Image"
                 img-top
                 tag="article"
-                style="max-width: 18rem; display: inline-block;")
+                style="display: inline-block;")
                 p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
       //- Rates
       section.rates
@@ -60,6 +63,23 @@
 
 <script>
 export default {
+  data () {
+    return {
+      slide: 0,
+      sliding: null
+    }
+  },
   name: 'app',
+  methods: {
+    onSlideStart (slide) {
+      this.sliding = true
+    },
+    onSlideEnd (slide) {
+      this.sliding = false
+    }
+  },
+  components: {
+    
+  }
 }
 </script>
