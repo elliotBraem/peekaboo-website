@@ -13,13 +13,13 @@ $--color-secondary: #E8046A;
   font-style: normal;
 }
 
-  body {
+  body, html {
+    height: 100%;
     font-family: 'Marker-Felt';
 
     p {
       font-family: Futura;
     }
-    background-color: #FFFFFF;
   }
 
   .wrapper {
@@ -29,7 +29,12 @@ $--color-secondary: #E8046A;
   }
 
   header {
-    // height: 60vh;
+    background-image: url('./img/logo.svg');
+    height: 40vh;
+    background-position: 15% 15%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
   }
 
   nav {
@@ -83,12 +88,6 @@ $--color-secondary: #E8046A;
   }
 
   .logo {
-    background-image: url('./img/logo.svg');
-    background-repeat: no-repeat;
-    background-position: 5% 40%;
-    background-size: contain;
-    max-width: 600px;
-    height: 200px;
   }
 
   .card {
@@ -119,4 +118,12 @@ $--color-secondary: #E8046A;
   li {
     display: inline-block;
     margin: 0 10px;
+  }
+
+
+  @media only screen and (min-width: 992px) {
+    /* For mobile phones & Tablets: */
+    header {
+      background-size: 600px auto;
+    }
   }
