@@ -22,29 +22,16 @@ $--color-secondary: #E8046A;
     background-color: #FFFFFF;
   }
 
-  .full-wrapper {
+  .wrapper {
     perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
 
   header {
-    display: flex;
-    flex: 1 0 auto;
-    position: relative;
-    height: 50vh;
-    transform: translateZ(-1px) translateY(-175px) scale(2);
-    z-index: -1;
+    // height: 60vh;
   }
 
-  main {
-    display: block;
-    position: relative;
-    background-color: white;
-    z-index: 1;
-  }
   nav {
     i {
       padding-right: 5px;
@@ -96,8 +83,12 @@ $--color-secondary: #E8046A;
   }
 
   .logo {
-    margin: 50px 0px 50px 0px;
-    max-width: 500px;
+    background-image: url('./img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 40%;
+    background-size: contain;
+    max-width: 600px;
+    height: 200px;
   }
 
   .card {
