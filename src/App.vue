@@ -3,46 +3,33 @@
     //- Header
     header
       b-container
-          //- Navbar + Social Media
-          nav
-            b-navbar.float-right(variant="faded" type="light")
-              b-nav-item
-                a(href="#" target="_blank")
-                  i.fa.fa-facebook-square
-                  | Facebook
-              b-nav-item
-                a(href="#" target="_blank")
-                  i.fa.fa-envelope
-                  | Email
-          //- Logo
-          b-img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
-          h5.text-right Occupational Therapy Office in Denver, CO
+        //- Navbar + Social Media
+        nav
+          b-navbar.float-right(variant="faded" type="light")
+            b-nav-item
+              a(href="#" target="_blank")
+                i.fa.fa-facebook-square
+                | Facebook
+            b-nav-item
+              a(href="#" target="_blank")
+                i.fa.fa-envelope
+                | Email
+        //- Logo
+        b-img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
+        h5.text-right Occupational Therapy Office in Denver, CO
     //- Main content
     main
-      section
-        b-img.landing-image(src="./assets/img/kid-painted-hands.jpeg" alt="Happy kid with painted hands" fluid)
+      // section.landing-contianer
+      //   b-img.landing-image(src="./assets/img/kid-painted-hands.jpeg" alt="Happy kid with painted hands" fluid)
       //- Services
       section.services
-        .title-container
-          h2 Services
-        b-container
-          .row
-            .col
-              b-card.mb-2(title="Card Title"
-                img-src="http://via.placeholder.com/380x400"
-                img-alt="Image"
-                img-top
-                tag="article"
-                style="display: inline-block;")
-                p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
-            .col
-              b-card.mb-2(title="Card Title"
-                img-src="http://via.placeholder.com/380x400"
-                img-alt="Image"
-                img-top
-                tag="article"
-                style="display: inline-block;")
-                p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+        // .title-container
+        //   h2 Services
+        b-container.text-center
+          h2 Welcome to Peek-a-boo Pediatric Therapy LLC!
+          h4(font-type: ) We're a Occupational Therapy office in the Denver area. We offer treatment to 
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, metus eget egestas ornare, quam quam gravida magna, quis rutrum nunc quam id sem. Praesent tristique bibendum leo vitae iaculis. Sed arcu enim, interdum pellentesque tincidunt eget, tristique in risus. Aliquam quis facilisis risus, a efficitur nisl. Nullam maximus maximus consequat. Quisque non dolor eu lorem finibus facilisis et ultrices nunc. Quisque in porttitor ipsum. Mauris rhoncus in elit ut scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        b-img.child(src="./assets/img/girl-pink-hair.svg" alt="Girl with pink hair" fluid)
       //- Rates
       section.rates
         h2 Services are provided through

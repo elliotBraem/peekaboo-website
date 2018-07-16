@@ -37,7 +37,6 @@ $--color-secondary: #E8046A;
     height: 50vh;
     transform: translateZ(-1px) translateY(-175px) scale(2);
     z-index: -1;
-    background-color: #FFFFFF;
   }
 
   main {
@@ -52,13 +51,25 @@ $--color-secondary: #E8046A;
     }
   }
 
+  .landing-container {
+    width: 100%;
+  }
   .landing-image {
-    z-index: -2000;
     width: 50%;
   }
   .services {
-    min-height: 740px;
-    z-index: 10px
+    min-height: 100vh;
+    h4 {
+      font-family: Futura;
+    }
+  }
+
+  .child {
+    max-height: 200px;
+    float: right;
+    max-width: 250px;
+    margin-right: -60px;
+
   }
   .rates {
     min-height: 350px;
@@ -74,7 +85,7 @@ $--color-secondary: #E8046A;
 
   .btn-group-vertical {
     width: 100%;
-    max-width: 800px;
+    max-width: 300px;
     button {
       background-color: white;
       background-repeat: no-repeat;
