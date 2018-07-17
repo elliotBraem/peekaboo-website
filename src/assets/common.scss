@@ -13,7 +13,8 @@
   font-style: normal;
 }
 
-  body {
+  body, html {
+    height: 100%;
     font-family: 'Marker-Felt';
 
     p {
@@ -104,4 +105,12 @@
   li {
     display: inline-block;
     margin: 0 10px;
+  }
+
+
+  @media only screen and (min-width: 992px) {
+    /* For mobile phones & Tablets: */
+    header {
+      background-size: 600px auto;
+    }
   }
