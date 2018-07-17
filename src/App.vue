@@ -27,9 +27,9 @@
         //   h2 Services
         .container.text-center
           h2 Welcome to Peek-a-boo Pediatric Therapy LLC!
-          h4(font-type: ) We're a Occupational Therapy office in the Denver area. We offer treatment to 
+          h4 We're a Occupational Therapy office in the Denver area. We offer treatment to 
             | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, metus eget egestas ornare, quam quam gravida magna, quis rutrum nunc quam id sem. Praesent tristique bibendum leo vitae iaculis. Sed arcu enim, interdum pellentesque tincidunt eget, tristique in risus. Aliquam quis facilisis risus, a efficitur nisl. Nullam maximus maximus consequat. Quisque non dolor eu lorem finibus facilisis et ultrices nunc. Quisque in porttitor ipsum. Mauris rhoncus in elit ut scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        img.child(src="./assets/img/girl-pink-hair.svg" alt="Girl with pink hair")
+        img.child.float-right(src="./assets/img/girl-pink-hair.svg" alt="Girl with pink hair")
       //- Rates
       section.rates
         h2 Services are provided through
@@ -45,7 +45,7 @@
 
       //- About us
       section.about
-        .title-container
+        .container-fluid.title-container
           h2 Meet the Therapists!
         .container
           .card.employee
