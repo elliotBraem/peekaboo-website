@@ -1,7 +1,7 @@
+@import '~bootstrap/scss/bootstrap.scss';
 
-
-$--color-primary: #00A740;
-$--color-secondary: #E8046A;
+ $--color-primary: #00A740;
+ $--color-secondary: #E8046A;
 
 @font-face {
   font-family: 'Marker-Felt';
@@ -19,32 +19,8 @@ $--color-secondary: #E8046A;
     p {
       font-family: Futura;
     }
-    background-color: #FFFFFF;
   }
 
-  .full-wrapper {
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  header {
-    display: flex;
-    flex: 1 0 auto;
-    position: relative;
-    height: 50vh;
-    transform: translateZ(-1px) translateY(-175px) scale(2);
-    z-index: -1;
-  }
-
-  main {
-    display: block;
-    position: relative;
-    background-color: white;
-    z-index: 1;
-  }
   nav {
     i {
       padding-right: 5px;
@@ -86,7 +62,7 @@ $--color-secondary: #E8046A;
   .btn-group-vertical {
     width: 100%;
     max-width: 300px;
-    button {
+    .btn {
       background-color: white;
       background-repeat: no-repeat;
       background-size: contain;
@@ -96,7 +72,7 @@ $--color-secondary: #E8046A;
   }
 
   .logo {
-    margin: 50px 0px 50px 0px;
+    margin: 0px 0px 50px 0px;
     max-width: 500px;
   }
 
