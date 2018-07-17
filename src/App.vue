@@ -4,16 +4,16 @@
     header
       .container
         //- Navbar + Social Media
-        nav
-          .navbar.float-right(variant="faded" type="light")
-            .nav-item
-              a(href="#" target="_blank")
-                i.fa.fa-facebook-square
-                | Facebook
-            .nav-item
-              a(href="#" target="_blank")
-                i.fa.fa-envelope
-                | Email
+        nav.navbar.justify-content-end
+            a.nav-item.pr-2(href="#" target="_blank")
+              i.fa.fa-facebook-square
+              | Facebook
+            a.nav-item.pl-2.pr-2(href="#" target="_blank")
+              i.fa.fa-envelope
+              | Email
+            // a.nav-item.pl-2(href="#")
+            //   i.fas.fa-globe-americas
+            //   | Español
         //- Logo
         img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
         //h5.text-right Occupational Therapy Office in Denver, CO

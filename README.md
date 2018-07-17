@@ -28,8 +28,8 @@ Unbleached Silk: #FFE1C8
 Things to Inlude
 -----
 * Translation to Spanish
-* 
-
+* Screen reader
+* .min for fontawesome
 
 Layout
 ----
