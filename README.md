@@ -22,7 +22,12 @@ Colors
 ----
 Green (Pantone): #00A740
 Red-Purple: #E8046A
-Unbleached Silk: #FFE1C8
+
+Nyanza: #E5FFDE
+Deep Space Sparkle: #395E66
+Illuminating Emerald: #32936F
+Pale Cauliflower Blue: #B7C3F3;
+Azureish White: #D6EFFF
 
 
 Things to Inlude
