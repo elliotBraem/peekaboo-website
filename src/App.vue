@@ -4,7 +4,7 @@
     header
       .container
         //- Navbar + Social Media
-        nav.navbar.justify-content-end
+        nav.navbar.justify-content-end.pt-3
             a.nav-item.pr-2(href="#" target="_blank")
               i.fa.fa-facebook-square
               | Facebook
