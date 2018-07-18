@@ -34,7 +34,7 @@
       section.rates
         img.child.float-left(style="margin-left: -60px;" src="./assets/img/children/boy-yellow-shirt.svg" alt="Boy with yellow shirt")
         .container.text-center
-          h3 We provide services through
+          h3.pt-6 We provide services through
           .btn-group-vertical
             button.btn(style="background-image: url('https://www.dpcolo.org/wp-content/uploads/2018/01/DP-LOGO-V.png')") 
             button.btn(style="background-image: url('https://static.wixstatic.com/media/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png/v1/fill/w_530,h_152,al_c,usm_0.66_1.00_0.01/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png')")
@@ -51,25 +51,25 @@
           h2 Meet the Therapists!
         .container
           .card.employee
-            .card-img-top(src="./assets/img/employees/amanda.jpeg" alt="Amanda Shimkus")
+            .card-img-top(src="./assets/img/employees/amanda-headshot.jpeg" alt="Amanda Shimkus")
             .card-body
               h3.card-title Amanda Shimkus
               .card-text Bio about Amanda
               a.card-link(href="#") Read more!
           .card.employee
-            .card-img-top(src="./assets/img/employees/lindsey.jpeg" alt="Lindsey Blanke")
+            .card-img-top(src="./assets/img/employees/lindsey-headshot.jpeg" alt="Lindsey Blanke")
             .card-body
               h3.card-title Lindsey Blanke
               .card-text Bio about Lindsey
               a.card-link(href="#") Read more!
           .card.employee
-            .card-img-top(src="./assets/img/employees/nicole.jpeg" alt="Nicole Green")
+            .card-img-top(src="./assets/img/employees/nicole-headshot.jpeg" alt="Nicole Green")
             .card-body
               h3.card-title Nicole Green
               .card-text Bio about Nicole
               a.card-link(href="#") Read more!
           .card.employee
-            .card-img-top(src="./assets/img/employees/amanda.jpeg" alt="Libby Cronin")
+            .card-img-top(src="./assets/img/employees/libby-headshot.jpeg" alt="Libby Cronin")
             .card-body
               h3.card-title Libby Cronin
               .card-text Bio about Libby
