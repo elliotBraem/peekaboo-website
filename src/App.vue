@@ -21,34 +21,90 @@
     main
       // section.landing-contianer
       //   b-img.landing-image(src="./assets/img/kid-painted-hands.jpeg" alt="Happy kid with painted hands")
-      //- Services
-      section.services
-        // .title-container
-        //   h2 Services
-        img.child.float-right(style="margin-right: -60px;" src="./assets/img/children/girl-pink-hair.svg" alt="Girl with pink hair")
+      //- Summary
+      section.summary
+        img.child(style="float: right; margin-right: -60px;" src="./assets/img/children/girl-pink-hair.svg" alt="Girl with pink hair")
         .container.text-center
           h2.pb-5.pt-3 Welcome to Peek-a-boo Pediatric Therapy LLC!
-          h4
-          | We are an occupational therapy office in the Denver, CO area.
-          | We offer occupational therapy services from birth to 3 year olds in your home and daycare environments. 
-          | We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life. 
-          | Peek-A-Boo is an early foundational game in development. 
-          | If a child is not able to play peek-a-boo there could be a multitude of reasons including sensory processing dysfunction or a delay in their motor skills to name a few. 
-          | 
-          | Our providers are all occupational therapists. 
-          | An occupational therapist are experts in helping a person achieve their day to day occupations. 
-          | When you hear the word 'occupation' often times you think about a job, but this word is meant to describe anything you during the day. 
-          | So, for a baby an occupation is to eat, sleep, get their diaper changed, interact with their caregiver, move, explore and play. 
-          | Occupations change as a child develops. 
-          | An occupational therapist is an expert in all aspects of development. 
-          | In addition to understanding a child's development, we look at the child in HOW they manage their body when happy, upset, nervous, etc. 
-          | HOW they interact and react to different sensory experiences such as touch, taste, smell, sound, what they look at, HOW they interpret how they move and understanding the components needed to play with toys and their caregivers. 
-          | We are trained in educational and medical models. 
-          | Generalists are trained in motor development- both fine and gross motor, visual-motor skills that would translate to how we pick up our food to eat and how we play with toys. 
-          | Specialties branch into feeding, sensory integration, different play and attachment theories, assistive technology, vision, hearing impairments, massage, NDT (movement and handling), oral-motor all to help with common childhood diagnosis such as: general delays, Autism, Cerebral Palsy, Genetic conditions, Neurological conditions, orthopedic conditions, premature babies and children, muscle and bone misalignment, cognitive delays and trauma.
+          h4 We are an occupational therapy office in the Denver, CO area.
+          br
+          h4 We offer occupational therapy services from birth to 3 year olds in your home and in daycare environments.
+          br 
+          h4 We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life. 
+          // | Peek-A-Boo is an early foundational game in development. 
+          // | If a child is not able to play peek-a-boo, there could be a multitude of reasons including sensory processing dysfunction or a delay in their motor skills to name a few. 
+      section.services
+        .container.text-center
+          h2 Our Services
+          // | Our providers are all occupational therapists. 
+          // | An occupational therapist are experts in helping a person achieve their day to day occupations. 
+          // | When you hear the word 'occupation' often times you think about a job, but this word is meant to describe anything you during the day. 
+          // | So, for a baby an occupation is to eat, sleep, get their diaper changed, interact with their caregiver, move, explore and play. 
+          // | Occupations change as a child develops. 
+          // | An occupational therapist is an expert in all aspects of development. 
+          h4 Our therapists are experts in all aspects of your child's development. 
+          section
+            h4 We look at the child in 
+            ul
+              li HOW they manage their body when happy, upset, nervous, etc.
+              li HOW they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.
+              li HOW they interpret how they move and understanding the components needed to play with toys and their caregivers.
+            br
+          section
+            h4 We are trained in 
+
+            ul.treatments
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 motor development
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 feeding
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 sensory integration
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 play & attachment theories
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 assistive technology
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 vision
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 hearing impairments
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 massage
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 NDT (movement & handling)
+              li
+                div.treatment
+                  img.crayon(src="./assets/img/red-crayon.svg")
+                  h6 oral-motor
+            
+            h4 all to help with common childhood diagnosis such as: general delays, Autism, Cerebral Palsy, Genetic conditions, Neurological conditions, orthopedic conditions, premature babies and children, muscle and bone misalignment, cognitive delays and trauma.
+
+          // | In addition to understanding a child's development, we look at the child in HOW they manage their body when happy, upset, nervous, etc. 
+          // | HOW they interact and react to different sensory experiences such as touch, taste, smell, sound, what they look at, HOW they interpret how they move and understanding the components needed to play with toys and their caregivers. 
+          // | We are trained in educational and medical models. 
+          // | Generalists are trained in motor development- both fine and gross motor, visual-motor skills that would translate to how we pick up our food to eat and how we play with toys. 
+          // | Specialties branch into feeding, sensory integration, different play and attachment theories, assistive technology, vision, hearing impairments, massage, NDT (movement and handling), oral-motor all to help with common childhood diagnosis such as: general delays, Autism, Cerebral Palsy, Genetic conditions, Neurological conditions, orthopedic conditions, premature babies and children, muscle and bone misalignment, cognitive delays and trauma.
       //- Rates
       section.rates
-        img.child.float-left(style="margin-left: -60px;" src="./assets/img/children/boy-yellow-shirt.svg" alt="Boy with yellow shirt")
+        img.child(style="float: left; margin-left: -60px;" src="./assets/img/children/boy-yellow-shirt.svg" alt="Boy with yellow shirt")
         .container.text-center
           h3.pt-6 We provide services through
           .btn-group-vertical

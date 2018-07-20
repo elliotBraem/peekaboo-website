@@ -17,7 +17,7 @@
     height: 100%;
     font-family: 'Marker-Felt';
     overflow-x: hidden;
-    background-color: #D6EFFF;
+    // background-color: #D6EFFF;
 
     p {
       font-family: Futura;
@@ -38,8 +38,8 @@
   section {
     min-height: 100vh;
   }
-  .services {
 
+  .summary {
     h4 {
       font-family: Futura;
     }
@@ -49,7 +49,6 @@
     max-height: 200px;
     max-width: 250px;
   }
-
   
   .btn-group-vertical {
     width: 300px;
@@ -81,6 +80,26 @@
       text-align: center;
       color: #E8046A;
     }
+  }
+
+  .crayon {
+    width: 250px;
+    z-index: -10;
+  }
+
+  .treatment {
+    position: relative;
+    width: auto;
+
+    h6 {
+      position: absolute;
+      top: .6rem;
+      left: 5rem;
+    }
+  }
+
+  ul {
+    list-style-type: none;
   }
 
 
