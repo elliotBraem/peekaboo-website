@@ -130,7 +130,9 @@
       //- About us
       section.about
         .container
-          h2.pb-3 Meet the Therapists
+          h2 Meet the 
+            br
+            | Therapists
           div.helper-div
           div.therapist-child
             img.child(src="./assets/img/children/girl-apple.svg" alt="Boy with yellow shirt")
