@@ -30,17 +30,9 @@ Pale Cauliflower Blue: #B7C3F3;
 Azureish White: #D6EFFF
 
 
-Things to Inlude
+TODO
 -----
 * Translation to Spanish
-* Screen reader
+* Screen reader?
 * .min for fontawesome
-
-Layout
-----
-* Header w/ logo
-...Links to facebook, option to read in Spanish
-* Services
-...Occupational Therapy
-* Rates/who we accept 
-...
+* absolute positioning for kids 

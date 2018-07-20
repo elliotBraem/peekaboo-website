@@ -39,13 +39,6 @@
     padding-bottom: 120px;
   }
 
-  .summary {
-    min-height: 100vh;
-    h4 {
-      font-family: Futura;
-    }
-  }
-
   .services {
     padding-bottom: 80px;
   }
@@ -71,6 +64,11 @@
     -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
     box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+  }
+
+  .job-title {
+    padding-top: $spacer * .5;
+    clear: both;
   }
 
   .helper-div {
@@ -172,6 +170,10 @@
     h2 {
       padding-right: 0rem;
     }
+  }
+
+  .job-title {
+    float: right;
   }
 }
 @include media-breakpoint-up(xl) {} // large desktops

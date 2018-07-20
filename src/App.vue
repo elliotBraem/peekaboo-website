@@ -26,9 +26,9 @@
         img.child(style="float: right; margin-right: -60px;" src="./assets/img/children/girl-pink-hair.svg" alt="Girl with pink hair")
         .container.text-center
           h2.pb-5.pt-3 Welcome to Peek-a-boo Pediatric Therapy LLC!
-          h4 We are an occupational therapy office in the Denver, CO area.
-          br
-          h4 We offer occupational therapy services from birth to 3 year olds in your home and in daycare environments.
+          // h4 We are an occupational therapy office in the Denver, CO area.
+          // br
+          h4 We offer occupational therapy services from birth to 3 year olds in environments where your child experiences the most; your home, your daycare or in the community.
           br 
           h4 We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life. 
           // | Peek-A-Boo is an early foundational game in development. 
@@ -57,10 +57,35 @@
                 p they interpret how they move and understanding the components needed to play with toys and their caregivers.
           h4.text-center Our therapists are trained in 
           ul.treatments.text-left
+
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 motor development
+                h6 interoception
+            li
+              div.treatment
+                img.crayon(src="./assets/img/red-crayon.svg")
+                h6 regulation
+            li
+              div.treatment
+                img.crayon(src="./assets/img/red-crayon.svg")
+                h6 sensory processing
+            li
+              div.treatment
+                img.crayon(src="./assets/img/red-crayon.svg")
+                h6 motor skills
+            li
+              div.treatment
+                img.crayon(src="./assets/img/red-crayon.svg")
+                h6 play
+            li
+              div.treatment
+                img.crayon(src="./assets/img/red-crayon.svg")
+                h6 social skills
+            li
+              div.treatment
+                img.crayon(src="./assets/img/red-crayon.svg")
+                h6 foundations for speech and language
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
@@ -68,19 +93,7 @@
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 sensory integration
-            li
-              div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
-                h6 play & attachment theories
-            li
-              div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
-                h6 assistive technology
-            li
-              div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
-                h6 vision
+                h6 visual impairments
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
@@ -88,18 +101,18 @@
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 massage
+                h6 assistive technology
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 NDT (movement & handling)
+                h6 NDT(movement and handling)
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 oral-motor
+                h6 trauma and attachment
           div.diagnosis.text-center
-            h5 All to help with common childhood diagnosis such as: 
-            p General delays &bull; Autism &bull; Cerebral Palsy &bull; Genetic conditions &bull; Neurological conditions &bull; Orthopedic conditions &bull; Premature babies and children &bull; Muscle and bone misalignment &bull; Cognitive delays &bull; Trauma.
+            h5 All to help with common childhood diagnosis such as:
+            p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more...
 
           // | In addition to understanding a child's development, we look at the child in HOW they manage their body when happy, upset, nervous, etc. 
           // | HOW they interact and react to different sensory experiences such as touch, taste, smell, sound, what they look at, HOW they interpret how they move and understanding the components needed to play with toys and their caregivers. 
@@ -140,36 +153,46 @@
               .card-body
                 img.float-left.headshot.pr-3(src="./assets/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
                 h3.card-title Amanda Shimkus
-                .card-text Bio about Amanda
-                a.card-link(href="#") Read more!
+                .card-text
+                  h6.text-muted MA, OTR/L SIPT Certified
+                  h6.job-title Owner, Occupational Therapist
+                a.card-link(href="#") Read about me!
           br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="./assets/img/employees/lindsey-headshot.jpg" alt="Lindsey Blanke")
               h3.card-title Lindsey Blanke
-              .card-text Bio about Lindsey
-              a.card-link(href="#") Read more!
+              .card-text
+                  h6.text-muted OTR/L
+                  h6.job-title Occupational Therapist
+              a.card-link(href="#") Read about me!
           br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="./assets/img/employees/nicole-headshot.jpg" alt="Nicole Green")
               h3.card-title Nicole Green
-              .card-text Bio about Nicole
-              a.card-link(href="#") Read more!
+              .card-text
+                  h6.text-muted OTD, OTR/L
+                  h6.job-title Occupational Therapist
+              a.card-link(href="#") Read about me!
           br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="./assets/img/employees/libby-headshot.jpg" alt="Libby Cronin")
               h3.card-title Libby Cronin
-              .card-text Bio about Libby
-              a.card-link(href="#") Read more!
+              .card-text
+                  h6.text-muted MS, OTR/L
+                  h6.job-title Occupational Therapist
+              a.card-link(href="#") Read about me!
           br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="http://via.placeholder.com/170x170" alt="Lara Dato")
               h3.card-title Lara Dato
-              .card-text Bio about Lara
-              a.card-link(href="#") Read more!
+              .card-text
+                  h6.text-muted MS, OTR/L
+                  h6.job-title Occupational Therapist
+              a.card-link(href="#") Read about me!
           br
             
 
