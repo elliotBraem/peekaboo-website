@@ -112,37 +112,32 @@
             button.btn(style="background-image: url('https://static.wixstatic.com/media/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png/v1/fill/w_530,h_152,al_c,usm_0.66_1.00_0.01/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png')")
             button.btn(style="background-image: url('https://ddrcco.com/images/brand/logo.png'")
 
-        .title-container
-          h2 Our Rates
-        h2 We accept
-          p Medicaid
-
       //- About us
       section.about
         .container-fluid.title-container
           h2 Meet the Therapists!
         .container
           .card.employee
-            .card-img-top(src="./assets/img/employees/amanda-headshot.jpeg" alt="Amanda Shimkus")
             .card-body
+              img.float-left.headshot.pr-3(src="./assets/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
               h3.card-title Amanda Shimkus
               .card-text Bio about Amanda
               a.card-link(href="#") Read more!
           .card.employee
-            .card-img-top(src="./assets/img/employees/lindsey-headshot.jpeg" alt="Lindsey Blanke")
             .card-body
+              img.float-left.headshot.pr-3(src="./assets/img/employees/lindsey-headshot.jpg" alt="Lindsey Blanke")
               h3.card-title Lindsey Blanke
               .card-text Bio about Lindsey
               a.card-link(href="#") Read more!
           .card.employee
-            .card-img-top(src="./assets/img/employees/nicole-headshot.jpeg" alt="Nicole Green")
             .card-body
+              img.float-left.headshot.pr-3(src="./assets/img/employees/nicole-headshot.jpg" alt="Nicole Green")
               h3.card-title Nicole Green
               .card-text Bio about Nicole
               a.card-link(href="#") Read more!
           .card.employee
-            .card-img-top(src="./assets/img/employees/libby-headshot.jpeg" alt="Libby Cronin")
             .card-body
+              img.float-left.headshot.pr-3(src="./assets/img/employees/libby-headshot.jpg" alt="Libby Cronin")
               h3.card-title Libby Cronin
               .card-text Bio about Libby
               a.card-link(href="#") Read more!

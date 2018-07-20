@@ -102,6 +102,10 @@
     list-style-type: none;
   }
 
+  .headshot {
+    max-width: 170px;
+  }
+
 
 @include media-breakpoint-up(xs) {} // portrait phones
 @include media-breakpoint-up(sm) {} // landscape phones
