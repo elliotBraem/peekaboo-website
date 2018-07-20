@@ -130,36 +130,45 @@
       //- About us
       section.about
         .container
-          .card.employee
-            .card-body
-              img.float-left.headshot.pr-3(src="./assets/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
-              h3.card-title Amanda Shimkus
-              .card-text Bio about Amanda
-              a.card-link(href="#") Read more!
+          h2.pb-3 Meet the Therapists
+          div.helper-div
+          div.therapist-child
+            img.child(src="./assets/img/children/girl-apple.svg" alt="Boy with yellow shirt")
+            .card.employee
+              .card-body
+                img.float-left.headshot.pr-3(src="./assets/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
+                h3.card-title Amanda Shimkus
+                .card-text Bio about Amanda
+                a.card-link(href="#") Read more!
+          br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="./assets/img/employees/lindsey-headshot.jpg" alt="Lindsey Blanke")
               h3.card-title Lindsey Blanke
               .card-text Bio about Lindsey
               a.card-link(href="#") Read more!
+          br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="./assets/img/employees/nicole-headshot.jpg" alt="Nicole Green")
               h3.card-title Nicole Green
               .card-text Bio about Nicole
               a.card-link(href="#") Read more!
+          br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="./assets/img/employees/libby-headshot.jpg" alt="Libby Cronin")
               h3.card-title Libby Cronin
               .card-text Bio about Libby
               a.card-link(href="#") Read more!
+          br
           .card.employee
             .card-body
               img.float-left.headshot.pr-3(src="http://via.placeholder.com/170x170" alt="Lara Dato")
               h3.card-title Lara Dato
               .card-text Bio about Lara
               a.card-link(href="#") Read more!
+          br
             
 
 

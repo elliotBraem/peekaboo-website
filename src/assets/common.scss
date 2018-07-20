@@ -68,6 +68,27 @@
 
   .card {
     border: none;
+    -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+  }
+
+  .helper-div {
+    margin-bottom: 200px;
+    width: auto;
+  }
+
+  .therapist-child {
+    position: relative;
+    width: auto;
+    height: auto;
+    .child {
+      // margin-bottom: -40px;
+      position: absolute;
+      z-index: -10;
+      top: -180px;
+      right: -30px;
+    }
   }
 
   .title-container {
@@ -120,6 +141,9 @@
   .blue-box {
     background-color: #D6EFFF;
     margin: 10px 10px 50px 10px;
+    -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3); 
   }
 
   ul {
