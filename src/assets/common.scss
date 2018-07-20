@@ -168,5 +168,10 @@
   header {
     background-size: 600px auto;
   }
+  .rates {
+    h2 {
+      padding-right: 0rem;
+    }
+  }
 }
 @include media-breakpoint-up(xl) {} // large desktops

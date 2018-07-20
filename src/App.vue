@@ -44,7 +44,7 @@
           // | An occupational therapist is an expert in all aspects of development. 
           h4.text-center Our therapists are experts in all aspects of your child's development. 
           div.blue-box
-            h5 We look at the child in 
+            h5(style="padding: 10px 0px 0px 10px;") We look at the child in 
             ul.p-3
               li 
                 h5 HOW
@@ -98,7 +98,7 @@
                 img.crayon(src="./assets/img/red-crayon.svg")
                 h6 oral-motor
           div.diagnosis.text-center
-            h5 all to help with common childhood diagnosis such as: 
+            h5 All to help with common childhood diagnosis such as: 
             p General delays &bull; Autism &bull; Cerebral Palsy &bull; Genetic conditions &bull; Neurological conditions &bull; Orthopedic conditions &bull; Premature babies and children &bull; Muscle and bone misalignment &bull; Cognitive delays &bull; Trauma.
 
           // | In addition to understanding a child's development, we look at the child in HOW they manage their body when happy, upset, nervous, etc. 
@@ -175,6 +175,13 @@
 
 
     footer
+      hr
+      .container-fluid
+        h2 Under construction
+        h3 Contact Info
+        h3 Employment
+        h3 Copyright
+
  
 </template>
 
