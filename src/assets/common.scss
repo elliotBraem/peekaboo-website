@@ -27,9 +27,10 @@
     a {
       color: #3B5998;
     }
-    i {
-      padding-right: 5px;
-    }
+  }
+
+  i {
+    padding-right: 5px;
   }
 
   .logo {
@@ -159,6 +160,24 @@
 
   .headshot {
     max-width: 170px;
+  }
+
+  .feedback-form {
+    display: none;
+  }
+
+  footer {
+    background-color: #D6EFFF;
+    padding-bottom: .8rem;
+  }
+
+  .copyright {
+    width: 100%
+    
+    h6 {
+      margin-bottom: 0rem;
+    }
+
   }
 
 
