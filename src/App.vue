@@ -28,7 +28,7 @@
           .container.text-center
             h2.pb-5.pt-3 Welcome to Peek-a-boo Pediatric Therapy LLC!
             // h4 We are an occupational therapy office in the Denver, CO area.
-            // br
+            br
             h4 We offer occupational therapy services from birth to 3 year olds in environments where your child experiences the most; your home, your daycare or in the community.
             br 
             h4 We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life. 
@@ -81,7 +81,7 @@
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 foundations for speech and language
+                h6 foundations for <br> speech and language
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
@@ -101,7 +101,7 @@
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
-                h6 NDT(movement and handling)
+                h6 NDT <br> (movement and handling)
             li
               div.treatment
                 img.crayon(src="./assets/img/red-crayon.svg")
@@ -134,9 +134,7 @@
       //- About us
       section.about
         .container
-          h2 Meet the 
-            br
-            | Therapists
+          h2 Meet the <br> Therapists
           div.about-child
             div.helper-div
             img.child(src="./assets/img/children/girl-apple.svg")
