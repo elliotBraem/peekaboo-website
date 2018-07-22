@@ -23,38 +23,34 @@
       //   b-img.landing-image(src="./assets/img/kid-painted-hands.jpeg" alt="Happy kid with painted hands")
       //- Summary
       section.summary
-        img.child(style="float: right; margin-right: -60px;" src="./assets/img/children/girl-pink-hair.svg" alt="Girl with pink hair")
-        .container.text-center
-          h2.pb-5.pt-3 Welcome to Peek-a-boo Pediatric Therapy LLC!
-          // h4 We are an occupational therapy office in the Denver, CO area.
-          // br
-          h4 We offer occupational therapy services from birth to 3 year olds in environments where your child experiences the most; your home, your daycare or in the community.
-          br 
-          h4 We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life. 
-          // | Peek-A-Boo is an early foundational game in development. 
-          // | If a child is not able to play peek-a-boo, there could be a multitude of reasons including sensory processing dysfunction or a delay in their motor skills to name a few. 
+        .summary-child
+          img.child(src="./assets/img/children/girl-pink-hair.svg")
+          .container.text-center
+            h2.pb-5.pt-3 Welcome to Peek-a-boo Pediatric Therapy LLC!
+            // h4 We are an occupational therapy office in the Denver, CO area.
+            // br
+            h4 We offer occupational therapy services from birth to 3 year olds in environments where your child experiences the most; your home, your daycare or in the community.
+            br 
+            h4 We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life. 
       section.services
         .container
           h2.text-center Our Services
-          // | Our providers are all occupational therapists. 
-          // | An occupational therapist are experts in helping a person achieve their day to day occupations. 
-          // | When you hear the word 'occupation' often times you think about a job, but this word is meant to describe anything you during the day. 
-          // | So, for a baby an occupation is to eat, sleep, get their diaper changed, interact with their caregiver, move, explore and play. 
-          // | Occupations change as a child develops. 
-          // | An occupational therapist is an expert in all aspects of development. 
-          h4.text-center Our therapists are experts in all aspects of your child's development. 
-          div.blue-box
-            h5(style="padding: 10px 0px 0px 10px;") We look at the child in 
-            ul.p-3
-              li 
-                h5 HOW
-                p they manage their body when happy, upset, nervous, etc.
-              li 
-                h5 HOW 
-                p they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.
-              li 
-                h5 HOW 
-                p they interpret how they move and understanding the components needed to play with toys and their caregivers.
+          h4.text-center Our therapists are experts in all aspects of your child's development.
+          .services-child
+            div.helper-div
+            img.child(src="./assets/img/children/girl-black-hair.svg")
+            div.blue-box
+              h5(style="padding: 10px 0px 0px 10px;") We look at the child in 
+              ul.p-3
+                li 
+                  h5 HOW
+                  p they manage their body when happy, upset, nervous, etc.
+                li 
+                  h5 HOW 
+                  p they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.
+                li 
+                  h5 HOW 
+                  p they interpret how they move and understanding the components needed to play with toys and their caregivers.
           h4.text-center Our therapists are trained in 
           ul.treatments.text-left
 
@@ -112,43 +108,38 @@
                 h6 trauma and attachment
           div.diagnosis.text-center
             h5 All to help with common childhood diagnosis such as:
-            p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more...
-
-          // | In addition to understanding a child's development, we look at the child in HOW they manage their body when happy, upset, nervous, etc. 
-          // | HOW they interact and react to different sensory experiences such as touch, taste, smell, sound, what they look at, HOW they interpret how they move and understanding the components needed to play with toys and their caregivers. 
-          // | We are trained in educational and medical models. 
-          // | Generalists are trained in motor development- both fine and gross motor, visual-motor skills that would translate to how we pick up our food to eat and how we play with toys. 
-          // | Specialties branch into feeding, sensory integration, different play and attachment theories, assistive technology, vision, hearing impairments, massage, NDT (movement and handling), oral-motor all to help with common childhood diagnosis such as: general delays, Autism, Cerebral Palsy, Genetic conditions, Neurological conditions, orthopedic conditions, premature babies and children, muscle and bone misalignment, cognitive delays and trauma.
+            p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more
       //- Rates
       section.rates
-        img.child(style="float: left; margin-left: -60px;" src="./assets/img/children/boy-yellow-shirt.svg" alt="Boy with yellow shirt")
-        .container.text-center
-          h2.pb-3 Our Rates
-          h4.text-center Early Intervention
-          h5.text-center We contract with the following community center boards:
-          .btn-group-vertical.regions
-            // a(href="https://www.dpcolo.org/our-programs/early-intervention-department/early-intervention-program/"): 
-            button.btn(style="background-image: url('https://www.dpcolo.org/wp-content/uploads/2018/01/DP-LOGO-V.png')") 
+        .rates-child
+          img.child(src="./assets/img/children/boy-yellow-shirt.svg")
+          .container.text-center
+            h2.pb-3 Our Rates
+            h4.text-center Early Intervention
+            h5.text-center We contract with the following community center boards:
+            .btn-group-vertical.regions
+              // a(href="https://www.dpcolo.org/our-programs/early-intervention-department/early-intervention-program/"): 
+              button.btn(style="background-image: url('https://www.dpcolo.org/wp-content/uploads/2018/01/DP-LOGO-V.png')") 
+              br
+              // a(href="https://www.rmhumanservices.org/ei"): 
+              button.btn(style="background-image: url('https://static.wixstatic.com/media/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png/v1/fill/w_530,h_152,al_c,usm_0.66_1.00_0.01/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png')")
+              br
+              // a(href="https://ddrcco.com/early-intervention/home"): 
+              button.btn(style="background-image: url('https://ddrcco.com/images/brand/logo.png'")
+              br
+            div.blue-box
+              p.p-3 Early intervention is a state ran program for children that have minimal to moderate/severe delays in 1 or more areas of development. To see if your child qualifies you can call your local community center board intake coordinator to set up an initial evaluation. It is a no-cost to family program and in doing so they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
             br
-            // a(href="https://www.rmhumanservices.org/ei"): 
-            button.btn(style="background-image: url('https://static.wixstatic.com/media/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png/v1/fill/w_530,h_152,al_c,usm_0.66_1.00_0.01/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png')")
-            br
-            // a(href="https://ddrcco.com/early-intervention/home"): 
-            button.btn(style="background-image: url('https://ddrcco.com/images/brand/logo.png'")
-            br
-          div.blue-box
-            p.p-3 Early intervention is a state ran program for children that have minimal to moderate/severe delays in 1 or more areas of development. To see if your child qualifies you can call your local community center board intake coordinator to set up an initial evaluation. It is a no-cost to family program and in doing so they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
-          br
-          p If you wish to not go through the Early Intervention program we offer private pay rates. Please <a href="#">contact us</a> for more information.
+            p If you wish to not go through the Early Intervention program we offer private pay rates. Please <a href="#">contact us</a> for more information.
       //- About us
       section.about
         .container
           h2 Meet the 
             br
             | Therapists
-          div.helper-div
-          div.therapist-child
-            img.child(src="./assets/img/children/girl-apple.svg" alt="Boy with yellow shirt")
+          div.about-child
+            div.helper-div
+            img.child(src="./assets/img/children/girl-apple.svg")
             .card.employee
               .card-body
                 img.float-left.headshot.pr-3(src="./assets/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
@@ -194,45 +185,45 @@
                   h6.job-title Occupational Therapist
               a.card-link(href="#") Read about me!
           br
-            
-
-
     footer
-      hr
-      .container-fluid
-        div.feedback-form
-          h2 Leave us some feedback!
-          form
-            label Email
-            input(type="text" value="email" placeholder="Email")
-        div.footer-links
-          .row
-            .col
-              h4 Contact us!
-              .row
-                .col
-                  span
-                    i.fa.fa-phone-square.d-inline-block
-                    h6.d-inline-block Phone: (303) 885-9848
-              .row
-                .col
-                  span
-                    i.fa.fa-fax.d-inline-block
-                    h6.d-inline-block Fax: (303) 200-7001
-              .row
-                .col
-                  span
-                    i.fa.fa-envelope.d-inline-block
-                    h6.d-inline-block Email: a.shimkus@peekabootherapy.com
-          .row
-            .col
-              a(href="#")
-                h4 Employment
-        div.copyright.text-center
-          h6 ©2018 Peek-a-boo Pediatric Therapy LLC
-          h6 All Rights Reserved. 
-          p Logo and children designed and created by Mexico
-          p Website designed and developed by Elliot Braem
+      .footer-child
+        div.helper-div
+        img.child(src="./assets/img/children/boy-red-shirt.svg")
+        .container-fluid.footer-wrapper
+          hr
+          div.feedback-form
+            h2 Leave us some feedback!
+            form
+              label Email
+              input(type="text" value="email" placeholder="Email")
+          div.footer-links
+            .row
+              .col
+                h4 Contact us!
+                .row
+                  .col
+                    span
+                      i.fa.fa-phone-square.d-inline-block
+                      h6.d-inline-block Phone: (303) 885-9848
+                .row
+                  .col
+                    span
+                      i.fa.fa-fax.d-inline-block
+                      h6.d-inline-block Fax: (303) 200-7001
+                .row
+                  .col
+                    span
+                      i.fa.fa-envelope.d-inline-block
+                      h6.d-inline-block Email: a.shimkus@peekabootherapy.com
+            .row
+              .col
+                a(href="#")
+                  h4 Employment
+          div.copyright.text-center
+            h6 ©2018 Peek-a-boo Pediatric Therapy LLC
+            h6 All Rights Reserved. 
+            p Logo and children designed and created by Mexico
+            p Website designed and developed by Elliot Braem
 
  
 </template>

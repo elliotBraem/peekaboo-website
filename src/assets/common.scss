@@ -46,11 +46,6 @@
   .services {
     padding-bottom: 80px;
   }
-
-  .child {
-    max-height: 200px;
-    max-width: 250px;
-  }
   
   .btn-group-vertical {
     width: 300px;
@@ -74,11 +69,6 @@
     padding-top: $spacer * .5;
     clear: both;
   }
-
-  .helper-div {
-    margin-bottom: 200px;
-    width: auto;
-  }
   
   .about {
     h2 {
@@ -86,16 +76,73 @@
       padding-left: 1rem;
     }
   }
-  .therapist-child {
+
+  /** Children */
+
+  .child {
+    max-height: 200px;
+    max-width: 250px;
+  }
+
+  .summary-child {
+    .child {
+      float: right; 
+      margin-right: -60px;
+    }
+  }
+
+  .rates-child {
+    .child {
+      float: left; 
+      margin-left: -60px;
+    }
+  }
+
+  .services-child {
     position: relative;
     width: auto;
     height: auto;
+    .helper-div {
+      margin-bottom: 180px;
+      width: auto;
+    }
     .child {
-      // margin-bottom: -40px;
+      position: absolute;
+      z-index: -10;
+      top: -140px;
+      right: 0px;
+    }
+  }
+
+  .about-child {
+    position: relative;
+    width: auto;
+    height: auto;
+    .helper-div {
+      margin-bottom: 200px;
+      width: auto;
+    }
+    .child {
       position: absolute;
       z-index: -10;
       top: -180px;
       right: -30px;
+    }
+  }
+
+  .footer-child {
+    position: relative;
+    width: auto;
+    height: auto;
+    .helper-div {
+      margin-bottom: 100px;
+      width: auto;
+    }
+    .child {
+      position: absolute;
+      z-index: -10;
+      top: -180px;
+      left: -40px;
     }
   }
 
@@ -138,7 +185,7 @@
   .rates {
     h2 {
       padding-top: 9.5rem;
-      padding-right: 3rem;
+      padding-right: 2rem;
     }
   }
 
@@ -166,7 +213,7 @@
     display: none;
   }
 
-  footer {
+  .footer-wrapper {
     background-color: #D6EFFF;
     padding-bottom: .8rem;
   }
