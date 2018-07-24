@@ -53,6 +53,16 @@ module.exports = {
               'css-loader',
               'sass-loader?indentedSyntax'
             ]
+          },
+          transformToRequire: {
+            'img': 'src',
+            'image': 'xlink:href',
+            'b-img': 'src',
+            'b-img-lazy': ['src', 'blank-src'],
+            'b-card': 'img-src',
+            'b-card-img': 'img-src',
+            'b-carousel-slide': 'img-src',
+            'b-embed': 'src'
           }
           // other vue-loader options go here
         }
@@ -63,12 +73,22 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|jpeg)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]'
         }
-      }
+      },
+      {
+        test: /font.*\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [{
+            loader: 'file-loader',
+            options: {
+                name: '[name].[ext]',
+                outputPath: 'fonts/'
+            }
+        }]
+      },
     ]
   },
   resolve: {

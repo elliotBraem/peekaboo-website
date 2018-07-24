@@ -14,7 +14,7 @@ if (isDev) {
   }))
   app.use(require('webpack-hot-middleware')(compiler))
 }
-//app.set('views', './views');
+
 app.set('view engine', 'pug')
 app.set('views', path.resolve(__dirname, 'views'))
 
