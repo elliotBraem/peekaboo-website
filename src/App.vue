@@ -56,55 +56,55 @@
 
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/red-crayon.svg")
                 h6 interoception
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/orange-crayon.svg")
                 h6 regulation
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/green-crayon.svg")
                 h6 sensory processing
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/yellow-crayon.svg")
                 h6 motor skills
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/purple-crayon.svg")
                 h6 play
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/blue-crayon.svg")
                 h6 social skills
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/red-crayon.svg")
                 h6 foundations for <br> speech and language
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/orange-crayon.svg")
                 h6 feeding
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/green-crayon.svg")
                 h6 visual impairments
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/yellow-crayon.svg")
                 h6 hearing impairments
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/purple-crayon.svg")
                 h6 assistive technology
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/blue-crayon.svg")
                 h6 NDT <br> (movement and handling)
             li
               div.treatment
-                img.crayon(src="./assets/img/red-crayon.svg")
+                img.crayon(src="./assets/img/crayons/red-crayon.svg")
                 h6 trauma and attachment
           div.diagnosis.text-center
             h5 All to help with common childhood diagnosis such as:
@@ -218,8 +218,7 @@
                 a(href="#")
                   h4 Employment
           div.copyright.text-center
-            h6 ©2018 Peek-a-boo Pediatric Therapy LLC
-            h6 All Rights Reserved. 
+            h6 ©2018 Peek-a-boo Pediatric Therapy LLC, <br> All Rights Reserved. 
             p Logo and children designed and created by Mexico
             p Website designed and developed by Elliot Braem
 
