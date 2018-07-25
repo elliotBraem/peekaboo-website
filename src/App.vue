@@ -5,7 +5,7 @@
       .container
         //- Navbar + Social Media
         nav.navbar.justify-content-end.pt-3
-            a.nav-item.pr-2(href="#" target="_blank")
+            a.nav-item.pr-2(href="https://www.facebook.com/peekaboopediatrictherapy" target="_blank")
               i.fa.fa-facebook-square
               | Facebook
             a.nav-item.pl-2.pr-2(href="#" target="_blank")
@@ -176,7 +176,7 @@
           br
           .card.employee
             .card-body
-              img.float-left.headshot.pr-3(src="http://via.placeholder.com/170x170" alt="Lara Dato")
+              img.float-left.headshot.pr-3(src="./assets/img/employees/lara-headshot.png" alt="Lara Dato")
               h3.card-title Lara Dato
               .card-text
                   h6.text-muted MS, OTR/L
