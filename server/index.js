@@ -1,5 +1,7 @@
 const express = require('express')
 const path = require('path')
+var compression = require('compression');
+var helmet = require('helmet');
 
 const isDev = (process.env.NODE_ENV || 'development') === 'development'
 const app = express()
@@ -15,6 +17,8 @@ if (isDev) {
   app.use(require('webpack-hot-middleware')(compiler))
 }
 
+app.use(compression());
+app.use(helmet());
 app.set('view engine', 'pug')
 app.set('views', path.resolve(__dirname, 'views'))
 
