@@ -3,7 +3,6 @@ const path = require('path')
 var compression = require('compression')
 var helmet = require('helmet')
 const debug = require('debug')('app')
-var http = require('http')
 
 const isDev = (process.env.NODE_ENV || 'development') === 'development'
 const app = express()
