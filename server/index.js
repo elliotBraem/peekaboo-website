@@ -26,7 +26,8 @@ app.set('views', path.resolve(__dirname, 'views'))
 app.get('/', (req, res) => {
   res.render('index')
 })
-
-app.listen(8080, () => console.log('Server running!'))
-
-debug('Error: %o', err)
+try {
+  app.listen(8080, () => console.log('Server running!'))
+} catch(err) {
+  debug('Error: %o', err)
+}
