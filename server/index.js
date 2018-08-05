@@ -20,7 +20,7 @@ try {
     app.use(require('webpack-hot-middleware')(compiler))
   }
   process.on('uncaughtException', function(er) {
-    debug('Error: %o', err.stack)
+    debug('Error: %o', er.stack)
     console.error(er.stack)
     process.exit(1)
   })
