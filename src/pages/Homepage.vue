@@ -193,10 +193,10 @@
                                         h6.d-inline-block Email: a.shimkus@peekabootherapy.com
                         .row
                             .col
-                                a(href="//peekabootherapy.com/employment")
+                                a(href="//peekabootherapy.com/careers")
                                     h4 Employment
-                                a(href="#")
-                                    h4 Leave us some feedback!
+                                // a(href="#")
+                                //     h4 Leave us some feedback!
                     div.copyright
                         // .row
                         //   .col-sm-6
