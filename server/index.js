@@ -19,6 +19,7 @@ try {
     }))
     app.use(require('webpack-hot-middleware')(compiler))
   }
+
   process.on('uncaughtException', function(er) {
     debug('Error: %o', er.stack)
     console.error(er.stack)
@@ -33,6 +34,7 @@ try {
   app.get('/', (req, res) => {
     res.render('index')
   })
+  
   app.listen(process.env.PORT || 8080, () => console.log('Server running!'))
 } catch(err) {
   debug('Error: %o', err)
