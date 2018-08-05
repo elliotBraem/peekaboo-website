@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "watch": "nodemon server/index.js -e js,pug",
-    "start": "set DEBUG=app:*",
+    "start": "set DEBUG=app:* && node server/index.js",
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
