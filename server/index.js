@@ -1,11 +1,14 @@
 const express = require('express')
 const path = require('path')
-var compression = require('compression');
-var helmet = require('helmet');
+var compression = require('compression')
+var helmet = require('helmet')
+const debug = require('debug')('app')
 
 const isDev = (process.env.NODE_ENV || 'development') === 'development'
 const app = express()
 try {
+  debug('Hello, I am debugging')
+  debug('isDev: %s', isDev)
   if (isDev) {
     const webpack = require('webpack')
     const webpackConfig = require('../webpack.config')
