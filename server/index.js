@@ -17,6 +17,17 @@ try {
     app.use(require('webpack-hot-middleware')(compiler))
   }
 
+  process.on('uncaughtException', function(er) {
+    debug('Error: %o', er.stack)
+    console.error(er.stack)
+    process.exit(1)
+  })
+
+  app.use(compression())
+  app.use(helmet())
+  app.set('view engine', 'pug')
+  app.set('views', path.resolve(__dirname, 'views'))
+
   app.get('/', (req, res) => {
     res.render('index')
   })
