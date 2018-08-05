@@ -7,7 +7,8 @@
   "private": true,
   "scripts": {
     "watch": "nodemon server/index.js -e js,pug",
-    "start": "node server/index.js"
+    "start": "set DEBUG=app:*",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
