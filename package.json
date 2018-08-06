@@ -8,7 +8,6 @@
     "watch": "nodemon server/index.js -e js,pug",
     "start": "set DEBUG=app:* && node server/index.js",
     "build": "./node_modules/.bin/webpack -p"
-
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
@@ -42,6 +41,7 @@
     "node-sass": "^4.9.2",
     "prettier": "^1.12.1",
     "sass-loader": "^6.0.6",
+    "uglifyjs-webpack-plugin": "^1.2.7",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^4.16.3",
