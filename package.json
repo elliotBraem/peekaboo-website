@@ -5,6 +5,8 @@
   "author": "Elliot Braem <braemelliot@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "reinstall": "rm -rf node_modules package-lock.json && npm i",
+    "lint": "eslint --ignore-path .gitignore .",
     "watch": "nodemon server/index.js -e js,pug",
     "start": "set DEBUG=app:* && node server/index.js",
     "build": "webpack --config webpack.config.js"
