@@ -16,17 +16,10 @@
     "express": "^4.16.3",
     "helmet": "^3.13.0",
     "pug": "^2.0.3",
-    "scss-loader": "0.0.1",
-    "style-loader": "^0.21.0",
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
     "webpack-hot-middleware": "^2.22.2"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -34,10 +27,14 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.11",
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1",
     "file-loader": "^1.1.11",
     "node-sass": "^4.9.2",
     "prettier": "^1.12.1",
     "sass-loader": "^6.0.6",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.21.0",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^4.16.3",
