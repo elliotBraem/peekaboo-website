@@ -9,30 +9,31 @@
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run watch
 
 # build for production with minification
 npm run build
+
+# run the application
+npm start
+
+# remove and reinstall dependencies
+npm run reinstall
+
+# lint
+npm run lint
 ```
 
 Notes
 ======
 
-Colors
+Theme colors
 ----
 Green (Pantone): #00A740
 Red-Purple: #E8046A
-
-Nyanza: #E5FFDE
-Deep Space Sparkle: #395E66
-Illuminating Emerald: #32936F
-Pale Cauliflower Blue: #B7C3F3;
-Azureish White: #D6EFFF
 
 
 TODO
 -----
 * Translation to Spanish
-* Screen reader?
-* .min for fontawesome
-* absolute positioning for kids 
+* Page footer
