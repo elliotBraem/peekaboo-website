@@ -193,9 +193,10 @@
                                         h6.d-inline-block Email: a.shimkus@peekabootherapy.com
                         .row
                             .col
-                                h4
-                                    router-link(to="/careers") Employment
-                                    //- h4 Employment
+                                h4 Employment
+                                h6 Interested in joining our team? <br>
+                                h6
+                                    router-link(to="/careers") Click here!
                                 // a(href="#")
                                 //     h4 Leave us some feedback!
                     div.copyright

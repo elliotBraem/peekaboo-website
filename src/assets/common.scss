@@ -14,7 +14,6 @@
 }
 
   body, html {
-    height: 100%;
     overflow-x: hidden;
     font-family: Futura;
 
@@ -214,16 +213,11 @@
   }
 
   .copyright {
-    width: 100%
+    width: 100%;
     
     h6 {
       margin-bottom: 0rem;
     }
-
-    p {
-      
-    }
-
   }
 
 @media only screen and (min-width: 350px) {
