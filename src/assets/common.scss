@@ -97,8 +97,9 @@
   .summary-child {
     .child {
       float: right; 
-      margin-right: -60px;
+      margin-right: -70px;
       margin-top: 10px;
+      transform: rotate(-20deg);
     }
   }
 
@@ -108,8 +109,10 @@
     height: auto;
     .child {
       position: absolute;
+      max-height: none;
       z-index: -10;
-      left: -60px;
+      left: -85px;
+      transform: rotate(25deg);
     }
   }
 
@@ -157,7 +160,8 @@
       position: absolute;
       z-index: -10;
       top: -180px;
-      left: -40px;
+      left: -70px;
+      transform: rotate(25deg);
     }
   }
 
@@ -277,7 +281,7 @@
     }
     .child {
       position: absolute;
-      right: 0px;
+      right: -10px;
       top: -200px;
     }
   }
