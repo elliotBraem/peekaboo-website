@@ -32,6 +32,15 @@
     padding-right: 5px;
   }
 
+  img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
   .logo {
     margin: 50px 0 80px 0;
     max-width: 500px;
@@ -257,8 +266,28 @@
     }
   }
 } // landscape phones
-@include media-breakpoint-up(md) {} // tablets
+@include media-breakpoint-up(md) {
+  .summary-child {
+    position: relative;
+    width: auto;
+    height: auto;
+    .helper-div {
+      margin-bottom: 20px;
+      width: auto;
+    }
+    .child {
+      position: absolute;
+      right: 0px;
+      top: -200px;
+    }
+  }
+} // tablets
 @include media-breakpoint-up(lg) {  // desktops
+  // .summary-child {
+  //   .helper-div {
+  //     margin-bottom: 20px;
+  //     width: auto;
+  //   }
   header {
     background-size: 600px auto;
   }
