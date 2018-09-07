@@ -166,7 +166,6 @@
                 div.helper-div
                 img.child(src="../assets/img/children/boy-red-shirt.svg")
                 .container-fluid.footer-wrapper
-                    hr
                     div.feedback-form
                         h2 Leave us some feedback!
                         form
