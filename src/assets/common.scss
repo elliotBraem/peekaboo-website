@@ -3,6 +3,7 @@
  $--color-primary: #00A740;
  $--color-secondary: #E8046A;
 
+/** Fonts */
 @font-face {
   font-family: 'Marker-Felt';
   src:url('fonts/Marker-Felt/Marker-Feltfont.ttf.woff') format('woff'),
@@ -12,19 +13,15 @@
   font-weight: normal;
   font-style: normal;
 }
+/** End Fonts */
 
+  /** Universals */
   body, html {
     overflow-x: hidden;
     font-family: Futura;
 
     h1, h2 {
       font-family: 'Marker-Felt';
-    }
-  }
-
-  nav {
-    a {
-      color: #3B5998;
     }
   }
 
@@ -41,19 +38,32 @@
     -ms-user-select: none;
   }
 
-  .logo {
-    margin: 50px 0 80px 0;
-    max-width: 500px;
+  nav {
+    a {
+      color: #3B5998;
+    }
   }
 
   section {
     padding-bottom: 120px;
   }
 
+  ul {
+    list-style-type: none;
+  }
+  /** End Universals */
+  /** Header */
+  .logo {
+    margin: 50px 0 80px 0;
+    max-width: 500px;
+  }
+  /** End Header */
+  /** Services */
   .services {
     padding-bottom: 80px;
   }
-  
+  /** End Services */
+  /** Rates */
   .btn-group-vertical {
     width: 300px;
     button {
@@ -65,18 +75,18 @@
     }
   }
 
-  .card {
-    border: none;
-    -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
-    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+  .rates {
+    h2 {
+      padding-top: 9.5rem;
+      padding-left: 10rem;
+    }
   }
 
-  .job-title {
-    padding-top: $spacer * .5;
-    clear: both;
+  .regions {
+    padding: 50px 0px;
   }
-  
+  /** End Rates */
+  /** Meet the Therapists */
   .about {
     h2 {
       margin-bottom: -40px;
@@ -86,6 +96,24 @@
       font-size: 1.2rem;
     }
   }
+
+  .card {
+    border: none;
+    -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+  }
+
+  .headshot {
+    max-width: 170px;
+    border-radius: 50%;
+  }
+
+  .job-title {
+    padding-top: $spacer * .5;
+    clear: both;
+  }
+  /** End Meet the Therapists */
 
   /** Children */
 
@@ -167,7 +195,7 @@
   }
 
   /** End Children */
-
+  /** Crayons */
   .crayon {
     width: 300px;
     padding-bottom: 5px;
@@ -188,18 +216,8 @@
       left: 2.3rem;
     }
   }
-
-  .rates {
-    h2 {
-      padding-top: 9.5rem;
-      padding-left: 10rem;
-    }
-  }
-
-  .regions {
-    padding: 50px 0px;
-  }
-
+  /** End Crayons */
+  /** Blue Box */
   .blue-box {
     background-color: #D6EFFF;
     margin: 10px 10px 50px 10px;
@@ -208,20 +226,8 @@
     box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
     padding: 5px 0px;
   }
-
-  ul {
-    list-style-type: none;
-  }
-
-  .headshot {
-    max-width: 170px;
-    border-radius: 50%;
-  }
-
-  .feedback-form {
-    display: none;
-  }
-
+  /** End Blue Box */
+  /** Footer */
   .footer-wrapper {
     background-color: #D6EFFF;
     padding-bottom: .8rem;
@@ -234,20 +240,21 @@
       margin-bottom: 0rem;
     }
   }
+  /** End Footer */
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 350px) { // smaller phones
   .about {
     h3 {
       font-size: 1.75rem;
     }
   }
 }
-@include media-breakpoint-up(xs) {
+@include media-breakpoint-up(xs) { // portrait phones
   .crayon {
     width: 325px;
   }
-} // portrait phones
-@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(sm) { // landscape phones
   .about {
     h2 {
       margin-bottom: -40px;
@@ -270,8 +277,8 @@
       display: none;
     }
   }
-} // landscape phones
-@include media-breakpoint-up(md) {
+}
+@include media-breakpoint-up(md) { // tablets
   .summary-child {
     position: relative;
     width: auto;
@@ -286,7 +293,7 @@
       top: -200px;
     }
   }
-} // tablets
+}
 @include media-breakpoint-up(lg) {  // desktops
   // .summary-child {
   //   .helper-div {

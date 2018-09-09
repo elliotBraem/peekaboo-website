@@ -167,46 +167,54 @@
                 div.helper-div
                 img.child(src="../assets/img/children/boy-red-shirt.svg")
                 .container-fluid.footer-wrapper
-                    div.feedback-form
-                        h2 Leave us some feedback!
-                        form
-                            label Email
-                            input(type="text" value="email" placeholder="Email")
-                    div.footer-links
-                        .row
-                            .col
-                                h4 Contact us!
-                                .row
-                                    .col
-                                        span
-                                        i.fa.fa-phone-square.d-inline-block
-                                        h6.d-inline-block Phone: (303) 885-9848
-                                .row
-                                    .col
-                                        span
-                                        i.fa.fa-fax.d-inline-block
-                                        h6.d-inline-block Fax: (303) 200-7001
-                                .row
-                                    .col
-                                        span
-                                        i.fa.fa-envelope.d-inline-block
-                                        h6.d-inline-block Email: a.shimkus@peekabootherapy.com
-                        .row
-                            .col
-                                h4 Employment
-                                h6 Interested in joining our team? <br>
-                                h6
-                                    router-link(to="/careers") Click here!
-                                // a(href="#")
-                                //     h4 Leave us some feedback!
-                    div.copyright
-                        // .row
-                        //   .col-sm-6
-                        h6 ©2018 Peek-a-boo Pediatric Therapy LLC, <br> All Rights Reserved. 
-                        // .col-sm-6
-                        span.acknowledgments
-                            p Logo and children designed and created by Jesey Nicholson
-                            p Website designed and developed by Elliot Braem
+                    div.footer-nav
+                        ul
+                            li Home
+                            li About Us
+                            li Our Services
+                            li Our Rates
+                            li Careers
+                            li Contact Us
+                    //- div.feedback-form
+                    //-     h2 Leave us some feedback!
+                    //-     form
+                    //-         label Email
+                    //-         input(type="text" value="email" placeholder="Email")
+                    //- div.footer-links
+                    //-     .row
+                    //-         .col
+                    //-             h4 Contact us!
+                    //-             .row
+                    //-                 .col
+                    //-                     span
+                    //-                     i.fa.fa-phone-square.d-inline-block
+                    //-                     h6.d-inline-block Phone: (303) 885-9848
+                    //-             .row
+                    //-                 .col
+                    //-                     span
+                    //-                     i.fa.fa-fax.d-inline-block
+                    //-                     h6.d-inline-block Fax: (303) 200-7001
+                    //-             .row
+                    //-                 .col
+                    //-                     span
+                    //-                     i.fa.fa-envelope.d-inline-block
+                    //-                     h6.d-inline-block Email: a.shimkus@peekabootherapy.com
+                    //-     .row
+                    //-         .col
+                    //-             h4 Employment
+                    //-             h6 Interested in joining our team? <br>
+                    //-             h6
+                    //-                 router-link(to="/careers") Click here!
+                    //-             // a(href="#")
+                    //-             //     h4 Leave us some feedback!
+                    //- div.copyright
+                    //-     // .row
+                    //-     //   .col-sm-6
+                    //-     h6 ©2018 Peek-a-boo Pediatric Therapy LLC, <br> All Rights Reserved.
+                    //-     // .col-sm-6
+                    //-     span.acknowledgments
+                    //-         p Logo and children designed and created by Jesey Nicholson
+                    //-         p Website designed and developed by Elliot Braem
 </template>
 
 <script>
