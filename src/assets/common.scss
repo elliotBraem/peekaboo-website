@@ -96,8 +96,9 @@
 
   .summary-child {
     .child {
+      max-height: none;
       float: right; 
-      margin-right: -70px;
+      margin-right: -90px;
       margin-top: 10px;
       transform: rotate(-20deg);
     }
@@ -281,7 +282,7 @@
     }
     .child {
       position: absolute;
-      right: -10px;
+      right: 2px;
       top: -200px;
     }
   }
