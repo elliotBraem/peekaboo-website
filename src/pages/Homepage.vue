@@ -1,7 +1,7 @@
 <template lang="pug">
     main
         //- Summary
-        section.summary
+        section.summary(id="home")
             .summary-child
                 div.helper-div
                 img.child(src="../assets/img/children/girl-pink-hair.svg")
@@ -12,7 +12,7 @@
                     h4 We provide services in environments where your child experiences the most; your home, your daycare or in the community.
                     br
                     h4 We are named Peek-A-Boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life.
-        section.services
+        section.services(id="services")
             .container
                 h2.text-center Our Services
                 h4.text-center Our therapists are experts in all aspects of your child's development.
@@ -89,7 +89,7 @@
                     h5 All to help with common childhood diagnosis such as:
                     p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more
         //- Rates
-        section.rates
+        section.rates(id="rates")
             .rates-child
                 img.child(src="../assets/img/children/boy-yellow-shirt.svg")
                 .container.text-center
@@ -111,7 +111,7 @@
                         br
                         p If you wish to not go through the Early Intervention program we offer private pay rates. Please <a href="#">contact us</a> for more information.
         //- About us
-        section.about
+        section.about(id="about")
             .container
                 h2 Meet the <br> Therapists
                 div.about-child
@@ -166,15 +166,40 @@
             .footer-child
                 div.helper-div
                 img.child(src="../assets/img/children/boy-red-shirt.svg")
-                .container-fluid.footer-wrapper
+                .container-fluid.footer-wrapper.pt-3
                     div.footer-nav
                         ul
-                            li Home
-                            li About Us
-                            li Our Services
-                            li Our Rates
-                            li Careers
-                            li Contact Us
+                            li
+                                a(href="#home") Home
+                            li
+                                a(href="#about") About Us
+                            li
+                                a(href="#services") Our Services
+                            li
+                                a(href="#rates") Our Rates
+                            li
+                                router-link(to="/careers") Careers
+                            li
+                                router-link(to="/contact") Contact
+                    div.contact
+                        h4 Contact Us!
+                        hr
+                        ul
+                            li
+                                span
+                                i.fa.fa-phone-square.d-inline-block
+                                h6.d-inline-block Phone: (303) 885-9848
+                            li
+                                span
+                                i.fa.fa-fax.d-inline-block
+                                h6.d-inline-block Fax: (303) 200-7001
+                            li
+                                span
+                                i.fa.fa-envelope.d-inline-block
+                                h6.d-inline-block Email: a.shimkus@peekabootherapy.com
+
+                    div.credits.text-center
+                        p ©2018 Peek-a-boo Pediatric Therapy LLC, <br class="removeable"> All Rights Reserved. <br> Logo and children by Jesey Nicholson <br> Website by Elliot Braem
                     //- div.feedback-form
                     //-     h2 Leave us some feedback!
                     //-     form

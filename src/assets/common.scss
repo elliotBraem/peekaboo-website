@@ -230,15 +230,11 @@
   /** Footer */
   .footer-wrapper {
     background-color: #D6EFFF;
-    padding-bottom: .8rem;
+    padding-bottom: .1rem;
   }
 
-  .copyright {
-    width: 100%;
-    
-    h6 {
-      margin-bottom: 0rem;
-    }
+  .credits {
+    font-size: 14px;
   }
   /** End Footer */
 
@@ -272,8 +268,8 @@
   ul.treatments {
     padding-left: 15px;
   }
-  .copyright {
-    br {
+  .credits {
+    .removeable {
       display: none;
     }
   }
