@@ -182,7 +182,7 @@
                             li
                                 router-link(to="/contact") Contact
                     div.contact
-                        h4 Contact Us!
+                        h4 Contact Us
                         hr
                         ul
                             li

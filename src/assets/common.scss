@@ -233,6 +233,10 @@
   .footer-wrapper {
     background-color: #D6EFFF;
     padding-bottom: .1rem;
+
+    h4 {
+      font-family: 'Marker-Felt';
+    }
   }
 
   .credits {
@@ -262,19 +266,23 @@
       }
     }
   }
+
   .rates {
     h2 {
       padding-left: 0rem;
     }
   }
+
   ul.treatments {
     padding-left: 15px;
   }
+
   .credits {
     .removeable {
       display: none;
     }
   }
+
 }
 @include media-breakpoint-up(md) { // tablets
   .summary-child {
@@ -301,6 +309,7 @@
   header {
     background-size: 600px auto;
   }
+
   .rates {
     h2 {
       padding-right: 0rem;
