@@ -187,15 +187,15 @@
                         ul
                             li
                                 span
-                                i.fa.fa-phone-square.d-inline-block
+                                //- i.fa.fa-phone-square.d-inline-block
                                 h6.d-inline-block Phone: (303) 885-9848
                             li
                                 span
-                                i.fa.fa-fax.d-inline-block
+                                //- i.fa.fa-fax.d-inline-block
                                 h6.d-inline-block Fax: (303) 200-7001
                             li
                                 span
-                                i.fa.fa-envelope.d-inline-block
+                                //- i.fa.fa-envelope.d-inline-block
                                 h6.d-inline-block Email: a.shimkus@peekabootherapy.com
 
                     div.credits.text-center
