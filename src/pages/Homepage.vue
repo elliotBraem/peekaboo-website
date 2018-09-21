@@ -178,6 +178,8 @@
                             li
                                 a(href="#rates") Our Rates
                             li
+                                router-link(to="/careers") Blog
+                            li
                                 router-link(to="/careers") Careers
                             li
                                 router-link(to="/contact") Contact
