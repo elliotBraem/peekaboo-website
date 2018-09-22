@@ -3,6 +3,7 @@
  $--color-primary: #00A740;
  $--color-secondary: #E8046A;
 
+/** Fonts */
 @font-face {
   font-family: 'Marker-Felt';
   src:url('fonts/Marker-Felt/Marker-Feltfont.ttf.woff') format('woff'),
@@ -12,14 +13,31 @@
   font-weight: normal;
   font-style: normal;
 }
+/** End Fonts */
 
+  /** Universals */
   body, html {
     overflow-x: hidden;
     font-family: Futura;
+    // color: #5E239D;
 
     h1, h2 {
+      color: #5E239D;
       font-family: 'Marker-Felt';
     }
+  }
+
+  i {
+    padding-right: 5px;
+  }
+
+  img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 
   nav {
@@ -28,23 +46,26 @@
     }
   }
 
-  i {
-    padding-right: 5px;
-  }
-
-  .logo {
-    margin: 50px 0 80px 0;
-    max-width: 500px;
-  }
-
   section {
     padding-bottom: 120px;
   }
 
+  ul {
+    list-style-type: none;
+  }
+  /** End Universals */
+  /** Header */
+  .logo {
+    margin: 50px 0 80px 0;
+    max-width: 500px;
+  }
+  /** End Header */
+  /** Services */
   .services {
     padding-bottom: 80px;
   }
-  
+  /** End Services */
+  /** Rates */
   .btn-group-vertical {
     width: 300px;
     button {
@@ -56,18 +77,18 @@
     }
   }
 
-  .card {
-    border: none;
-    -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
-    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+  .rates {
+    h2 {
+      padding-top: 9.5rem;
+      padding-left: 10rem;
+    }
   }
 
-  .job-title {
-    padding-top: $spacer * .5;
-    clear: both;
+  .regions {
+    padding: 50px 0px;
   }
-  
+  /** End Rates */
+  /** Meet the Therapists */
   .about {
     h2 {
       margin-bottom: -40px;
@@ -78,6 +99,24 @@
     }
   }
 
+  .card {
+    border: none;
+    -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+  }
+
+  .headshot {
+    max-width: 170px;
+    border-radius: 50%;
+  }
+
+  .job-title {
+    padding-top: $spacer * .5;
+    clear: both;
+  }
+  /** End Meet the Therapists */
+
   /** Children */
 
   .child {
@@ -87,9 +126,11 @@
 
   .summary-child {
     .child {
+      max-height: none;
       float: right; 
-      margin-right: -60px;
+      margin-right: -90px;
       margin-top: 10px;
+      transform: rotate(-20deg);
     }
   }
 
@@ -99,8 +140,10 @@
     height: auto;
     .child {
       position: absolute;
+      max-height: none;
       z-index: -10;
-      left: -60px;
+      left: -85px;
+      transform: rotate(25deg);
     }
   }
 
@@ -131,7 +174,7 @@
     .child {
       position: absolute;
       z-index: -10;
-      top: -180px;
+      top: -175px;
       right: -30px;
     }
   }
@@ -148,12 +191,13 @@
       position: absolute;
       z-index: -10;
       top: -180px;
-      left: -40px;
+      left: -70px;
+      transform: rotate(25deg);
     }
   }
 
   /** End Children */
-
+  /** Crayons */
   .crayon {
     width: 300px;
     padding-bottom: 5px;
@@ -174,65 +218,45 @@
       left: 2.3rem;
     }
   }
-
-  .rates {
-    h2 {
-      padding-top: 9.5rem;
-      padding-left: 10rem;
-    }
-  }
-
-  .regions {
-    padding: 50px 0px;
-  }
-
+  /** End Crayons */
+  /** Blue Box */
   .blue-box {
     background-color: #D6EFFF;
     margin: 10px 10px 50px 10px;
     -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
-    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3); 
+    box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+    padding: 5px 0px;
   }
-
-  ul {
-    list-style-type: none;
-  }
-
-  .headshot {
-    max-width: 170px;
-    border-radius: 50%;
-  }
-
-  .feedback-form {
-    display: none;
-  }
-
+  /** End Blue Box */
+  /** Footer */
   .footer-wrapper {
     background-color: #D6EFFF;
-    padding-bottom: .8rem;
-  }
+    padding-bottom: .1rem;
 
-  .copyright {
-    width: 100%;
-    
-    h6 {
-      margin-bottom: 0rem;
+    h4 {
+      font-family: 'Marker-Felt';
     }
   }
 
-@media only screen and (min-width: 350px) {
+  .credits {
+    font-size: 14px;
+  }
+  /** End Footer */
+
+@media only screen and (min-width: 350px) { // smaller phones
   .about {
     h3 {
       font-size: 1.75rem;
     }
   }
 }
-@include media-breakpoint-up(xs) {
+@include media-breakpoint-up(xs) { // portrait phones
   .crayon {
     width: 325px;
   }
-} // portrait phones
-@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(sm) { // landscape phones
   .about {
     h2 {
       margin-bottom: -40px;
@@ -242,25 +266,50 @@
       }
     }
   }
+
   .rates {
     h2 {
       padding-left: 0rem;
     }
   }
+
   ul.treatments {
     padding-left: 15px;
   }
-  .copyright {
-    br {
+
+  .credits {
+    .removeable {
       display: none;
     }
   }
-} // landscape phones
-@include media-breakpoint-up(md) {} // tablets
+
+}
+@include media-breakpoint-up(md) { // tablets
+  .summary-child {
+    position: relative;
+    width: auto;
+    height: auto;
+    .helper-div {
+      margin-bottom: 20px;
+      width: auto;
+    }
+    .child {
+      position: absolute;
+      right: 2px;
+      top: -200px;
+    }
+  }
+}
 @include media-breakpoint-up(lg) {  // desktops
+  // .summary-child {
+  //   .helper-div {
+  //     margin-bottom: 20px;
+  //     width: auto;
+  //   }
   header {
     background-size: 600px auto;
   }
+
   .rates {
     h2 {
       padding-right: 0rem;

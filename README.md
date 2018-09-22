@@ -37,3 +37,7 @@ TODO
 -----
 * Translation to Spanish
 * Page footer
+* New color for text?
+* Seperate the crayons
+* Styling for the CCB buttons
+* Styling for Bio
