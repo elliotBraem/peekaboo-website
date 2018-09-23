@@ -178,7 +178,7 @@
                             li
                                 a(href="#rates") Our Rates
                             li
-                                router-link(to="/careers") Blog
+                                router-link(to="/blog/tips-for-a-sensory-friendly-halloween") Blog
                             li
                                 router-link(to="/careers") Careers
                             li
