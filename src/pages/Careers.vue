@@ -12,7 +12,6 @@
                  | <br> gender identity, national origin, veteran or disability status.</i> 
                 // h4 If so, fill out the form below and send us your resumé!
         // section.application
-
 </template>
 
 <script>
