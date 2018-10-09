@@ -1,43 +1,40 @@
 'use strict';
 
 const webpack = require('webpack');
-const {VueLoaderPlugin} = require('vue-loader');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const path = require('path');
+const merge = require('webpack-merge');
+const baseConfig = require('./webpack.config.base');
 
-/**
- * Resolves images in static/img folder
- * to equivilant folder in /dist
- * @param {*} dir
- * @return {path} path
- */
-function resolve(dir) {
-  return path.join(__dirname, '..', dir);
-}
+const HOST = 'localhost';
+const PORT = 8080;
 
-module.exports = {
+module.exports = merge(baseConfig, {
   mode: 'development',
+
   devServer: {
+    clientLogLevel: 'warning',
     hot: true,
+    contentBase: 'dist',
+    compress: true,
+    host: HOST,
+    port: PORT,
+    open: true,
+    overlay: {warnings: false, errors: true},
+    publicPath: '/',
+    quiet: true,
     watchOptions: {
       poll: true,
     },
   },
+
   module: {
     rules: [
-      {
-        test: /\.vue$/,
-        use: 'vue-loader',
-      },
       {
         test: /\.css$/,
         use: [
           'vue-style-loader',
           'css-loader',
         ],
-      },
-      {
+      }, {
         test: /\.styl(us)?$/,
         use: [
           'vue-style-loader',
@@ -45,25 +42,10 @@ module.exports = {
           'stylus-loader',
         ],
       },
-      {
-        test: /\.js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: 'babel-loader',
-      },
     ],
   },
+
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new VueLoaderPlugin(),
-    new HtmlWebpackPlugin({
-        filename: 'index.html',
-        template: 'index.html',
-        inject: true,
-    }),
-    new CopyWebpackPlugin([{
-      from: resolve('static/img'),
-      to: resolve('dist/static/img'),
-      toType: 'dir',
-    }]),
   ],
-};
+});
