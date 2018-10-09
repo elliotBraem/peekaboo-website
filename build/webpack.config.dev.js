@@ -4,7 +4,7 @@ const {VueLoaderPlugin} = require('vue-loader');
 module.exports = {
   mode: 'development',
   entry: [
-    './src/app.js',
+    './src/index.js',
   ],
   module: {
     rules: [

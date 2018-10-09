@@ -9,6 +9,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "watch": "nodemon server/index.js -e js,pug",
     "start": "set DEBUG=app:* && node server/index.js",
+    "dev": "webpack-dev-server --config build/webpack.config.dev.js",
     "build": "node_modules/.bin/webpack --config build/webpack.config.dev.js"
   },
   "dependencies": {
@@ -43,6 +44,6 @@
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^2.11.3"
   }
 }
