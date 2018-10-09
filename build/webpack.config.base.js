@@ -20,10 +20,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|vue)$/,
-        use: 'eslint-loader',
-        enforce: 'pre',
-      }, {
         test: /\.vue$/,
         use: 'vue-loader',
       }, {
@@ -34,6 +30,9 @@ module.exports = {
             compact: 'false',
           },
         },
+      }, {
+        test: /\.pug$/,
+        loader: 'pug-plain-loader',
       }, {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         use: {
@@ -52,6 +51,14 @@ module.exports = {
             name: utils.assetsPath('media/[name].[hash:7].[ext]'),
           },
         },
+      }, {
+        test: /font.*\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [{
+            loader: 'file-loader',
+            options: {
+                name: utils.assetsPath('fonts/[name].[hash:7].[ext]'),
+            },
+        }],
       }, {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         use: {

@@ -7,16 +7,10 @@
   "scripts": {
     "reinstall": "rm -rf node_modules package-lock.json && npm i",
     "lint": "eslint --ignore-path .gitignore .",
-    "watch": "nodemon server/index.js -e js,pug",
     "dev": "webpack-dev-server --progress --config build/webpack.config.dev.js",
-    "prod": "webpack --config build/webpack.config.prod.js",
-    "build": "node_modules/.bin/webpack --config build/webpack.config.dev.js"
+    "prod": "webpack --config build/webpack.config.prod.js"
   },
   "dependencies": {
-    "compression": "^1.7.3",
-    "express": "^4.16.3",
-    "helmet": "^3.13.0",
-    "pug": "^2.0.3",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
@@ -31,6 +25,8 @@
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.3",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
     "style-loader": "^0.21.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",

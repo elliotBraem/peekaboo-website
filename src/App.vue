@@ -15,15 +15,15 @@
             //   i.fas.fa-globe-americas
             //   | Español
         //- Logo
-        a(href="../")
-          img.logo(src="./assets/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
-        //h5.text-right Occupational Therapy Office in Denver, CO
+        a(href="/")
+          img.logo(src="/static/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
     //- Main content
-    router-view
+    .container
+      router-view
 </template>
 
-<script>
-export default {
-  name: 'app',
-}
-</script>
+<style lang="stylus" scoped>
+  .container
+    font-family 'Marker-Felt', sans-serif
+    max-width 1200px
+</style>

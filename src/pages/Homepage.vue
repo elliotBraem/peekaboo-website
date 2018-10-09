@@ -4,7 +4,7 @@
         section.summary(id="home")
             .summary-child
                 div.helper-div
-                img.child(src="../assets/img/children/girl-pink-hair.svg")
+                img.child(src="static/img/children/girl-pink-hair.svg")
                 .container.text-center
                     h2.pb-5.pt-3 Welcome to Peek-a-boo Pediatric Therapy LLC!
                     h4 Peek-A-Boo Pediatric Therapy provides occupational therapy services to children birth to 3 years old and their families in the Denver-metro area.
@@ -18,7 +18,7 @@
                 h4.text-center Our therapists are experts in all aspects of your child's development.
                 .services-child
                     div.helper-div
-                    img.child(src="../assets/img/children/girl-black-hair.svg")
+                    img.child(src="static/img/children/girl-black-hair.svg")
                     div.blue-box
                         h5(style="padding: 10px 0px 0px 10px;") We look at the child in 
                         ul.p-3
@@ -35,55 +35,55 @@
                 ul.treatments.text-left
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/red-crayon.svg")
+                            img.crayon(src="static/img/crayons/red-crayon.svg")
                             h6 interoception
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/orange-crayon.svg")
+                            img.crayon(src="static/img/crayons/orange-crayon.svg")
                             h6 regulation
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/green-crayon.svg")
+                            img.crayon(src="static/img/crayons/green-crayon.svg")
                             h6 sensory processing
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/yellow-crayon.svg")
+                            img.crayon(src="static/img/crayons/yellow-crayon.svg")
                             h6 motor skills
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/purple-crayon.svg")
+                            img.crayon(src="static/img/crayons/purple-crayon.svg")
                             h6 play
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/blue-crayon.svg")
+                            img.crayon(src="static/img/crayons/blue-crayon.svg")
                             h6 social skills
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/red-crayon.svg")
+                            img.crayon(src="static/img/crayons/red-crayon.svg")
                             h6 foundations for <br> speech and language
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/orange-crayon.svg")
+                            img.crayon(src="static/img/crayons/orange-crayon.svg")
                             h6 feeding
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/green-crayon.svg")
+                            img.crayon(src="static/img/crayons/green-crayon.svg")
                             h6 visual impairments
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/yellow-crayon.svg")
+                            img.crayon(src="static/img/crayons/yellow-crayon.svg")
                             h6 hearing impairments
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/purple-crayon.svg")
+                            img.crayon(src="static/img/crayons/purple-crayon.svg")
                             h6 assistive technology
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/blue-crayon.svg")
+                            img.crayon(src="static/img/crayons/blue-crayon.svg")
                             h6 NDT <br> (movement and handling)
                     li
                         div.treatment
-                            img.crayon(src="../assets/img/crayons/red-crayon.svg")
+                            img.crayon(src="static/img/crayons/red-crayon.svg")
                             h6 trauma and attachment
                 div.diagnosis.text-center
                     h5 All to help with common childhood diagnosis such as:
@@ -91,7 +91,7 @@
         //- Rates
         section.rates(id="rates")
             .rates-child
-                img.child(src="../assets/img/children/boy-yellow-shirt.svg")
+                img.child(src="static/img/children/boy-yellow-shirt.svg")
                 .container.text-center
                     h2.pb-3 Our Rates
                     h4.text-center Early Intervention
@@ -116,10 +116,10 @@
                 h2 Meet the <br> Therapists
                 div.about-child
                     div.helper-div
-                    img.child(src="../assets/img/children/girl-apple.svg")
+                    img.child(src="static/img/children/girl-apple.svg")
                     .card.employee
                         .card-body
-                            img.float-left.headshot.pr-3(src="../assets/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
+                            img.float-left.headshot.pr-3(src="static/img/employees/amanda-headshot.jpg" alt="Amanda Shimkus")
                             h3.card-title Amanda Shimkus
                             .card-text
                                 h6.text-muted MA, OTR/L SIPT Certified
@@ -128,7 +128,7 @@
                     br
                     .card.employee
                         .card-body
-                            img.float-left.headshot.pr-3(src="../assets/img/employees/lindsey-headshot.jpg" alt="Lindsey Blanke")
+                            img.float-left.headshot.pr-3(src="static/img/employees/lindsey-headshot.jpg" alt="Lindsey Blanke")
                             h3.card-title Lindsey Blanke
                             .card-text
                                 h6.text-muted OTR/L
@@ -137,7 +137,7 @@
                     br
                     .card.employee
                         .card-body
-                            img.float-left.headshot.pr-3(src="../assets/img/employees/nicole-headshot.jpg" alt="Nicole Green")
+                            img.float-left.headshot.pr-3(src="static/img/employees/nicole-headshot.jpg" alt="Nicole Green")
                             h3.card-title Nicole Green
                             .card-text
                                 h6.text-muted OTD, OTR/L
@@ -146,7 +146,7 @@
                     br
                     .card.employee
                         .card-body
-                            img.float-left.headshot.pr-3(src="../assets/img/employees/libby-headshot.jpg" alt="Libby Cronin")
+                            img.float-left.headshot.pr-3(src="static/img/employees/libby-headshot.jpg" alt="Libby Cronin")
                             h3.card-title Libby Cronin
                             .card-text
                                 h6.text-muted MS, OTR/L
@@ -155,7 +155,7 @@
                     br
                     .card.employee
                         .card-body
-                            img.float-left.headshot.pr-3(src="../assets/img/employees/lara-headshot.png" alt="Lara Dato")
+                            img.float-left.headshot.pr-3(src="static/img/employees/lara-headshot.png" alt="Lara Dato")
                             h3.card-title Lara Dato
                             .card-text
                                 h6.text-muted MS, OTR/L
@@ -165,7 +165,7 @@
         footer
             .footer-child
                 div.helper-div
-                img.child(src="../assets/img/children/boy-red-shirt.svg")
+                img.child(src="static/img/children/boy-red-shirt.svg")
                 .container-fluid.footer-wrapper.pt-3
                     div.footer-nav
                         ul
