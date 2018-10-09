@@ -1,14 +1,8 @@
-import './assets/common.scss';
 import Vue from 'vue';
-import App from './App.vue';
-import VueRouter from 'vue-router';
-import routes from './routes';
+import router from './router';
+import App from './App';
 
-Vue.use(VueRouter);
-
-const router = new VueRouter({
-  mode: 'history',
-  routes: routes});
+import 'assets/css/main.css';
 
 new Vue({
   el: '#app',
