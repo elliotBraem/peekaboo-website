@@ -1,0 +1,576 @@
+/** Fonts */
+@font-face
+  font-family: "Marker-Felt"
+  src: url("fonts/Marker-Felt/Marker-Feltfont.ttf.woff") format("woff"), url("fonts/Marker-Felt/Marker-Feltfont.ttf.svg#Marker-Felt") format("svg"), url("fonts/Marker-Felt/Marker-Feltfont.ttf.eot"), url("fonts/Marker-Felt/Marker-Feltfont.ttf.eot?#iefix") format("embedded-opentype")
+  font-weight: normal
+  font-style: normal
+
+/** End Fonts */
+/** Universals */
+body,
+html
+  overflow-x: hidden
+  font-family: Futura
+
+body h1,
+body h2,
+html h1,
+html h2
+  color: #5E239D
+  font-family: "Marker-Felt"
+
+i
+  padding-right: 5px
+
+img
+  user-drag: none
+  user-select: none
+  -moz-user-select: none
+  -webkit-user-drag: none
+  -webkit-user-select: none
+  -ms-user-select: none
+
+nav a
+  color: #3B5998
+
+section
+  padding-bottom: 120px
+
+ul
+  list-style-type: none
+
+/** End Universals */
+/** Header */
+.logo
+  margin: 50px 0 80px 0
+  max-width: 500px
+
+/** End Header */
+/** Services */
+.services
+  padding-bottom: 80px
+
+/** End Services */
+/** Rates */
+.btn-group-vertical
+  width: 300px
+
+.btn-group-vertical button
+  border: none
+  background-color: white
+  background-repeat: no-repeat
+  background-size: contain
+  height: 80px
+
+.rates h2
+  padding-top: 9.5rem
+  padding-left: 10rem
+
+.regions
+  padding: 50px 0px
+
+/** End Rates */
+/** Meet the Therapists */
+.about h2
+  margin-bottom: -40px
+  padding-left: 1rem
+
+.about h3
+  font-size: 1.2rem
+
+.card
+  border: none
+  -webkit-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  -moz-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+
+.headshot
+  max-width: 170px
+  border-radius: 50%
+
+.job-title
+  padding-top: 0.5rem
+  clear: both
+
+/** End Meet the Therapists */
+/** Children */
+.child
+  max-height: 200px
+  max-width: 250px
+
+.summary-child .child
+  max-height: none
+  float: right
+  margin-right: -90px
+  margin-top: 10px
+  transform: rotate(-20deg)
+
+.rates-child
+  position: relative
+  width: auto
+  height: auto
+
+.rates-child .child
+  position: absolute
+  max-height: none
+  z-index: -10
+  left: -85px
+  transform: rotate(25deg)
+
+.services-child
+  position: relative
+  width: auto
+  height: auto
+
+.services-child .helper-div
+  margin-bottom: 180px
+  width: auto
+
+.services-child .child
+  position: absolute
+  z-index: -10
+  top: -140px
+  right: 0px
+
+.about-child
+  position: relative
+  width: auto
+  height: auto
+
+.about-child .helper-div
+  margin-bottom: 200px
+  width: auto
+
+.about-child .child
+  position: absolute
+  z-index: -10
+  top: -175px
+  right: -30px
+
+.footer-child
+  position: relative
+  width: auto
+  height: auto
+
+.footer-child .helper-div
+  margin-bottom: 100px
+  width: auto
+
+.footer-child .child
+  position: absolute
+  z-index: -10
+  top: -180px
+  left: -70px
+  transform: rotate(25deg)
+
+/** End Children */
+/** Crayons */
+.crayon
+  width: 300px
+  padding-bottom: 5px
+  z-index: -10
+
+ul.treatments
+  padding-left: 0px
+
+.treatment
+  position: relative
+  width: auto
+
+.treatment h6
+  position: absolute
+  bottom: 0.2rem
+  left: 2.3rem
+
+/** End Crayons */
+/** Blue Box */
+.blue-box
+  background-color: #D6EFFF
+  margin: 10px 10px 50px 10px
+  -webkit-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  -moz-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  padding: 5px 0px
+
+/** End Blue Box */
+/** Footer */
+.footer-wrapper
+  background-color: #D6EFFF
+  padding-bottom: 0.1rem
+
+.footer-wrapper h4
+  font-family: "Marker-Felt"
+
+.credits
+  font-size: 14px
+
+/** End Footer */
+@media only screen and (min-width: 350px)
+  .about h3
+    font-size: 1.75rem
+
+.crayon
+  width: 325px
+
+.about h2
+  margin-bottom: -40px
+  text-align: center
+
+.about h2 br
+  display: none
+
+.rates h2
+  padding-left: 0rem
+
+ul.treatments
+  padding-left: 15px
+
+.credits .removeable
+  display: none
+
+.summary-child
+  position: relative
+  width: auto
+  height: auto
+
+.summary-child .helper-div
+  margin-bottom: 20px
+  width: auto
+
+.summary-child .child
+  position: absolute
+  right: 2px
+  top: -200px
+
+header
+  background-size: 600px auto
+
+.rates h2
+  padding-right: 0rem
+
+.job-title
+  float: right
+
+
+
+ $--color-primary: #00A740;
+ $--color-secondary: #E8046A;
+
+// /** Fonts */
+// @font-face {
+//   font-family: 'Marker-Felt';
+//   src:url('fonts/Marker-Felt/Marker-Feltfont.ttf.woff') format('woff'),
+//       url('fonts/Marker-Felt/Marker-Feltfont.ttf.svg#Marker-Felt') format('svg'),
+//       url('fonts/Marker-Felt/Marker-Feltfont.ttf.eot'),
+//       url('fonts/Marker-Felt/Marker-Feltfont.ttf.eot?#iefix') format('embedded-opentype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+// /** End Fonts */
+
+//   /** Universals */
+//   body, html {
+//     overflow-x: hidden;
+//     font-family: Futura;
+//     // color: #5E239D;
+
+//     h1, h2 {
+//       color: #5E239D;
+//       font-family: 'Marker-Felt';
+//     }
+//   }
+
+//   i {
+//     padding-right: 5px;
+//   }
+
+//   img {
+//     user-drag: none;
+//     user-select: none;
+//     -moz-user-select: none;
+//     -webkit-user-drag: none;
+//     -webkit-user-select: none;
+//     -ms-user-select: none;
+//   }
+
+//   nav {
+//     a {
+//       color: #3B5998;
+//     }
+//   }
+
+//   section {
+//     padding-bottom: 120px;
+//   }
+
+//   ul {
+//     list-style-type: none;
+//   }
+//   /** End Universals */
+//   /** Header */
+//   .logo {
+//     margin: 50px 0 80px 0;
+//     max-width: 500px;
+//   }
+//   /** End Header */
+//   /** Services */
+//   .services {
+//     padding-bottom: 80px;
+//   }
+//   /** End Services */
+//   /** Rates */
+//   .btn-group-vertical {
+//     width: 300px;
+//     button {
+//       border: none;
+//       background-color: white;
+//       background-repeat: no-repeat;
+//       background-size: contain;
+//       height: 80px;
+//     }
+//   }
+
+//   .rates {
+//     h2 {
+//       padding-top: 9.5rem;
+//       padding-left: 10rem;
+//     }
+//   }
+
+//   .regions {
+//     padding: 50px 0px;
+//   }
+//   /** End Rates */
+//   /** Meet the Therapists */
+//   .about {
+//     h2 {
+//       margin-bottom: -40px;
+//       padding-left: 1rem;
+//     }
+//     h3 {
+//       font-size: 1.2rem;
+//     }
+//   }
+
+//   .card {
+//     border: none;
+//     -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+//     -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+//     box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+//   }
+
+//   .headshot {
+//     max-width: 170px;
+//     border-radius: 50%;
+//   }
+
+//   .job-title {
+//     padding-top: .5rem;
+//     clear: both;
+//   }
+//   /** End Meet the Therapists */
+
+//   /** Children */
+
+//   .child {
+//     max-height: 200px;
+//     max-width: 250px;
+//   }
+
+//   .summary-child {
+//     .child {
+//       max-height: none;
+//       float: right;
+//       margin-right: -90px;
+//       margin-top: 10px;
+//       transform: rotate(-20deg);
+//     }
+//   }
+
+//   .rates-child {
+//     position: relative;
+//     width: auto;
+//     height: auto;
+//     .child {
+//       position: absolute;
+//       max-height: none;
+//       z-index: -10;
+//       left: -85px;
+//       transform: rotate(25deg);
+//     }
+//   }
+
+//   .services-child {
+//     position: relative;
+//     width: auto;
+//     height: auto;
+//     .helper-div {
+//       margin-bottom: 180px;
+//       width: auto;
+//     }
+//     .child {
+//       position: absolute;
+//       z-index: -10;
+//       top: -140px;
+//       right: 0px;
+//     }
+//   }
+
+//   .about-child {
+//     position: relative;
+//     width: auto;
+//     height: auto;
+//     .helper-div {
+//       margin-bottom: 200px;
+//       width: auto;
+//     }
+//     .child {
+//       position: absolute;
+//       z-index: -10;
+//       top: -175px;
+//       right: -30px;
+//     }
+//   }
+
+//   .footer-child {
+//     position: relative;
+//     width: auto;
+//     height: auto;
+//     .helper-div {
+//       margin-bottom: 100px;
+//       width: auto;
+//     }
+//     .child {
+//       position: absolute;
+//       z-index: -10;
+//       top: -180px;
+//       left: -70px;
+//       transform: rotate(25deg);
+//     }
+//   }
+
+//   /** End Children */
+//   /** Crayons */
+//   .crayon {
+//     width: 300px;
+//     padding-bottom: 5px;
+//     z-index: -10;
+//   }
+
+//   ul.treatments {
+//     padding-left: 0px;
+//   }
+
+//   .treatment {
+//     position: relative;
+//     width: auto;
+
+//     h6 {
+//       position: absolute;
+//       bottom: .2rem;
+//       left: 2.3rem;
+//     }
+//   }
+//   /** End Crayons */
+//   /** Blue Box */
+//   .blue-box {
+//     background-color: #D6EFFF;
+//     margin: 10px 10px 50px 10px;
+//     -webkit-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+//     -moz-box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+//     box-shadow: 9px 6px 19px 0px rgba(0,0,0,0.3);
+//     padding: 5px 0px;
+//   }
+//   /** End Blue Box */
+//   /** Footer */
+//   .footer-wrapper {
+//     background-color: #D6EFFF;
+//     padding-bottom: .1rem;
+
+//     h4 {
+//       font-family: 'Marker-Felt';
+//     }
+//   }
+
+//   .credits {
+//     font-size: 14px;
+//   }
+//   /** End Footer */
+
+// @media only screen and (min-width: 350px) { // smaller phones
+//   .about {
+//     h3 {
+//       font-size: 1.75rem;
+//     }
+//   }
+// }
+// // @include media-breakpoint-up(xs) { // portrait phones
+//   .crayon {
+//     width: 325px;
+//   }
+// // }
+// // @include media-breakpoint-up(sm) { // landscape phones
+//   .about {
+//     h2 {
+//       margin-bottom: -40px;
+//       text-align: center;
+//       br {
+//         display: none;
+//       }
+//     }
+//   }
+
+//   .rates {
+//     h2 {
+//       padding-left: 0rem;
+//     }
+//   }
+
+//   ul.treatments {
+//     padding-left: 15px;
+//   }
+
+//   .credits {
+//     .removeable {
+//       display: none;
+//     }
+//   }
+
+// // }
+// // @include media-breakpoint-up(md) { // tablets
+//   .summary-child {
+//     position: relative;
+//     width: auto;
+//     height: auto;
+//     .helper-div {
+//       margin-bottom: 20px;
+//       width: auto;
+//     }
+//     .child {
+//       position: absolute;
+//       right: 2px;
+//       top: -200px;
+//     }
+//   }
+// // }
+// // @include media-breakpoint-up(lg) {  // desktops
+//   // .summary-child {
+//   //   .helper-div {
+//   //     margin-bottom: 20px;
+//   //     width: auto;
+//   //   }
+//   header {
+//     background-size: 600px auto;
+//   }
+
+//   .rates {
+//     h2 {
+//       padding-right: 0rem;
+//     }
+//   }
+
+//   .job-title {
+//     float: right;
+//   }
+// // }
+// // @include media-breakpoint-up(xl) {} // large desktops
