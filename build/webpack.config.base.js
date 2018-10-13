@@ -52,7 +52,6 @@ module.exports = {
           },
         },
       }, {
-      {
         test: /\.(woff|eot|ttf\.svg|otf)(\?.*)?$/,
         loader: 'url-loader',
         query: {
