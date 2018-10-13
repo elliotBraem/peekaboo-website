@@ -52,21 +52,12 @@ module.exports = {
           },
         },
       }, {
-        test: /font.*\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [{
-            loader: 'file-loader',
-            options: {
-                name: utils.assetsPath('fonts/[name].[hash:7].[ext]'),
-            },
-        }],
-      }, {
-        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            limit: 10000,
-            name: utils.assetsPath('fonts/[name].[hash:7].[ext]'),
-          },
+      {
+        test: /\.(woff|eot|ttf\.svg|otf)(\?.*)?$/,
+        loader: 'url-loader',
+        query: {
+          limit: 10000,
+          name: utils.assetsPath('fonts/[name].[hash:7].[ext]'),
         },
       },
     ],
