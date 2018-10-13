@@ -23,6 +23,12 @@
 </template>
 
 <style lang="stylus" scoped>
+  // // /** Fonts */
+  // @font-face
+  //   font-family "Marker-Felt"
+  //   src url("static/fonts/Marker-Felt/Marker-Feltfont.ttf.woff") format("woff"), url("static/fonts/Marker-Felt/Marker-Feltfont.ttf.svg#Marker-Felt") format("svg"), url("static/fonts/Marker-Felt/Marker-Feltfont.ttf.eot"), url("static/fonts/Marker-Felt/Marker-Feltfont.ttf.eot?#iefix") format("embedded-opentype")
+  //   font-weight normal
+  //   font-style normal
   .container
     font-family 'Marker-Felt', sans-serif
     max-width 1200px
