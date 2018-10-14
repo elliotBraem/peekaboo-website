@@ -2,21 +2,14 @@
 body,
 html
   overflow-x: hidden
-  font-family: Avenir
+  font-family: 'Gill Sans Book', Helvetica, sans-serif
 
 body h1,
 body h2,
 html h1,
 html h2
   color: #5E239D
-  font-family: Marker-Felt
-
-body h3,
-body h4,
-body h5,
-  font-family: Futura
-i
-  padding-right: 5px
+  font-family: 'Marker-Felt'
 
 img
   user-drag: none
@@ -201,51 +194,63 @@ ul.treatments
   font-size: 14px
 
 /** End Footer */
-@media only screen and (min-width: 350px)
+// @media only screen and (min-width: 350px)
+//   .about h3
+//     font-size: 1.75rem
+
+// Extra small devices (portrait phones, less than 576px)
+@media only screen and (max-width: 575.98px)
   .about h3
-    font-size: 1.75rem
+    font-size: 1.75rem;
 
-.crayon
-  width: 325px
+  .crayon
+    width: 325px;
 
-.about h2
-  margin-bottom: -40px
-  text-align: center
+// Small devices (landscape phones, less than 768px)
+// @media only screen and (max-width: 767.98px)
 
-.about h2 br
-  display: none
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px)
+  .about h2
+    margin-bottom: -40px
+    text-align: center
 
-.rates h2
-  padding-left: 0rem
+  .about h2 br
+    display: none
 
-ul.treatments
-  padding-left: 15px
+  .rates h2
+    padding-left: 0rem
 
-.credits .removeable
-  display: none
+  ul.treatments
+    padding-left: 15px
 
-.summary-child
-  position: relative
-  width: auto
-  height: auto
+  .credits .removeable
+    display: none
 
-.summary-child .helper-div
-  margin-bottom: 20px
-  width: auto
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px)
+  .summary-child
+    position: relative
+    width: auto
+    height: auto
 
-.summary-child .child
-  position: absolute
-  right: 2px
-  top: -200px
+  .summary-child .helper-div
+    margin-bottom: 20px
+    width: auto
 
-header
-  background-size: 600px auto
+  .summary-child .child
+    position: absolute
+    right: 2px
+    top: -200px
 
-.rates h2
-  padding-right: 0rem
+  header
+    background-size: 600px auto
 
-.job-title
-  float: right
+  .rates h2
+    padding-right: 0rem
+
+  .job-title
+    float: right
 
 
 
