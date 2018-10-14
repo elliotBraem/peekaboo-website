@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Elliot Braem <braemelliot@gmail.com>",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "reinstall": "rm -rf node_modules package-lock.json && npm i",
     "lint": "eslint --ignore-path .gitignore .",
