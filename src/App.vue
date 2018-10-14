@@ -17,7 +17,7 @@
             //   | Español
         //- Logo
         a(href="/")
-          img.logo(src="/static/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
+          img.logo(src="static/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
     //- Main content
     .container-fluid
       router-view
