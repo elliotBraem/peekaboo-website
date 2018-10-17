@@ -9,13 +9,10 @@
 npm install
 
 # serve with hot reload at localhost:8080
-npm run watch
+npm run dev
 
 # build for production with minification
-npm run build
-
-# run the application
-npm start
+npm run prod
 
 # remove and reinstall dependencies
 npm run reinstall
