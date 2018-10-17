@@ -16,7 +16,7 @@
 .summary-child .child
   max-height: none
   float: right
-  margin-right: -90px
+  margin-right: -102px
   margin-top: 10px
   transform: rotate(-20deg)
 </style>

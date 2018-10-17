@@ -36,6 +36,7 @@ ul
   max-width: 250px
 
 .blue-box
+  max-width: 780px
   background-color: #D6EFFF
   margin: 10px 10px 50px 10px
   -webkit-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
@@ -47,7 +48,14 @@ ul
 // Devices smaller than 350px
 @media only screen and (max-width: 350px)
   .blue-box
-    margin: 0px
+    // Full width
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0)
     -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0)
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0)

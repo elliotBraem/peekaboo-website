@@ -2,7 +2,7 @@
   .container-fluid
     h2.text-center Our Services
     h4.text-center Our therapists are experts in all aspects of your child's development.
-    .services-child
+    .services-child.mx-auto
       div.helper-div
       img.child(src="static/img/children/girl-black-hair.svg")
       div.blue-box
@@ -42,7 +42,7 @@ export default {
 
 .services-child
   position: relative
-  width: auto
+  max-width: 800px
   height: auto
 
 .services-child .helper-div
