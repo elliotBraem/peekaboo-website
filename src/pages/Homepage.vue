@@ -56,10 +56,10 @@
 </template>
 
 <script>
-import WelcomeSummary from 'components/Homepage/WelcomeSummary'
-import OurServices from 'components/Homepage/OurServices'
-import OurRates from 'components/Homepage/OurRates'
-import AboutUs from 'components/Homepage/AboutUs'
+import WelcomeSummary from 'components/Homepage/Summary/WelcomeSummary'
+import OurServices from 'components/Homepage/Services/OurServices'
+import OurRates from 'components/Homepage/Rates/OurRates'
+import AboutUs from 'components/Homepage/About/AboutUs'
 import PageFooter from 'components/PageFooter'
 
 export default {

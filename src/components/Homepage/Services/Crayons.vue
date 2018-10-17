@@ -1,0 +1,75 @@
+<template lang="pug">
+  ul.treatments.text-left
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/red-crayon.svg")
+        h6 interoception
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/orange-crayon.svg")
+        h6 regulation
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/green-crayon.svg")
+        h6 sensory processing
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/yellow-crayon.svg")
+        h6 motor skills
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/purple-crayon.svg")
+        h6 play
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/blue-crayon.svg")
+        h6 social skills
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/red-crayon.svg")
+        h6 foundations for <br> speech and language
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/orange-crayon.svg")
+        h6 feeding
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/green-crayon.svg")
+        h6 visual impairments
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/yellow-crayon.svg")
+        h6 hearing impairments
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/purple-crayon.svg")
+        h6 assistive technology
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/blue-crayon.svg")
+        h6 NDT <br> (movement and handling)
+    li
+      div.treatment
+        img.crayon(src="static/img/crayons/red-crayon.svg")
+        h6 trauma and attachment
+</template>
+
+<style lang="stylus" scoped>
+.crayon
+  width: 300px
+  padding-bottom: 5px
+  z-index: -10
+
+ul.treatments
+  padding-left: 0px
+
+.treatment
+  position: relative
+  width: auto
+
+.treatment h6
+  position: absolute
+  bottom: 0.1rem
+  left: 2.3rem
+
+</style>

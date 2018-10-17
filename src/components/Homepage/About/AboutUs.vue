@@ -50,3 +50,40 @@
           a.card-link(href="#") Read about me!
       br
 </template>
+
+<style lang="stylus" scoped>
+.about h2
+  padding-left: 1rem
+
+.about h3
+  font-size: 1.2rem
+
+.card
+  border: none
+  -webkit-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  -moz-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+  box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3)
+
+.headshot
+  max-width: 170px
+  border-radius: 50%
+
+.job-title
+  padding-top: 0.5rem
+  clear: both
+
+.about-child
+  position: relative
+  width: auto
+  height: auto
+
+.about-child .helper-div
+  margin-bottom: 200px
+  width: auto
+
+.about-child .child
+  position: absolute
+  z-index: -10
+  top: -175px
+  right: -30px
+</style>

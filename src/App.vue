@@ -2,7 +2,7 @@
   div.wrapper
     //- Header
     header
-      .container
+      .container-fluid
         //- Navbar + Social Media
         nav.navbar.justify-content-end.pt-3
             a.nav-item(href="https://www.facebook.com/peekaboopediatrictherapy" target="_blank")
@@ -19,8 +19,7 @@
         a(href="/")
           img.logo(src="static/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
     //- Main content
-    .container-fluid
-      router-view
+    router-view
 </template>
 
 <style lang="stylus" scoped>
