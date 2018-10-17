@@ -32,3 +32,8 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+.summary
+  padding-bottom: 120px
+</style>

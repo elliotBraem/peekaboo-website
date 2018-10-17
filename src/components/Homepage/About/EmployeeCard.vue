@@ -6,6 +6,7 @@
       .card-text
         h6.text-muted {{ credential }}
         h6.job-title {{ title }}
+    .text-center.pb-4
       router-link(:to="link").card-link Read about me!
 </template>
 
@@ -49,6 +50,9 @@ h3
 
 .headshot
   border-radius: 50%
+
+.card-body
+  padding-bottom: 0px
 
 .job-title
   padding-top: 0.5rem

@@ -1,7 +1,7 @@
 <template lang="pug">
   ul.treatments.text-left
     .row.justify-content-center
-      .left.col-sm
+      .left.col-md
         li
           div.treatment
             img.crayon(src="static/img/crayons/red-crayon.svg")
@@ -30,7 +30,7 @@
           div.treatment
             img.crayon(src="static/img/crayons/red-crayon.svg")
             h6 foundations for <br> speech and language
-      .right.col-sm
+      .right.col-md
         li
           div.treatment
             img.crayon(src="static/img/crayons/orange-crayon.svg")
@@ -74,7 +74,7 @@ ul.treatments
   position: absolute
   bottom: 0.1rem
 
-.col-sm
+.col-md
   flex-grow: 0;
 
 .left
@@ -89,16 +89,13 @@ ul.treatments
     right: 2.3rem
     bottom: -0.3rem
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 576px)
-  .treatment h6
-    position: absolute
-    left: 2.3rem
-
+// Medium devices (tablets, 767px and down)
+@media (max-width: 767px)
   .right
     .crayon
       transform: none
 
     .treatment h6
+      left: 2.3rem
       bottom: 0.1rem
 </style>

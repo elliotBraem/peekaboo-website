@@ -21,9 +21,10 @@
     h4.text-center Our therapists are trained in
     .container
       Crayons
-    div.diagnosis.text-center
-      h5 All to help with common childhood diagnosis such as:
-      p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more
+    .services-child.mx-auto
+      div.diagnosis.text-center
+        h5 All to help with common childhood diagnosis such as:
+        p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more
 </template>
 
 <script>
@@ -37,8 +38,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.services
-  padding-bottom: 80px
 
 .services-child
   position: relative

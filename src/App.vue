@@ -2,7 +2,7 @@
   div.wrapper
     //- Header
     header
-      .container-fluid
+      .container
         //- Navbar + Social Media
         nav.navbar.justify-content-end.pt-3
             a.nav-item(href="https://www.facebook.com/peekaboopediatrictherapy" target="_blank")

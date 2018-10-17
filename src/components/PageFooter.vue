@@ -3,41 +3,52 @@
     .footer-child
       div.helper-div
       img.child(src="static/img/children/boy-red-shirt.svg")
-      .pt-3.pl-3.pr-3
-        div.footer-nav
-          ul
-            li
-              a(href="#home") Home
-            li
-              a(href="#about") About Us
-            li
-              a(href="#services") Our Services
-            li
-              a(href="#rates") Our Rates
-            li
-              a(href="/blog") Blog
-            li
-              router-link(to="/careers") Careers
-            li
-              router-link(to="/contact") Contact
-        div.contact
-          h4 Contact Us
-          hr
-          ul
-            li
-              span
-              //- i.fa.fa-phone-square.d-inline-block
-              h6.d-inline-block Phone: (303) 885-9848
-            li
-              span
-              //- i.fa.fa-fax.d-inline-block
-              h6.d-inline-block Fax: (303) 200-7001
-            li
-              span
-              //- i.fa.fa-envelope.d-inline-block
-              h6.d-inline-block Email: a.shimkus@peekabootherapy.com
-        div.credits.text-center
-          p ©2018 Peek-a-boo Pediatric Therapy LLC, <br class="removeable"> All Rights Reserved. <br> Logo and children by Jesey Nicholson <br> Website by Elliot Braem
+      .p-3
+      .row
+        .col-sm
+          div.footer-nav
+            h4 Navigation
+            hr
+            ul
+              li
+                a(href="#home") Home
+              li
+                a(href="#about") About Us
+              li
+                a(href="#services") Our Services
+              li
+                a(href="#rates") Our Rates
+              li
+                a(href="/blog") Blog
+              li
+                router-link(to="/careers") Careers
+              li
+                router-link(to="/contact") Contact
+        .col-sm
+          div.contact
+            h4 Contact Us
+            hr
+            ul
+              li
+                span
+                //- i.fa.fa-phone-square.d-inline-block
+                h6.d-inline-block Phone: (303) 885-9848
+              li
+                span
+                //- i.fa.fa-fax.d-inline-block
+                h6.d-inline-block Fax: (303) 200-7001
+              li
+                span
+                //- i.fa.fa-envelope.d-inline-block
+                h6.d-inline-block Email: a.shimkus@peekabootherapy.com
+      .row
+        .col
+          .row.justify-content-between
+            .col
+            .col
+              p.text-center <br> ©2018 Peek-a-boo Pediatric Therapy LLC, <br class="removeable"> All Rights Reserved.
+            .col
+              p.text-right Logo and children by Jesey Nicholson <br> Website by Elliot Braem
 </template>
 
 <style lang="stylus" scoped>
@@ -63,7 +74,18 @@
 .footer-child .child
   position: absolute
   z-index: -10
-  top: -180px
+  top: -175px
   left: -70px
   transform: rotate(25deg)
+
+// Very small devices (landscape phones, 576px and down)
+@media (max-width: 576px)
+  ul
+    padding-left: 0px
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)
+  .removeable
+    display: none
+
 </style>

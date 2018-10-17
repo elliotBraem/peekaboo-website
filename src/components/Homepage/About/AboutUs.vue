@@ -1,7 +1,7 @@
 <template lang="pug">
   .container-fluid
     h2 Meet the <br> Therapists
-    div.about-child
+    div.about-child.mx-auto
       div.helper-div
       img.child(src="static/img/children/girl-apple.svg")
       .row.justify-content-center
@@ -29,7 +29,7 @@ export default {
 
 .about-child
   position: relative
-  width: auto
+  max-width: 900px
   height: auto
 
 .about-child .helper-div
@@ -41,4 +41,13 @@ export default {
   z-index: -10
   top: -160px
   right: -30px
+
+// Small devices (landscape phones, 420px and up)
+@media (min-width: 420px)
+  .about h2
+    padding: 0px
+    text-align: center
+
+  br
+    display: none
 </style>
