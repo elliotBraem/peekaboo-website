@@ -87,5 +87,4 @@
 @media (min-width: 768px)
   .removeable
     display: none
-
 </style>
