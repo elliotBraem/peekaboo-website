@@ -20,7 +20,19 @@
           img.logo(src="static/img/logo.svg" alt="Peekaboo Pediatric Therapy LLC")
     //- Main content
     router-view
+    footer
+      PageFooter
 </template>
+
+<script>
+import PageFooter from 'components/PageFooter'
+
+export default {
+  components: {
+    PageFooter
+  }
+}
+</script>
 
 <style lang="stylus" scoped>
   i

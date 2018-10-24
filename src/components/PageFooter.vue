@@ -11,15 +11,9 @@
             hr
             ul
               li
-                a(href="#home") Home
+                router-link(to="/") Home
               li
-                a(href="#about") About Us
-              li
-                a(href="#services") Our Services
-              li
-                a(href="#rates") Our Rates
-              li
-                a(href="/blog") Blog
+                a(href="https://peekabootherapy.com/blog") Blog
               li
                 router-link(to="/careers") Careers
               li
