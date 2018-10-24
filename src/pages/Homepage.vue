@@ -11,8 +11,6 @@
         //- About us
         section.about(id="about")
             AboutUs
-        footer
-            PageFooter
 </template>
 
 <script>
