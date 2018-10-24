@@ -8,7 +8,7 @@ Vue.use(Router);
 
 const routes = [
   {
-    path: '*', // This may stop /careers from working
+    path: '/',
     component: Homepage,
   },
   {
