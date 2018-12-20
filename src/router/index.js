@@ -8,6 +8,7 @@ import Lblanke from 'components/Biographies/lblanke';
 import Ngreen from 'components/Biographies/ngreen';
 import Lcronin from 'components/Biographies/lcronin';
 import Ldato from 'components/Biographies/ldato';
+import Astober from 'components/Biographies/astober';
 
 Vue.use(Router);
 
@@ -39,6 +40,10 @@ const routes = [
   {
     path: '/about/lara-dato',
     component: Ldato,
+  },
+  {
+    path: '/about/amanda-stober',
+    component: Astober,
   },
 ];
 

@@ -5,12 +5,13 @@
       div.helper-div
       img.child(src="static/img/children/girl-apple.svg")
       .row.justify-content-center
-        EmployeeCard.col-sm(name="Amanda Shimkus" headshot="static/img/employees/amanda-headshot.jpg" credential="MA, OTR/L SIPT Certified" title="Owner, Occupational Therapist" link="/about/amanda-shimkus")
+        EmployeeCard.col-sm(name="Amanda Shimkus" headshot="static/img/employees/amanda-headshot.png" credential="MA, OTR/L SIPT Certified" title="Owner, Occupational Therapist" link="/about/amanda-shimkus")
         EmployeeCard.col-sm(name="Lindsey Blanke" headshot="static/img/employees/lindsey-headshot.jpg" credential="OTR/L" title="Occupational Therapist" link="/about/lindsey-blanke")
         EmployeeCard.col-sm(name="Nicole Green" headshot="static/img/employees/nicole-headshot.jpg" credential="OTD, OTR/L" title="Occupational Therapist" link="/about/nicole-green")
       .row.justify-content-center
         EmployeeCard.col-sm(name="Libby Cronin" headshot="static/img/employees/libby-headshot.jpg" credential="MS, OTR/L" title="Occupational Therapist" link="/about/libby-cronin")
         EmployeeCard.col-sm(name="Lara Dato" headshot="static/img/employees/lara-headshot.png" credential="MS, OTR/L" title="Occupational Therapist" link="/about/lara-dato")
+        EmployeeCard.col-sm(name="Amanda Stober" headshot="static/img/employees/astober-headshot.jpeg" credential="OTR/L" title="Occupational Therapist" link="/about/amanda-stober")
 </template>
 
 <script>
