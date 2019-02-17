@@ -1,49 +1,22 @@
 # peekaboo-website
 
-> Official website for Peekaboo Pediatric Therapy LLC in Denver, CO
+> Official website for Peekaboo PEdiatric Therapy LLC in Denver, CO
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+$ npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-# build for production with minification
-npm run prod
+# build for production and launch server
+$ npm run build
+$ npm start
 
-# remove and reinstall dependencies
-npm run reinstall
-
-# lint
-npm run lint
+# generate static project
+$ npm run generate
 ```
 
-Notes
-======
-
-Theme colors
-----
-Green (Pantone): #00A740
-Red-Purple: #E8046A
-
-
-TODO
------
-* Translation to Spanish
-* Screen reader?
-* .min for fontawesome
-* Text box, follow us on Facebook!
-* Finish Footer
-* Application
-* Carosoul at top of page w/ links to classes, application, Blog
-* Add blog page
-* Change text color
-* About me blogs
-* Early Intervention page
-* Feedback page
-* Survey page
-* "Call now for a free 15 min consultation!"
-* Possibly paralax w/ Modernizr
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
