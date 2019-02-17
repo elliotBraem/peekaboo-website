@@ -1,8 +1,6 @@
 <template lang="pug">
   section.container
     div
-      h1.title peekaboo-website
-      h2.subtitle Official website for Peekaboo Pediatric Therapy LLC in Denver, CO
       Welcome
       Services
       Rates
