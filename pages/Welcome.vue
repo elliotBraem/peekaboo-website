@@ -2,14 +2,11 @@
   b-container(fluid)
     b-row
       b-col
+        img.child(src="~/assets/img/child-props/girl-pink-hair.svg")
         no-ssr
-          vue-carousel
+          vue-carousel.main-carousel(autoplay :perPage="1")
             vue-slide Slide 1
             vue-slide Slide 2
-          //- b-carousel.welcome-carousel(id="welcome-carousel" controls indicators background="#ababab" :interval="4000" img-width="1024" img-height="480" v-model="slide" @sliding-start="onSlideStart" @sliding-end="onSlideEnd")
-          //-   b-carousel-slide(caption="First slide" text="Nulla vitae elit libero, a pharetra augue mollis interdum." img-src="https://picsum.photos/1024/480/?image=52")
-          //-   b-carousel-slide(img-src="https://picsum.photos/1024/480/?image=54")
-    //- img.child(src="~/assets/img/child-props/girl-pink-hair.svg")
     b-row(align-h="center")
       b-col
         .text-container
@@ -25,7 +22,12 @@
 <style lang="scss" scoped>
 .child {
   max-height: 250px;
-  transform: rotate(-20deg);
+  // transform: rotate(-20deg);
+}
+
+.main-carousel {
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .adjust {
