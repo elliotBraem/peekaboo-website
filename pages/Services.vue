@@ -1,11 +1,9 @@
 <template lang="pug">
-  .container-fluid
+  b-container(fluid)
     h2.text-center Our Services
     h4.text-center Our therapists are experts in all aspects of your child's development.
-    .services-child.mx-auto
-      div.helper-div
-      //- img.child(src="~/assets/img/child-props/girl-black-hair.svg")
-      div.blue-box
+    .wrapper
+      .services-how.blue-box
         h5(style="padding: 10px 0px 0px 10px;") We look at the child in
         ul.p-3
           li
@@ -19,8 +17,8 @@
             p they interpret how they move and understanding the components needed to play with toys and their caregivers.
     br
     h4.text-center Our therapists are trained in
-    .container
-      //- Crayons
+    .wrapper
+      CrayonList
     .services-child.mx-auto
       div.diagnosis.text-center
         h5 All to help with common childhood diagnosis such as:
@@ -28,16 +26,19 @@
 </template>
 
 <script>
-// import Crayons from './Crayons.vue'
+import CrayonList from '~/components/Services/CrayonList.vue'
 
-// export default {
-//   components: {
-//     Crayons
-//   }
-// }
+export default {
+  components: {
+    CrayonList
+  }
+}
 </script>
 
 <style>
+.services-how {
+  text-align: left;
+}
 /* .services-child
   position: relative
   max-width: 800px

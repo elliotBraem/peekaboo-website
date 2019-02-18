@@ -40,8 +40,18 @@ module.exports = {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/vanhoofmaarten/nuxt-mq
+    'nuxt-mq'
   ],
+  mq: {
+    defaultBreakpoint: 'default',
+    breakpoints: {
+      sm: 450,
+      md: 1250,
+      lg: Infinity
+    }
+  },
 
   /*
   ** Build configuration

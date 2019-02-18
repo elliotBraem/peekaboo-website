@@ -4,7 +4,7 @@
       b-col
         img.child(src="~/assets/img/child-props/girl-pink-hair.svg")
         no-ssr
-          vue-carousel.main-carousel(autoplay :perPage="1")
+          vue-carousel.main-carousel(autoplay loop :perPage="1" :speed="2000" :autoplayTimeout="4000")
             vue-slide Slide 1
             vue-slide Slide 2
     b-row(align-h="center")

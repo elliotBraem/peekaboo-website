@@ -1,3 +1,6 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 $break-small: 320px;
 $break-medium: 770px;
 $break-large: 1200px;
@@ -14,6 +17,14 @@ h1, h2 {
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .child {
