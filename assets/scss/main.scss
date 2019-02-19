@@ -31,15 +31,6 @@ ul {
   position: absolute;
 }
 
-.header-logo {
-  display: block;
-  margin: 2rem auto;
-  @media screen and (min-width: $break-medium) {
-    margin: 2rem 0 2rem 2rem;
-    max-width: 650px;
-  }
-}
-
 .blue-box-container {
   margin: 0 auto;
   max-width: 780px;
