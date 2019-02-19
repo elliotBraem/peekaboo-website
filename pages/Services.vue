@@ -2,9 +2,9 @@
   b-container(fluid)
     h2.text-center Our Services
     h4.text-center Our therapists are experts in all aspects of your child's development.
-    .wrapper
-      .services-how.blue-box
-        h5(style="padding: 10px 0px 0px 10px;") We look at the child in
+    .blue-box-container
+      h5 We look at the child in
+      .blue-box
         ul.p-3
           li
             h5 HOW
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style>
-.services-how {
+.blue-box-container {
   text-align: left;
 }
 /* .services-child

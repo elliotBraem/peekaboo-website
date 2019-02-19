@@ -22,14 +22,14 @@ export default {
   },
   methods: {
     flipCrayon: function(index) {
-      if (this.$mq === 'md')
+      if (this.$mq !== 'sm')
         if (index % 2 === 1)
           return {
             transform: 'rotate(180deg)'
           }
     },
     styleTitle: function(index) {
-      if (this.$mq === 'md')
+      if (this.$mq !== 'sm')
         if (index % 2 === 1)
           return {
             right: '2.4rem',

@@ -11,7 +11,7 @@
 import Welcome from '~/pages/Welcome.vue'
 import Services from '~/pages/Services.vue'
 import Rates from '~/pages/Rates.vue'
-import About from '~/pages/About.vue'
+import About from '~/pages/about/index.vue'
 
 export default {
   components: {

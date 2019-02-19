@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const { directories, getSlugs } = require('./server/utils')
 
 module.exports = {
   mode: 'universal',
@@ -53,6 +54,17 @@ module.exports = {
     }
   },
 
+  /**
+   * Generate configuration
+   * Creates routes for dynamicfiles
+   */
+  generate: {
+    /**
+     * Routes set to slugs for each directory in /employee-bios's markdown file
+     */
+    routes: directories('./assets/files/employee-bios').map(getSlugs)
+  },
+
   /*
   ** Build configuration
   */
@@ -85,6 +97,14 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      config.node = {
+        fs: 'empty'
+      }
+      // Add markdown loader
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader'
+      })
     }
   }
 }

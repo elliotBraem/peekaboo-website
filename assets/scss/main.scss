@@ -40,10 +40,13 @@ ul {
   }
 }
 
-.blue-box {
+.blue-box-container {
+  margin: 0 auto;
   max-width: 780px;
+}
+
+.blue-box {
   background-color: #D6EFFF;
-  margin: 10px 10px 50px 10px;
   -webkit-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3);
