@@ -30,10 +30,6 @@ export default {
   box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3);
 }
 
-.headshot {
-  border-radius: 50%;
-}
-
 .card-body {
   padding-bottom: 0px;
 }

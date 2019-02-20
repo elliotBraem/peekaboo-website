@@ -1,7 +1,9 @@
 <template lang="pug">
   b-container(fluid)
-    .social-media-container
-      SocialMediaBar
+    b-row
+      b-col(md="6" offset-md="6" align="center")
+        .social-media-container
+          SocialMediaBar
     nuxt-link(to="/")
       img.header-logo(src="logo.svg" alt="Peek-a-boo Pediatric Therapy LLC")
 </template>
@@ -19,7 +21,7 @@ export default {
 .header-logo {
   clear: both;
   display: block;
-  margin: 4rem auto;
+  margin: 3rem auto;
   @media screen and (min-width: 770px) {
     margin: 4rem 0 4rem 2rem;
     max-width: 650px;
@@ -27,7 +29,7 @@ export default {
 }
 
 .social-media-container {
-  float: right;
-  margin: 1rem 0;
+  // float: right;
+  margin-top: 1rem;
 }
 </style>

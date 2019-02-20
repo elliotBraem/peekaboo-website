@@ -27,12 +27,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.child {
-  max-height: 250px;
-  // transform: rotate(-20deg);
-}
-
-.adjust {
-  margin-top: -200px;
-}
+// .child {
+//   max-height: 250px;
+//   // transform: rotate(-20deg);
+// }
 </style>

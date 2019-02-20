@@ -7,9 +7,9 @@
           b-col(md="6" order-md="12")
             .desc-container
               h5.slide-desc.pt-4 Here's a webinar to inform you about helpful habits and what to avoid to let your child flourish!
-              span.d-inline-block
-                a.slide-link.pt-3(href="http://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5") Check it out!
-                  font-awesome-icon.mr-2.ml-2(:icon="['fas', 'arrow-right']" target="_blank")
+              b-button.mt-2(variant="info" href="http://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5" size="md") Show me!
+              //- a.slide-link.pt-3(href="http://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5") Check it out!
+              //-   font-awesome-icon.mr-2.ml-2(:icon="['fas', 'arrow-right']" target="_blank")
           b-col(md="6" order-md="1")
             b-img(fluid src="~/assets/img/carousel-props/kid-painted-hands.jpg")
       vue-slide.slide-container

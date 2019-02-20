@@ -1,5 +1,5 @@
 const pkg = require('./package')
-const { directories, getSlugs } = require('./server/utils')
+const { getFiles, getSlugs } = require('./server/utils')
 
 module.exports = {
   mode: 'universal',
@@ -62,7 +62,7 @@ module.exports = {
     /**
      * Routes set to slugs for each directory in /employee-bios's markdown file
      */
-    routes: directories('./assets/files/employee-bios').map(getSlugs)
+    routes: getFiles('./assets/files/employee-bios').map(getSlugs)
   },
 
   /*

@@ -1,8 +1,7 @@
 <template lang="pug">
-  .list-container
-    ul.employee-list(:style="listStyle")
-      li(v-for="employee in employees" :key="employee.id")
-        EmployeeCard.card-container(:employee="employee")
+  ul.employee-list(:style="listStyle")
+    li(v-for="employee in employees" :key="employee.id")
+      EmployeeCard.card-container(:employee="employee")
 </template>
 
 <script>
