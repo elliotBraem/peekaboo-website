@@ -1,5 +1,5 @@
 const { readdirSync } = require('fs')
-const { join } = require('path')
+// const { join } = require('path')
 
 // /**
 //  * Checks if the source is a file
@@ -15,7 +15,7 @@ const { join } = require('path')
  */
 const getFiles = source =>
   readdirSync(source) // Read this directory
-    .map(name => join(source, name)) // For all contents, create path 'source/name'
+    // .map(name => join(source, name)) // For all contents, create path 'source/name'
     .filter(isMarkdown) // Check that content is a directory
 
 /**
@@ -30,7 +30,6 @@ const isMarkdown = file => file.match(/.*\.(md)/gi)
  * @param {string}: post - name of directory
  * @return {string} slug path
  */
-const getSlugs = name =>
-  '/about/${' + name.substring(0, name.indexOf('.md')) + '}'
+const getSlugs = name => '/about/' + name.substring(0, name.indexOf('.md'))
 
 module.exports = { getFiles, getSlugs }
