@@ -28,7 +28,7 @@
             li
               router-link(to="/contact") Contact
     b-row
-      b-col(md="3" offset-md="9")
+      b-col(md="4" offset-md="8")
         h6 Logo and children by Jesey Nicholson
         h6 Website by Elliot Braem
     .subtext.text-center ©2018 Peek-a-boo Pediatric Therapy LLC, All Rights Reserved.

@@ -6,8 +6,8 @@
       .card-text
         h6.text-muted {{ employee.attributes.cred }}
         h6.job-title {{ employee.attributes.title }}
-    //- .text-center.pb-4
-    //-   router-link(:to="employee.attributes.id").card-link Read about me!
+      nuxt-link(:to="link")
+        b-button.mb-3(variant="info" size="sm") Read about me
 </template>
 
 <script>
@@ -16,6 +16,11 @@ export default {
     employee: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    link: function() {
+      return 'about/' + this.employee.attributes.id
     }
   }
 }

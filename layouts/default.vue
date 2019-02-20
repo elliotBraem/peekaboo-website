@@ -30,12 +30,4 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
-.foreground {
-  background-color: #ffffff;
-}
-
-.background {
-  background-color: #d6efff;
-}
 </style>
