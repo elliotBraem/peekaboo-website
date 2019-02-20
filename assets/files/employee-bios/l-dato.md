@@ -1,7 +1,7 @@
 ---
 id: l-dato
 name: Lara Dato
-img: /img/employee-headshots/lara-headshot.png
+img: /dist/img/employee-headshots/lara-headshot.png
 cred: MS, OTR/L
 title: Occupational Therapist
 ---

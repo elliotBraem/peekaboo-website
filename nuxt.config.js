@@ -65,6 +65,11 @@ module.exports = {
     routes: getFiles('./assets/files/employee-bios').map(getSlugs)
   },
 
+  router: {
+    mode: 'hash',
+    base: '/dist/'
+  },
+
   /*
   ** Build configuration
   */

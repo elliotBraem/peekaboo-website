@@ -1,7 +1,7 @@
 ---
 id: l-blanke
 name: Lindsey Blanke
-img: /img/employee-headshots/lindsey-headshot.jpg
+img: /dist/img/employee-headshots/lindsey-headshot.jpg
 cred: OTR/L
 title: Occupational Therapist
 ---

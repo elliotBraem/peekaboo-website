@@ -1,7 +1,7 @@
 ---
 id: a-shimkus
 name: Amanda Shimkus
-img: /img/employee-headshots/amanda-headshot.png
+img: /dist/img/employee-headshots/amanda-headshot.png
 cred: MA, OTR/L SIPT Certified
 title: Owner, Occupational Therapist
 ---

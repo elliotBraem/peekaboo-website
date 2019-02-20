@@ -1,7 +1,7 @@
 ---
 id: a-stober
 name: Amanda Stober
-img: /img/employee-headshots/astober-headshot.jpeg
+img: /dist/img/employee-headshots/astober-headshot.jpeg
 cred: OTR/L
 title: Occupational Therapist
 ---

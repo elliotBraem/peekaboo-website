@@ -1,7 +1,7 @@
 ---
 id: n-green
 name: Nicole Green
-img: /img/employee-headshots/nicole-headshot.jpg
+img: /dist/img/employee-headshots/nicole-headshot.jpg
 cred: OTD, OTR/L
 title: Occupational Therapist
 ---

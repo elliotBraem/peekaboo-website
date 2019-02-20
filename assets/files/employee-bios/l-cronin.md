@@ -1,7 +1,7 @@
 ---
 id: l-cronin
 name: Libby Cronin
-img: /img/employee-headshots/libby-headshot.jpg
+img: /dist/img/employee-headshots/libby-headshot.jpg
 cred: MS, OTR/L
 title: Occupational Therapist
 ---
