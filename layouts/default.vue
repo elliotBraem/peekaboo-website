@@ -1,8 +1,10 @@
 <template <template lang="pug">
   div
-    PageHeader
+    no-ssr
+      PageHeader
     nuxt
-    PageFooter
+    no-ssr
+      PageFooter
 </template>
 
 <script>

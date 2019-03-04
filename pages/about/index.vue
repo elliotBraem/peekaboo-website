@@ -18,12 +18,12 @@ export default {
 
 <style lang="scss" scoped>
 .child {
-  top: -200px;
+  top: 40px;
   left: 0px;
   z-index: -10;
 }
 
-.padding {
-  padding-bottom: 200px;
+.child-container {
+  position: relative;
 }
 </style>

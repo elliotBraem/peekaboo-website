@@ -20,15 +20,15 @@
 </template>
 
 <style lang="scss" scoped>
-.blue-box-container {
-  padding-top: 200px;
-}
-
 .child {
-  top: -200px;
+  top: 20px;
   left: 0px;
   z-index: -10;
   transform: rotate(20deg);
+}
+
+.child-container {
+  position: relative;
 }
 
 .btn-group-container {
@@ -51,32 +51,3 @@
   text-align: center;
 }
 </style>
-
-// .rates-child
-//   position: relative
-//   width: auto
-//   height: auto
-
-// .rates-child .child
-//   position: absolute
-//   max-height: none
-//   z-index: -10
-//   left: -100px
-//   transform: rotate(25deg)
-
-// // Small devices (landscape phones, 420px and up)
-// @media (min-width: 420px)
-//   .rates h2
-//     padding: 0
-
-//   .rates-child .helper-div
-//     padding-bottom: 180px
-//     width: auto
-
-//   .blue-box
-//     margin: auto
-
-// // Medium devices (tablets, 768px and up)
-// @media (min-width: 768px)
-//   .rates-child .helper-div
-//     padding-bottom: 0px;

@@ -39,33 +39,17 @@ export default {
 .blue-box-container {
   position: relative;
   text-align: left;
-  padding-top: 200px;
   margin-bottom: 4rem;
+}
+
+.child-container {
+  position: relative;
 }
 
 .child {
   z-index: -10;
-  top: -200px;
+  top: 20px;
   right: 0;
   transform: rotate(-15deg);
-  // Devices smaller than 650px
-  // @media only screen and (max-width: 650px) {
-  //   top: 15px;
-  //   right: -100px;
-  // }
 }
-/* .services-child
-  position: relative
-  max-width: 800px
-  height: auto
-
-.services-child .helper-div
-  margin-bottom: 180px
-  width: auto
-
-.services-child .child
-  position: absolute
-  z-index: -10
-  top: -140px
-  right: 0px */
 </style>
