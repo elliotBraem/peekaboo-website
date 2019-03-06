@@ -18,7 +18,8 @@ module.exports = {
   },
 
   router: {
-    mode: 'history'
+    mode: 'hash',
+    base: '/dist/'
   },
 
   /*
