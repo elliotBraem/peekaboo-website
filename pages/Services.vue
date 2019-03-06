@@ -3,20 +3,17 @@
     h2.text-center Our Services
     h4.text-center Our therapists are experts in all aspects of your child's development.
     .blue-box-container
-      h5 We look at the child in
       .child-container
         b-img.child(fluid src="~/assets/img/child-props/girl-black-hair.svg")
+      h5 We look at the child in
       .blue-box
         ul.p-3
           li
-            h5 HOW
-            p they manage their body when happy, upset, nervous, etc.
+            h5 &bull; How they manage their body when happy, upset, nervous, etc.</p>
           li
-            h5 HOW
-            p they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.
+            h5 &bull; How they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at. </p>
           li
-            h5 HOW
-            p they interpret how they move and understanding the components needed to play with toys and their caregivers.
+            h5 &bull; How they interpret how they move and understanding the components needed to play with toys and their caregivers.</p>
     h4.text-center Our therapists are trained in
     .wrapper.mb-3
       CrayonList
@@ -48,7 +45,7 @@ export default {
 
 .child {
   z-index: -10;
-  top: 20px;
+  top: 50px;
   right: 0;
   transform: rotate(-15deg);
 }

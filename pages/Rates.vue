@@ -14,7 +14,7 @@
       .child-container
         b-img.child(fluid src="~/assets/img/child-props/boy-yellow-shirt.svg")
       .blue-box
-        p.p-3 Early intervention is a state ran program for children that have minimal to moderate/severe delays in 1 or more areas of development. To see if your child qualifies you can call your local community center board intake coordinator to set up an initial evaluation. It is a no-cost to family program and in doing so they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
+        p.p-3 Early intervention is a state run program for children who have minimal to moderate/severe delays in one or more areas of development. To see if your child qualifies, you can call your local community center board intake coordinator to set up an initial evaluation. This is a no-cost to family program and in doing so, they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
         br
         p.p-3 If you wish to not go through the Early Intervention program we offer private pay rates. <br> Please <a href="#">contact us</a> for more information.
 </template>

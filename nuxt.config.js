@@ -48,7 +48,7 @@ module.exports = {
   mq: {
     defaultBreakpoint: 'default',
     breakpoints: {
-      sm: 450,
+      sm: 590,
       md: 1023,
       lg: Infinity
     }
