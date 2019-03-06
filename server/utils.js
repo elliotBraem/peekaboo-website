@@ -1,12 +1,4 @@
 const { readdirSync } = require('fs')
-// const { join } = require('path')
-
-// /**
-//  * Checks if the source is a file
-//  * @param {string}: source - file/folder to check
-//  * @return {boolean} True if file, else false
-//  */
-// const isFile = source => lstatSync(source).isFile
 
 /**
  * Return the directories in .../'source'

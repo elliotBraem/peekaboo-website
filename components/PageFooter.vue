@@ -55,7 +55,6 @@ div
 
 <style lang="scss" scoped>
 h4 {
-  // color: #5e239d;
   font-family: 'Marker-Felt';
 }
 

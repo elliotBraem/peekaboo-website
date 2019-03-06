@@ -29,7 +29,6 @@ export default {
 }
 
 .social-media-container {
-  // float: right;
   margin-top: 1rem;
 }
 </style>

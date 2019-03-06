@@ -2,7 +2,6 @@
   b-container(fluid)
     b-row
       b-col
-        //- img.child(src="~/assets/img/child-props/girl-pink-hair.svg")
         Carousel
     b-row(align-h="center")
       b-col
@@ -25,10 +24,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-// .child {
-//   max-height: 250px;
-//   // transform: rotate(-20deg);
-// }
-</style>

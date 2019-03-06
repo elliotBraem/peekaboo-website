@@ -66,16 +66,4 @@ export default {
     bottom: 0.2rem;
   }
 }
-// .col-md
-//   flex-grow: 0;
-
-// // Medium devices (tablets, 767px and down)
-// @media (max-width: 767px)
-//   .right
-//     .crayon
-//       transform: none
-
-//     .treatment h6
-//       left: 2.3rem
-//       bottom: 0.1rem
 </style>
