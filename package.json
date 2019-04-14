@@ -1,7 +1,7 @@
 {
   "name": "peekaboo-website",
   "version": "2.0.0",
-  "description": "Official website for Peekaboo Pediatric Therapy LLC in Denver, CO",
+  "description": "Peek-A-Boo Pediatric Therapy provides occupational therapy to children birth through young adulthood to children with special needs in Denver, CO",
   "author": "Elliot Braem",
   "private": true,
   "scripts": {

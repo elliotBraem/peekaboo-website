@@ -6,8 +6,8 @@ cred: MS, OTR/L
 title: Occupational Therapist
 ---
 
-Lara is very passionate about working with children. She graduated with a bachelor’s degree from Bryn Mawr College in Psychology in 2013 and with a Master’s of Science of Occupational Therapy degree from Thomas Jefferson University in 2015.
+Lara is a pediatric occupational therapist with a specialty board certification in Feeding, Eating, and Swallowing. She earned her Bachelor’s of Science degree from Bryn Mawr College in Psychology and received her Master’s of Science in Occupational Therapy from Thomas Jefferson University.
 
-She has a background in working with children of all ages. She is excited about integrating therapy into her clients’ homes, as she truly believes in the benefits of fully incorporating families and routines into therapy. During her education, Lara had several specialized internships and clinical rotations working with children of all ages in Autism Spectrum Disorder specific classrooms. Her work and educational experiences have inspired her to pursue early intervention, where she feels she can best focus her interest in sensory integration and behavior interventions to best help her clients.
+She has worked in hospitals, outpatient clinics, schools, and early intervention settings. She has advanced training and education in treating patients with feeding, eating, and swallowing disorders from a variety of approaches, including developmental, oral-motor, Sequential Oral-Sensory (SOS), sensory, and behavioral. She loves supporting children to becoming happy and adventurous eaters. She enjoys working within her patients’ families routines to help find strategies that work best for each child.
 
-When she is not seeing families on her caseload, Lara enjoys riding her horse, fostering animals, running, and spending time outdoors.
+When not working with families, Lara enjoys spending time outdoors and with her family and pets.
