@@ -1,8 +1,6 @@
 <template lang="pug">
   b-container(fluid)
-    b-row
-      b-col
-        Carousel
+    Carousel
     b-row(align-h="center")
       b-col
         .text-container

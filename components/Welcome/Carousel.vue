@@ -1,41 +1,27 @@
 <template lang="pug">
   no-ssr
     vue-carousel.main-carousel(autoplay loop :perPage="1" :speed="2000" :autoplayTimeout="4000")
-      vue-slide.slide-container
-        h4.slide-title Are you an expecting parent or a parent of a child under 2?
-        b-row
-          b-col(md="6" order-md="12")
-            .desc-container
-              h5.slide-desc.pt-4 Here's a webinar to inform you about helpful habits and what to avoid to let your child flourish!
-              b-button.mt-2(variant="info" href="http://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5" size="md") Show me!
-          b-col(md="6" order-md="1")
-            b-img(fluid src="~/assets/img/carousel-props/kid-painted-hands.jpg")
-      vue-slide.slide-container
-        h4.slide-title
-        b-row
-          b-col(md="6" order-md="12")
-            .desc-container
-              b-button.mb-3(variant="info" href="https://peekabootherapy.com/blog" size="lg") Check out our Blog!
-          b-col(md="6" order-md="1")
-            b-img(fluid src="~/assets/img/carousel-props/girl-pink-hair.png")
+      vue-slide
+        CarouselSlide(title="An Evidence-Based Developmental Approach to the Pediatric Brain" description="Check out the full course by Amanda Shimkus, MA, OTR/L, SIPT" link="https://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5" buttonText="To the course!" image="https://summitproedu.imgix.net/.jpg?auto=compress%2Cenhance%2Cformat&fit=crop&crop=faces&w=384&h=260&mark64=aHR0cHM6Ly9zdW1taXRwcm9lZHUuaW1naXgubmV0L3dhdGVybWFya3MvbmV3LWNpcmNsZS5wbmc%2Fdz0uMQ%3D%3D")
+      vue-slide
+        CarouselSlide(title="Helping vs. Hindering Your Child:" description="A Parent's Guide to Sensory-Motor Development for Infants and Toddlers by Amanda Shimkus, MA, OTR/L, SIPT" link="https://www.spdstar.org/basic/february-webinar" buttonText="Learn more" image="https://www.spdstar.org/sites/default/files/STAR-Institute-logo.png")
+      vue-slide
+        CarouselSlide(title="Are you an expecting parent or a parent of a child under 2?" description="Here's a webinar to inform you about helpful habits and what to avoid to let your child flourish!" link="http://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5" buttonText="Show me!" image="/dist/img/carousel-props/girl-pink-hair.png")
+      vue-slide
+        CarouselSlide(title="Want to learn more?" description="Read our blog written by our talented therapists!" link="https://peekabootherapy.com/blog" buttonText="Blog" image="/dist/img/carousel-props/kid-painted-hands.jpg")
 </template>
 
-<style lang="scss" scoped>
-.main-carousel {
-  max-width: 820px;
-  margin: 0 auto;
-}
+<script>
+import CarouselSlide from '~/components/Welcome/CarouselSlide'
 
-.slide-container {
-  width: 100%;
-}
-.desc-container {
-  @media screen and (min-width: 770px) {
-    padding-right: 20px;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+export default {
+  components: {
+    CarouselSlide
   }
+}
+</script>
+
+<style lang="scss" scoped>
+.main-carousel vue-slide {
 }
 </style>
