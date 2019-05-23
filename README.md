@@ -1,6 +1,6 @@
 # Peekaboo-Website
 
-The Official website for Peek-A-Boo Pediatric Therapy LLC in Denver, CO.
+The official website for Peek-A-Boo Pediatric Therapy LLC in Denver, CO.
 Built with [Vue.js](https://vuejs.org), configured with [Nuxt.js](https://nuxtjs.org).
 The site features an "About Us" page where employeess are loaded from markdown files in assets/files/employee-bios using [frontmatter-markdown-loader](https://github.com/hmsk/frontmatter-markdown-loader).
 
