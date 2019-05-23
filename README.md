@@ -1,22 +1,33 @@
-# peekaboo-website
+# Peekaboo-Website
 
-> Official website for Peekaboo PEdiatric Therapy LLC in Denver, CO
+The Official website for Peek-A-Boo Pediatric Therapy LLC in Denver, CO.
+Built with [Vue.js](https://vuejs.org), configured with [Nuxt.js](https://nuxtjs.org).
+The site features an "About Us" page where employeess are loaded from markdown files in assets/files/employee-bios using [frontmatter-markdown-loader](https://github.com/hmsk/frontmatter-markdown-loader).
 
-## Build Setup
+## Installation
+
+1. Clone the repository
+``` bash
+$ git clone https://github.com/elliotBraem/peekaboo-website.git
+```
+2. Install dependencies
+``` bash
+$ npm run install
+```
+
+## How to use
 
 ``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000/dist
+# serve with hot reload at localhost:3000 or http://127.0.0.1:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
+# generate static website, deploy /dist using FTP
 $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## License
+
+This project is licensed under the MIT License. Feel free to use it as an example for your own projects.
+
