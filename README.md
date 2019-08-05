@@ -18,7 +18,7 @@ $ npm run install
 ## How to use
 
 ``` bash
-# serve with hot reload at localhost:3000 or http://127.0.0.1:3000
+# serve with hot reload at localhost:3000/dist/#/ or http://127.0.0.1:3000
 $ npm run dev
 
 # generate static website, deploy /dist using FTP
@@ -26,6 +26,12 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+### Adding a new employee bio
+
+Add a new markdown file to assets/files/employee-bios/
+Add an image to static/img/employee-headshots/
+
 
 ## License
 
