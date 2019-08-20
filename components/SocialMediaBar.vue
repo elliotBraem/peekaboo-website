@@ -1,5 +1,8 @@
 <template lang="pug">
   span.d-inline-block
+    no-ssr
+      nuxt-link(to="/feeding-groups")
+        b-button.mb-3.mr-3(variant="info" size="sm") Register for Feeding Groups!
     h3.d-inline-block Follow us:
     no-ssr
       a(href="https://www.facebook.com/peekaboopediatrictherapy" target="_blank")
