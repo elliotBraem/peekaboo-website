@@ -30,6 +30,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ### Adding a new employee bio
 
 Add a new markdown file to assets/files/employee-bios/
+
 Add an image to static/img/employee-headshots/
 
 
