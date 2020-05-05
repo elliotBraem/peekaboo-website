@@ -1,8 +1,8 @@
 <template lang="pug">
   b-container(fluid)
-    h2.text-center Our Rates
-    h4.text-center Early Intervention
-    h5.text-center We contract with the following community center boards:
+    h2 Our Rates
+    h4 Early Intervention
+    h5 We contract with the following community center boards:
     .btn-group-container
       a(href="https://www.dpcolo.org/our-programs/early-intervention-department/early-intervention-program/")
         .btn-container(style="background-image: url('https://www.dpcolo.org/wp-content/uploads/2018/01/DP-LOGO-V.png')")

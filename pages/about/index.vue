@@ -1,6 +1,6 @@
 <template lang="pug">
   b-container(fluid)
-    h2.text-center.padding Meet the Therapists
+    h2.padding Meet the Therapists
     .child-container
       b-img.child(fluid src="~/assets/img/child-props/girl-apple.svg")
     EmployeeList

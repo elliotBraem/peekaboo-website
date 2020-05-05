@@ -20,6 +20,13 @@ ul {
   padding-left: 0px;
 }
 
+.container {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .wrapper {
   margin: 0 auto;
   display: flex;
@@ -48,34 +55,13 @@ ul {
   -moz-box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 9px 6px 19px 0px rgba(0, 0, 0, 0.3);
   padding: 5px;
-  // Devices smaller than 350px
-  @media only screen and (max-width: 350px) {
-    // Full width
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  }
 }
 
 .text-container {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 95vw;
   padding: 10px;
-  @media screen and (min-width: $break-medium) {
-    width: 80vw;
-  }
-  @media screen and (min-width: $break-large) {
-    max-width: 960px;
-  }
 }
 
 a {
@@ -101,12 +87,3 @@ a:hover {
 .headshot {
   border-radius: 50%;
 }
-
-// img {
-//   user-drag: none;
-//   user-select: none;
-//   -moz-user-select: none;
-//   -webkit-user-drag: none;
-//   -webkit-user-select: none;
-//   -ms-user-select: none;
-// }

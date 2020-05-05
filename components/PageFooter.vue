@@ -49,7 +49,7 @@ div
       .d-inline-block Website by Elliot Braem
         a.d-inline-block(href="https://brae.me" target="_blank")
           b-img.ml-2.mr-2.subimage(src="~/assets/img/footer-props/braeme.svg")
-    .text-center ©2018 Peek-a-boo Pediatric Therapy LLC.
+    .text-center ©2020 Peek-a-boo Pediatric Therapy LLC.
 </template>
 
 

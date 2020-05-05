@@ -1,7 +1,7 @@
 <template lang="pug">
   b-container(fluid)
-    h2.text-center Our Services
-    h4.text-center Our therapists are experts in all aspects of your child's development.
+    h2 Our Services
+    h4 Our therapists are experts in all aspects of your child's development.
     .blue-box-container
       .child-container
         b-img.child(fluid src="~/assets/img/child-props/girl-black-hair.svg")
@@ -14,10 +14,10 @@
             h5 &bull; How they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at. </p>
           li
             h5 &bull; How they interpret how they move and understanding the components needed to play with toys and their caregivers.</p>
-    h4.text-center Our therapists are trained in
+    h4 Our therapists are trained in
     .wrapper.mb-3
       CrayonList
-    div.diagnosis.text-center
+    div
       h5 All to help with common childhood diagnosis such as:
       p Sensory processing dysfunction &bull; Developmental delays &bull; Fine motor delays &bull; Gross motor delays &bull; Clumsy/discoordinated &bull; Autism &bull; Cerebral Palsy &bull; Childhood syndromes &bull; Neurological conditions &bull; Prematurity &bull; Orthopedic conditions &bull; Hyperactivity &bull; Learning disability &bull; Feeding delays &bull; Trauma &bull; And more
 </template>
@@ -34,7 +34,6 @@ export default {
 
 <style lang="scss" scoped>
 .blue-box-container {
-  position: relative;
   text-align: left;
   margin-bottom: 4rem;
 }
