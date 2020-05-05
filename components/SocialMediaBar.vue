@@ -1,6 +1,9 @@
 <template lang="pug">
   span.d-inline-block
     no-ssr
+      a(href="https://peekabootherapy.com/blog")
+        b-button.mb-3.mr-3(variant="info" size="sm") Read our Blog!
+    no-ssr
       nuxt-link(to="/feeding-groups")
         b-button.mb-3.mr-3(variant="info" size="sm") Register for Feeding Groups!
     h3.d-inline-block Follow us:
