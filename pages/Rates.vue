@@ -10,6 +10,8 @@
         .btn-container(style="background-image: url('https://static.wixstatic.com/media/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png/v1/fill/w_530,h_152,al_c,usm_0.66_1.00_0.01/c74773_0a1ad8f5ede04319a34a5a499ad76d26~mv2_d_4243_1215_s_2.png')")
       a(href="https://ddrcco.com/early-intervention/home")
         .btn-container(style="background-image: url('https://ddrcco.com/images/brand/logo.png')")
+      a(href="https://www.nmetro.org")
+        .btn-container(style="background-image: url('https://www.nmetro.org/wp-content/uploads/2020/04/NMCSLogo600.jpg'); background-position: center;")
     .blue-box-container
       .child-container
         b-img.child(fluid src="~/assets/img/child-props/boy-yellow-shirt.svg")
