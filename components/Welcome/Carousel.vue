@@ -8,6 +8,8 @@
       vue-slide
         CarouselSlide(title="Are you an expecting parent or a parent of a child under 2?" description="Here's a webinar to inform you about helpful habits and what to avoid to let your child flourish!" link="http://spduniversity.spdstar.org/diweb/catalog/item/id/2428006/q/c=325&o=-d?_zs=KdShd1&_zl=NwME5" buttonText="Show me!" image="/dist/img/carousel-props/girl-pink-hair.png")
       vue-slide
+        CarouselSlide(title="Adjustment and Sensory Processing" description="A webinar about structuring a treatment plan by Amanda Shimkus, MA, OTR/L, SIPT" link="https://www.uplearning.gr/p/sensory-processing" buttonText="Course Link" image="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:120/https://www.filepicker.io/api/file/KORX6lxxTcyuvGKMyBHi")
+      vue-slide
         CarouselSlide(title="Want to learn more?" description="Read our blog written by our talented therapists!" link="https://peekabootherapy.com/blog" buttonText="Blog" image="/dist/img/carousel-props/kid-painted-hands.jpg")
 </template>
 

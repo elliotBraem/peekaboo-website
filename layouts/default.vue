@@ -32,4 +32,9 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
 </style>
