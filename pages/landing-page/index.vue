@@ -1,5 +1,6 @@
 <template lang="pug">
 b-container(fluid)
+  h3.text-center When asked how did you learn about Early Intervention, <br> please mention "Peek-A-Boo Pediatric Therapy".
   .btn-group-container
     a(href="https://www.dpcolo.org/our-programs/early-intervention-department/early-intervention-program/")
       .btn-container(style="background-image: url('https://www.dpcolo.org/wp-content/uploads/2018/01/DP-LOGO-V.png')")
