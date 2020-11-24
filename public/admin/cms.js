@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "cfb5c800f381eb62f906";
+/******/ 	var hotCurrentHash = "4454b2b6d00fec6177c2";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -902,7 +902,7 @@ module.exports = [{
   plugin: __webpack_require__(/*! ../node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js */ "./node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js"),
   options: {
     "plugins": [],
-    "modulePath": "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/cms.js"
+    "modulePath": "/Users/ebraem/workspace/peekaboo-website/src/cms/cms.js"
   }
 }];
 
@@ -1006,11 +1006,11 @@ exports.apiRunnerAsync = function (api, args, defaultReturn) {
     return;
   }
 
-  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/api-runner-browser.js");
-  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/api-runner-browser.js");
-  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/api-runner-browser.js");
-  reactHotLoader.register(loadPage, "loadPage", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/api-runner-browser.js");
-  reactHotLoader.register(loadPageSync, "loadPageSync", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "/Users/ebraem/workspace/peekaboo-website/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "/Users/ebraem/workspace/peekaboo-website/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "/Users/ebraem/workspace/peekaboo-website/.cache/api-runner-browser.js");
+  reactHotLoader.register(loadPage, "loadPage", "/Users/ebraem/workspace/peekaboo-website/.cache/api-runner-browser.js");
+  reactHotLoader.register(loadPageSync, "loadPageSync", "/Users/ebraem/workspace/peekaboo-website/.cache/api-runner-browser.js");
 })();
 
 ;
@@ -1095,8 +1095,8 @@ var _default = emitter;
     return;
   }
 
-  reactHotLoader.register(emitter, "emitter", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/emitter.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/emitter.js");
+  reactHotLoader.register(emitter, "emitter", "/Users/ebraem/workspace/peekaboo-website/.cache/emitter.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/emitter.js");
 })();
 
 ;
@@ -1183,9 +1183,9 @@ var _default = ensureComponentInBundle;
     return;
   }
 
-  reactHotLoader.register(didCallServer, "didCallServer", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/ensure-page-component-in-bundle.js");
-  reactHotLoader.register(ensureComponentInBundle, "ensureComponentInBundle", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/ensure-page-component-in-bundle.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/ensure-page-component-in-bundle.js");
+  reactHotLoader.register(didCallServer, "didCallServer", "/Users/ebraem/workspace/peekaboo-website/.cache/ensure-page-component-in-bundle.js");
+  reactHotLoader.register(ensureComponentInBundle, "ensureComponentInBundle", "/Users/ebraem/workspace/peekaboo-website/.cache/ensure-page-component-in-bundle.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/ensure-page-component-in-bundle.js");
 })();
 
 ;
@@ -1308,12 +1308,12 @@ var reportError = function reportError(errorID, error) {
     return;
   }
 
-  reactHotLoader.register(ErrorOverlay, "ErrorOverlay", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/error-overlay-handler.js");
-  reactHotLoader.register(errorMap, "errorMap", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/error-overlay-handler.js");
-  reactHotLoader.register(flat, "flat", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/error-overlay-handler.js");
-  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/error-overlay-handler.js");
-  reactHotLoader.register(clearError, "clearError", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/error-overlay-handler.js");
-  reactHotLoader.register(reportError, "reportError", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/error-overlay-handler.js");
+  reactHotLoader.register(ErrorOverlay, "ErrorOverlay", "/Users/ebraem/workspace/peekaboo-website/.cache/error-overlay-handler.js");
+  reactHotLoader.register(errorMap, "errorMap", "/Users/ebraem/workspace/peekaboo-website/.cache/error-overlay-handler.js");
+  reactHotLoader.register(flat, "flat", "/Users/ebraem/workspace/peekaboo-website/.cache/error-overlay-handler.js");
+  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "/Users/ebraem/workspace/peekaboo-website/.cache/error-overlay-handler.js");
+  reactHotLoader.register(clearError, "clearError", "/Users/ebraem/workspace/peekaboo-website/.cache/error-overlay-handler.js");
+  reactHotLoader.register(reportError, "reportError", "/Users/ebraem/workspace/peekaboo-website/.cache/error-overlay-handler.js");
 })();
 
 ;
@@ -1494,15 +1494,15 @@ var cleanPath = function cleanPath(rawPathname) {
     return;
   }
 
-  reactHotLoader.register(pathCache, "pathCache", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(matchPaths, "matchPaths", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(trimPathname, "trimPathname", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(absolutify, "absolutify", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(setMatchPaths, "setMatchPaths", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(findMatchPath, "findMatchPath", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(grabMatchParams, "grabMatchParams", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(findPath, "findPath", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
-  reactHotLoader.register(cleanPath, "cleanPath", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/find-path.js");
+  reactHotLoader.register(pathCache, "pathCache", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(matchPaths, "matchPaths", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(trimPathname, "trimPathname", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(absolutify, "absolutify", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(setMatchPaths, "setMatchPaths", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(findMatchPath, "findMatchPath", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(grabMatchParams, "grabMatchParams", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(findPath, "findPath", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
+  reactHotLoader.register(cleanPath, "cleanPath", "/Users/ebraem/workspace/peekaboo-website/.cache/find-path.js");
 })();
 
 ;
@@ -1558,7 +1558,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_page_renderer__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_page_renderer__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony reexport (default from non-harmony) */ __webpack_require__.d(__webpack_exports__, "PageRenderer", function() { return _public_page_renderer__WEBPACK_IMPORTED_MODULE_4___default.a; });
 /* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loader */ "./.cache/loader.js");
-var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js",
+var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js",
     _this = undefined;
 
 (function () {
@@ -1706,12 +1706,12 @@ function graphql() {
     return;
   }
 
-  reactHotLoader.register(prefetchPathname, "prefetchPathname", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQueryDataRenderer, "StaticQueryDataRenderer", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQuery, "StaticQuery", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(useStaticQuery, "useStaticQuery", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(graphql, "graphql", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(prefetchPathname, "prefetchPathname", "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryDataRenderer, "StaticQueryDataRenderer", "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQuery, "StaticQuery", "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(useStaticQuery, "useStaticQuery", "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(graphql, "graphql", "/Users/ebraem/workspace/peekaboo-website/.cache/gatsby-browser-entry.js");
 })();
 
 ;
@@ -2404,21 +2404,21 @@ function getStaticQueryResults() {
     return;
   }
 
-  reactHotLoader.register(PageResourceStatus, "PageResourceStatus", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(preferDefault, "preferDefault", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(stripSurroundingSlashes, "stripSurroundingSlashes", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(createPageDataUrl, "createPageDataUrl", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(doFetch, "doFetch", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(doesConnectionSupportPrefetch, "doesConnectionSupportPrefetch", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(toPageResources, "toPageResources", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(BaseLoader, "BaseLoader", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(createComponentUrls, "createComponentUrls", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(ProdLoader, "ProdLoader", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(instance, "instance", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(setLoader, "setLoader", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(publicLoader, "publicLoader", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(getStaticQueryResults, "getStaticQueryResults", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/loader.js");
+  reactHotLoader.register(PageResourceStatus, "PageResourceStatus", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(stripSurroundingSlashes, "stripSurroundingSlashes", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(createPageDataUrl, "createPageDataUrl", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(doFetch, "doFetch", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(doesConnectionSupportPrefetch, "doesConnectionSupportPrefetch", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(toPageResources, "toPageResources", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(BaseLoader, "BaseLoader", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(createComponentUrls, "createComponentUrls", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(ProdLoader, "ProdLoader", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(instance, "instance", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(setLoader, "setLoader", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(publicLoader, "publicLoader", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(getStaticQueryResults, "getStaticQueryResults", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/loader.js");
 })();
 
 ;
@@ -2475,7 +2475,7 @@ var _default = function _default(path) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/normalize-page-path.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/normalize-page-path.js");
 })();
 
 ;
@@ -2586,8 +2586,8 @@ var _default = PageRenderer;
     return;
   }
 
-  reactHotLoader.register(PageRenderer, "PageRenderer", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/page-renderer.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/page-renderer.js");
+  reactHotLoader.register(PageRenderer, "PageRenderer", "/Users/ebraem/workspace/peekaboo-website/.cache/page-renderer.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/page-renderer.js");
 })();
 
 ;
@@ -2701,13 +2701,13 @@ var _default = prefetch;
     return;
   }
 
-  reactHotLoader.register(support, "support", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
-  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
-  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
-  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
-  reactHotLoader.register(preFetched, "preFetched", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
-  reactHotLoader.register(prefetch, "prefetch", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/prefetch.js");
+  reactHotLoader.register(support, "support", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
+  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
+  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
+  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
+  reactHotLoader.register(preFetched, "preFetched", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
+  reactHotLoader.register(prefetch, "prefetch", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/prefetch.js");
 })();
 
 ;
@@ -2774,8 +2774,8 @@ var _default = DevPageRenderer;
     return;
   }
 
-  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/public-page-renderer-dev.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/public-page-renderer-dev.js");
+  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "/Users/ebraem/workspace/peekaboo-website/.cache/public-page-renderer-dev.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/.cache/public-page-renderer-dev.js");
 })();
 
 ;
@@ -2821,7 +2821,7 @@ if (true) {
     return;
   }
 
-  reactHotLoader.register(preferDefault, "preferDefault", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/public-page-renderer.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "/Users/ebraem/workspace/peekaboo-website/.cache/public-page-renderer.js");
 })();
 
 ;
@@ -2854,7 +2854,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _normalize_page_path__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./normalize-page-path */ "./.cache/normalize-page-path.js");
 /* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./loader */ "./.cache/loader.js");
 
-var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/.cache/query-result-store.js";
+var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/.cache/query-result-store.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -3041,9 +3041,9 @@ var StaticQueryStore = /*#__PURE__*/function (_React$Component2) {
     return;
   }
 
-  reactHotLoader.register(getPathFromProps, "getPathFromProps", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/query-result-store.js");
-  reactHotLoader.register(PageQueryStore, "PageQueryStore", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/query-result-store.js");
-  reactHotLoader.register(StaticQueryStore, "StaticQueryStore", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/query-result-store.js");
+  reactHotLoader.register(getPathFromProps, "getPathFromProps", "/Users/ebraem/workspace/peekaboo-website/.cache/query-result-store.js");
+  reactHotLoader.register(PageQueryStore, "PageQueryStore", "/Users/ebraem/workspace/peekaboo-website/.cache/query-result-store.js");
+  reactHotLoader.register(StaticQueryStore, "StaticQueryStore", "/Users/ebraem/workspace/peekaboo-website/.cache/query-result-store.js");
 })();
 
 ;
@@ -3159,10 +3159,10 @@ function unregisterPath(path) {
     return;
   }
 
-  reactHotLoader.register(socket, "socket", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/socketIo.js");
-  reactHotLoader.register(socketIo, "socketIo", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/socketIo.js");
-  reactHotLoader.register(registerPath, "registerPath", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/socketIo.js");
-  reactHotLoader.register(unregisterPath, "unregisterPath", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/socketIo.js");
+  reactHotLoader.register(socket, "socket", "/Users/ebraem/workspace/peekaboo-website/.cache/socketIo.js");
+  reactHotLoader.register(socketIo, "socketIo", "/Users/ebraem/workspace/peekaboo-website/.cache/socketIo.js");
+  reactHotLoader.register(registerPath, "registerPath", "/Users/ebraem/workspace/peekaboo-website/.cache/socketIo.js");
+  reactHotLoader.register(unregisterPath, "unregisterPath", "/Users/ebraem/workspace/peekaboo-website/.cache/socketIo.js");
 })();
 
 ;
@@ -3226,7 +3226,7 @@ function stripPrefix(str, prefix) {
     return;
   }
 
-  reactHotLoader.register(stripPrefix, "stripPrefix", "/Users/ebraem/workspace/peekaboo-website-v2/.cache/strip-prefix.js");
+  reactHotLoader.register(stripPrefix, "stripPrefix", "/Users/ebraem/workspace/peekaboo-website/.cache/strip-prefix.js");
 })();
 
 ;
@@ -13343,42 +13343,42 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(_assertThisInitialized2, "_assertThisInitialized2", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_inheritsLoose2, "_inheritsLoose2", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_objectWithoutPropertiesLoose2, "_objectWithoutPropertiesLoose2", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_extends2, "_extends2", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_react, "_react", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_propTypes, "_propTypes", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(logDeprecationNotice, "logDeprecationNotice", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(convertProps, "convertProps", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(hasArtDirectionSupport, "hasArtDirectionSupport", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(matchesMedia, "matchesMedia", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(getImageCacheKey, "getImageCacheKey", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(getCurrentSrcData, "getCurrentSrcData", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(imageCache, "imageCache", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(inImageCache, "inImageCache", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(activateCacheForImage, "activateCacheForImage", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(hasNativeLazyLoadSupport, "hasNativeLazyLoadSupport", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(isBrowser, "isBrowser", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(hasIOSupport, "hasIOSupport", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(io, "io", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(listeners, "listeners", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(getIO, "getIO", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateImageSources, "generateImageSources", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(groupByMedia, "groupByMedia", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateTracedSVGSources, "generateTracedSVGSources", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateBase64Sources, "generateBase64Sources", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateNoscriptSource, "generateNoscriptSource", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(generateNoscriptSources, "generateNoscriptSources", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(listenToIntersections, "listenToIntersections", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(noscriptImg, "noscriptImg", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(Placeholder, "Placeholder", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(Img, "Img", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(Image, "Image", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(fixedObject, "fixedObject", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(fluidObject, "fluidObject", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(requireFixedOrFluid, "requireFixedOrFluid", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
-  reactHotLoader.register(_default, "_default", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_assertThisInitialized2, "_assertThisInitialized2", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_inheritsLoose2, "_inheritsLoose2", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_objectWithoutPropertiesLoose2, "_objectWithoutPropertiesLoose2", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_extends2, "_extends2", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_react, "_react", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_propTypes, "_propTypes", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(logDeprecationNotice, "logDeprecationNotice", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(convertProps, "convertProps", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(hasArtDirectionSupport, "hasArtDirectionSupport", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(matchesMedia, "matchesMedia", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(getImageCacheKey, "getImageCacheKey", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(getCurrentSrcData, "getCurrentSrcData", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(imageCache, "imageCache", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(inImageCache, "inImageCache", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(activateCacheForImage, "activateCacheForImage", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(hasNativeLazyLoadSupport, "hasNativeLazyLoadSupport", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(isBrowser, "isBrowser", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(hasIOSupport, "hasIOSupport", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(io, "io", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(listeners, "listeners", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(getIO, "getIO", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateImageSources, "generateImageSources", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(groupByMedia, "groupByMedia", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateTracedSVGSources, "generateTracedSVGSources", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateBase64Sources, "generateBase64Sources", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateNoscriptSource, "generateNoscriptSource", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(generateNoscriptSources, "generateNoscriptSources", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(listenToIntersections, "listenToIntersections", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(noscriptImg, "noscriptImg", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(Placeholder, "Placeholder", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(Img, "Img", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(Image, "Image", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(fixedObject, "fixedObject", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(fluidObject, "fluidObject", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(requireFixedOrFluid, "requireFixedOrFluid", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
+  reactHotLoader.register(_default, "_default", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-image/index.js");
 })();
 
 ;
@@ -13819,8 +13819,8 @@ setImmediate(function () {
     return;
   }
 
-  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 })();
 
 ;
@@ -13891,8 +13891,8 @@ _netlifyCmsApp.default.registerPreviewStyle("cms.css");
     return;
   }
 
-  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/cms.js");
-  reactHotLoader.register(_emitter, "_emitter", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_emitter, "_emitter", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/cms.js");
 })();
 
 ;
@@ -13968,10 +13968,10 @@ exports.onInitialClientRender = function (_, _ref) {
     return;
   }
 
-  reactHotLoader.register(_interopRequireWildcard2, "_interopRequireWildcard2", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
-  reactHotLoader.register(routes, "routes", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
-  reactHotLoader.register(errorRoute, "errorRoute", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
-  reactHotLoader.register(accessTokenRoute, "accessTokenRoute", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(_interopRequireWildcard2, "_interopRequireWildcard2", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(routes, "routes", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(errorRoute, "errorRoute", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
+  reactHotLoader.register(accessTokenRoute, "accessTokenRoute", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js");
 })();
 
 ;
@@ -14468,10 +14468,10 @@ exports.onRouteUpdate = function (apiCallbackContext, pluginOptions) {
     return;
   }
 
-  reactHotLoader.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-remark-images/gatsby-browser.js");
-  reactHotLoader.register(imageClass, "imageClass", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-remark-images/gatsby-browser.js");
-  reactHotLoader.register(imageBackgroundClass, "imageBackgroundClass", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-remark-images/gatsby-browser.js");
-  reactHotLoader.register(imageWrapperClass, "imageWrapperClass", "/Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(imageClass, "imageClass", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(imageBackgroundClass, "imageBackgroundClass", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-remark-images/gatsby-browser.js");
+  reactHotLoader.register(imageWrapperClass, "imageWrapperClass", "/Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-remark-images/gatsby-browser.js");
 })();
 
 ;
@@ -82413,7 +82413,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_about_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/about-page */ "./src/templates/about-page.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/AboutPagePreview.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/AboutPagePreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -82460,8 +82460,8 @@ var _default = AboutPagePreview;
     return;
   }
 
-  reactHotLoader.register(AboutPagePreview, "AboutPagePreview", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/AboutPagePreview.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/AboutPagePreview.js");
+  reactHotLoader.register(AboutPagePreview, "AboutPagePreview", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/AboutPagePreview.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/AboutPagePreview.js");
 })();
 
 ;
@@ -82489,7 +82489,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_blog_post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/blog-post */ "./src/templates/blog-post.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/BlogPostPreview.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/BlogPostPreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -82539,8 +82539,8 @@ var _default = BlogPostPreview;
     return;
   }
 
-  reactHotLoader.register(BlogPostPreview, "BlogPostPreview", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/BlogPostPreview.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/BlogPostPreview.js");
+  reactHotLoader.register(BlogPostPreview, "BlogPostPreview", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/BlogPostPreview.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/BlogPostPreview.js");
 })();
 
 ;
@@ -82568,7 +82568,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_index_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/index-page */ "./src/templates/index-page.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/IndexPagePreview.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/IndexPagePreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -82635,8 +82635,8 @@ var _default = IndexPagePreview;
     return;
   }
 
-  reactHotLoader.register(IndexPagePreview, "IndexPagePreview", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/IndexPagePreview.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/IndexPagePreview.js");
+  reactHotLoader.register(IndexPagePreview, "IndexPagePreview", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/IndexPagePreview.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/IndexPagePreview.js");
 })();
 
 ;
@@ -82664,7 +82664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_product_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../templates/product-page */ "./src/templates/product-page.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/ProductPagePreview.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/ProductPagePreview.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -82745,8 +82745,8 @@ var _default = ProductPagePreview;
     return;
   }
 
-  reactHotLoader.register(ProductPagePreview, "ProductPagePreview", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/ProductPagePreview.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/cms/preview-templates/ProductPagePreview.js");
+  reactHotLoader.register(ProductPagePreview, "ProductPagePreview", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/ProductPagePreview.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/cms/preview-templates/ProductPagePreview.js");
 })();
 
 ;
@@ -82777,7 +82777,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
 
 
-var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/BlogRoll.js",
+var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/BlogRoll.js",
     _this2 = undefined;
 
 (function () {
@@ -82978,8 +82978,8 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(BlogRoll, "BlogRoll", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/BlogRoll.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/BlogRoll.js");
+  reactHotLoader.register(BlogRoll, "BlogRoll", "/Users/ebraem/workspace/peekaboo-website/src/components/BlogRoll.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/BlogRoll.js");
 })();
 
 ;
@@ -83007,7 +83007,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Content.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Content.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -83067,9 +83067,9 @@ var _default = Content;
     return;
   }
 
-  reactHotLoader.register(HTMLContent, "HTMLContent", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Content.js");
-  reactHotLoader.register(Content, "Content", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Content.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Content.js");
+  reactHotLoader.register(HTMLContent, "HTMLContent", "/Users/ebraem/workspace/peekaboo-website/src/components/Content.js");
+  reactHotLoader.register(Content, "Content", "/Users/ebraem/workspace/peekaboo-website/src/components/Content.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Content.js");
 })();
 
 ;
@@ -83097,7 +83097,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Features.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Features.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -83195,8 +83195,8 @@ var _default = FeatureGrid;
     return;
   }
 
-  reactHotLoader.register(FeatureGrid, "FeatureGrid", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Features.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Features.js");
+  reactHotLoader.register(FeatureGrid, "FeatureGrid", "/Users/ebraem/workspace/peekaboo-website/src/components/Features.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Features.js");
 })();
 
 ;
@@ -83233,7 +83233,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/social/vimeo.svg */ "./src/img/social/vimeo.svg");
 /* harmony import */ var _img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7__);
 
-var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Footer.js";
+var _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Footer.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -83599,8 +83599,8 @@ var _default = Footer;
     return;
   }
 
-  reactHotLoader.register(Footer, "Footer", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Footer.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Footer.js");
+  reactHotLoader.register(Footer, "Footer", "/Users/ebraem/workspace/peekaboo-website/src/components/Footer.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Footer.js");
 })();
 
 ;
@@ -83632,7 +83632,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SiteMetadata__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SiteMetadata */ "./src/components/SiteMetadata.js");
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Layout.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Layout.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -83822,8 +83822,8 @@ var _default = TemplateWrapper;
     return;
   }
 
-  reactHotLoader.register(TemplateWrapper, "TemplateWrapper", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Layout.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Layout.js");
+  reactHotLoader.register(TemplateWrapper, "TemplateWrapper", "/Users/ebraem/workspace/peekaboo-website/src/components/Layout.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Layout.js");
 })();
 
 ;
@@ -83856,7 +83856,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _temp,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Navbar.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Navbar.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -84107,8 +84107,8 @@ var _default = Navbar;
     return;
   }
 
-  reactHotLoader.register(Navbar, "Navbar", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Navbar.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Navbar.js");
+  reactHotLoader.register(Navbar, "Navbar", "/Users/ebraem/workspace/peekaboo-website/src/components/Navbar.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Navbar.js");
 })();
 
 ;
@@ -84137,7 +84137,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
 /* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/PreviewCompatibleImage.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/PreviewCompatibleImage.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -84223,8 +84223,8 @@ var _default = PreviewCompatibleImage;
     return;
   }
 
-  reactHotLoader.register(PreviewCompatibleImage, "PreviewCompatibleImage", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/PreviewCompatibleImage.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/PreviewCompatibleImage.js");
+  reactHotLoader.register(PreviewCompatibleImage, "PreviewCompatibleImage", "/Users/ebraem/workspace/peekaboo-website/src/components/PreviewCompatibleImage.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/PreviewCompatibleImage.js");
 })();
 
 ;
@@ -84251,7 +84251,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Pricing.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Pricing.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -84358,8 +84358,8 @@ var _default = Pricing;
     return;
   }
 
-  reactHotLoader.register(Pricing, "Pricing", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Pricing.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Pricing.js");
+  reactHotLoader.register(Pricing, "Pricing", "/Users/ebraem/workspace/peekaboo-website/src/components/Pricing.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Pricing.js");
 })();
 
 ;
@@ -84415,8 +84415,8 @@ var _default = useSiteMetadata;
     return;
   }
 
-  reactHotLoader.register(useSiteMetadata, "useSiteMetadata", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/SiteMetadata.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/SiteMetadata.js");
+  reactHotLoader.register(useSiteMetadata, "useSiteMetadata", "/Users/ebraem/workspace/peekaboo-website/src/components/SiteMetadata.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/SiteMetadata.js");
 })();
 
 ;
@@ -84444,7 +84444,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! uuid */ "./node_modules/uuid/dist/esm-browser/index.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Testimonials.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/components/Testimonials.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -84521,8 +84521,8 @@ var _default = Testimonials;
     return;
   }
 
-  reactHotLoader.register(Testimonials, "Testimonials", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Testimonials.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/components/Testimonials.js");
+  reactHotLoader.register(Testimonials, "Testimonials", "/Users/ebraem/workspace/peekaboo-website/src/components/Testimonials.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/components/Testimonials.js");
 })();
 
 ;
@@ -84544,7 +84544,7 @@ var _default = Testimonials;
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1606254399256
+      // 1606255486283
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -84637,7 +84637,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Content */ "./src/components/Content.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/about-page.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/templates/about-page.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -84760,10 +84760,10 @@ var aboutPageQuery = "3414030819";
     return;
   }
 
-  reactHotLoader.register(AboutPageTemplate, "AboutPageTemplate", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/about-page.js");
-  reactHotLoader.register(AboutPage, "AboutPage", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/about-page.js");
-  reactHotLoader.register(aboutPageQuery, "aboutPageQuery", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/about-page.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/about-page.js");
+  reactHotLoader.register(AboutPageTemplate, "AboutPageTemplate", "/Users/ebraem/workspace/peekaboo-website/src/templates/about-page.js");
+  reactHotLoader.register(AboutPage, "AboutPage", "/Users/ebraem/workspace/peekaboo-website/src/templates/about-page.js");
+  reactHotLoader.register(aboutPageQuery, "aboutPageQuery", "/Users/ebraem/workspace/peekaboo-website/src/templates/about-page.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/templates/about-page.js");
 })();
 
 ;
@@ -84800,7 +84800,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/blog-post.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/templates/blog-post.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -85000,10 +85000,10 @@ var pageQuery = "2655957122";
     return;
   }
 
-  reactHotLoader.register(BlogPostTemplate, "BlogPostTemplate", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/blog-post.js");
-  reactHotLoader.register(BlogPost, "BlogPost", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/blog-post.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/blog-post.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/blog-post.js");
+  reactHotLoader.register(BlogPostTemplate, "BlogPostTemplate", "/Users/ebraem/workspace/peekaboo-website/src/templates/blog-post.js");
+  reactHotLoader.register(BlogPost, "BlogPost", "/Users/ebraem/workspace/peekaboo-website/src/templates/blog-post.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/ebraem/workspace/peekaboo-website/src/templates/blog-post.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/templates/blog-post.js");
 })();
 
 ;
@@ -85036,7 +85036,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Features */ "./src/components/Features.js");
 /* harmony import */ var _components_BlogRoll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/BlogRoll */ "./src/components/BlogRoll.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/index-page.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/templates/index-page.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -85378,10 +85378,10 @@ var pageQuery = "1377013887";
     return;
   }
 
-  reactHotLoader.register(IndexPageTemplate, "IndexPageTemplate", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/index-page.js");
-  reactHotLoader.register(IndexPage, "IndexPage", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/index-page.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/index-page.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/index-page.js");
+  reactHotLoader.register(IndexPageTemplate, "IndexPageTemplate", "/Users/ebraem/workspace/peekaboo-website/src/templates/index-page.js");
+  reactHotLoader.register(IndexPage, "IndexPage", "/Users/ebraem/workspace/peekaboo-website/src/templates/index-page.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/Users/ebraem/workspace/peekaboo-website/src/templates/index-page.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/templates/index-page.js");
 })();
 
 ;
@@ -85415,7 +85415,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Pricing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pricing */ "./src/components/Pricing.js");
 /* harmony import */ var _components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
 var _this = undefined,
-    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/product-page.js";
+    _jsxFileName = "/Users/ebraem/workspace/peekaboo-website/src/templates/product-page.js";
 
 (function () {
   var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
@@ -85799,10 +85799,10 @@ var productPageQuery = "2942159050";
     return;
   }
 
-  reactHotLoader.register(ProductPageTemplate, "ProductPageTemplate", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/product-page.js");
-  reactHotLoader.register(ProductPage, "ProductPage", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/product-page.js");
-  reactHotLoader.register(productPageQuery, "productPageQuery", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/product-page.js");
-  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website-v2/src/templates/product-page.js");
+  reactHotLoader.register(ProductPageTemplate, "ProductPageTemplate", "/Users/ebraem/workspace/peekaboo-website/src/templates/product-page.js");
+  reactHotLoader.register(ProductPage, "ProductPage", "/Users/ebraem/workspace/peekaboo-website/src/templates/product-page.js");
+  reactHotLoader.register(productPageQuery, "productPageQuery", "/Users/ebraem/workspace/peekaboo-website/src/templates/product-page.js");
+  reactHotLoader.register(_default, "default", "/Users/ebraem/workspace/peekaboo-website/src/templates/product-page.js");
 })();
 
 ;
@@ -85822,9 +85822,9 @@ var productPageQuery = "2942159050";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-__webpack_require__(/*! /Users/ebraem/workspace/peekaboo-website-v2/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-module.exports = __webpack_require__(/*! /Users/ebraem/workspace/peekaboo-website-v2/src/cms/cms.js */"./src/cms/cms.js");
+__webpack_require__(/*! /Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+__webpack_require__(/*! /Users/ebraem/workspace/peekaboo-website/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+module.exports = __webpack_require__(/*! /Users/ebraem/workspace/peekaboo-website/src/cms/cms.js */"./src/cms/cms.js");
 
 
 /***/ }),
