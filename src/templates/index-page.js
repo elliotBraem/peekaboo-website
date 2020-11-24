@@ -15,8 +15,8 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
+    <div>
+      {/* <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -33,7 +33,7 @@ export const IndexPageTemplate = ({
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
-          flexDirection: 'column',
+          flexDirection: 'column'        
         }}
       >
         <h1
@@ -44,7 +44,7 @@ export const IndexPageTemplate = ({
             backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.25em'
           }}
         >
           {title}
@@ -63,56 +63,60 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
+    </div> */}
+      <section className="section section--gradient">
+        <div className="container has-text-centered">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="tile">
+                  <div className="content">
                     <h1 className="title">{mainpitch.title}</h1>
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line1}</h3>
+                    </div>
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line2}</h3>
+                    </div>
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line3}</h3>
+                    </div>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <p>{description}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="columns">
+                  <Features gridItems={intro.blurbs} />
+                  <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/products">
+                        See all products
+                    </Link>
+                    </div>
+                  </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                      Latest stories
                   </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
+                    <BlogRoll />
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/blog">
+                        Read more
                     </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-)
+      </section>
+    </div>
+  )
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -170,7 +174,9 @@ export const pageQuery = graphql`
         subheading
         mainpitch {
           title
-          description
+          line1,
+          line2,
+          line3
         }
         description
         intro {
