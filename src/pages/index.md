@@ -5,32 +5,44 @@ image: /img/child-laughing.jpg
 heading: null
 subheading: Let's give your child that chance
 mainpitch:
-  heading: Who we are
+  heading: Welcome!
   line1: >
     Peek-a-boo Pediatric Therapy provides occupational therapy services to children birth to 3 years old and their families in the Denver-metro area.
   line2: >
     We provide services in environments where your child experiences the most; your home, your daycare, or in the community.
+  line3: >
+    We are named Peek-a-boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life.
 services:
-  heading: What we offer
+  heading: SERVICES
   subheading: test
   intro: We look at the child in
   list: ["How they manage their body when happy, upset, nervous, etc.", "How they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.", "How they interpret how they move and understanding the components needed to play with toys and their caregivers."]
+  crayons: [
+  "interoception",
+  "regulation",
+  "sensory processing",
+  "motor skills",
+  "play",
+  "social skills",
+  "speech and language",
+  "feeding",
+  "visual impairments",
+  "hearing impairments",
+  "assistive technology",
+  "movement and handling",
+  "trauma and attachment"
+  ]
+rates:
+  heading: RATES
+  ei: Early Intervention
+  subheading: "We contract with the following community center boards:"
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
 intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        How they manage their body when happy, upset, nervous, etc.
-    - image: /img/coffee-gear.png
-      text: >
-        How they interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.
-    - image: /img/tutorials.png
-      text: >
-        How they interpret how they move and understanding the components needed to play with toys and their caregivers.
+  blurbs: ["One", "Two", "Three"]
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

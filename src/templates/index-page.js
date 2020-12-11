@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import child from '../img/children/boy-red-shirt.svg'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-// import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -13,12 +12,13 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   services,
+  rates,
   description,
   intro,
 }) => (
     <div>
       {/* start landing image */}
-      <div
+      {/* <div
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -64,32 +64,50 @@ export const IndexPageTemplate = ({
             {subheading}
           </h3>
         </div>
-      </div>
+      </div> */}
       {/* end landing image */}
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="content">
+              <div className="column is-5">
+                <div className="child">
+                  <img src={child} alt="Child" style={{ width: '100%' }} />
+                </div>
+              </div>
+              <div className="column is-7">
+                <div className="content has-text-left has-text-centered-mobile">
                   {/* start mainpitch */}
                   <div className="content">
+                    <h1 className="title">{mainpitch.heading}</h1>
                     <div className="tile">
-                      <h1 className="title">{mainpitch.heading}</h1>
+                      <h6 className="subtitle">{mainpitch.line1}</h6>
                     </div>
                     <div className="tile">
-                      <h3 className="subtitle">{mainpitch.line1}</h3>
+                      <h6 className="subtitle">{mainpitch.line2}</h6>
                     </div>
                     <div className="tile">
-                      <h3 className="subtitle">{mainpitch.line2}</h3>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.line3}</h3>
+                      <h6 className="subtitle">{mainpitch.line3}</h6>
                     </div>
                   </div>
                   {/* end mainpitch */}
                   {/* start services */}
-                  <div className="content">
+                  {/* <div className="content has-text-centered">
+                    <h1 className="title">{services.heading}</h1>
+                    <br />
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line1}</h3>
+                    </div>
+                    <br />
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line2}</h3>
+                    </div>
+                    <br />
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line3}</h3>
+                    </div>
+                  </div> */}
+                  {/* <div className="content">
                     <h1 className="title">{services.heading}</h1>
                     <div className="tile">
                       <h3 className="subtitle">{services.subheading}</h3>
@@ -100,21 +118,37 @@ export const IndexPageTemplate = ({
                     <div className="tile">
                       {services.list[0]}
                     </div>
-                  </div>
+                  </div> */}
                   {/* end services */}
                   {/* start rates */}
+                  {/* <div className="content has-text-centered">
+                    <h1 className="title">{rates.heading}</h1>
+                    <br />
+                    <div className="tile">
+                      <h4 className="title">{rates.ei}</h4>
+                      <h5 className="subtitle">{rates.subheading}</h5>
+                    </div>
+                    <br />
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line2}</h3>
+                    </div>
+                    <br />
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.line3}</h3>
+                    </div>
+                  </div> */}
                   {/* end rates */}
                   {/* start team */}
                   {/* end team */}
-                  <div className="columns">
+                  {/* <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
                       <p>{description}</p>
                     </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
+                  </div> */}
+                  {/* <CrayonList listItems={intro.blurbs} /> */}
                   {/* <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
@@ -139,7 +173,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
-    </div>
+    </div >
   )
 
 IndexPageTemplate.propTypes = {
@@ -148,10 +182,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  description: PropTypes.string
 }
 
 const IndexPage = ({ data }) => {
@@ -168,6 +199,7 @@ const IndexPage = ({ data }) => {
         services={frontmatter.services}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        rates={frontmatter.rates}
       />
     </Layout>
   )
@@ -201,6 +233,7 @@ export const pageQuery = graphql`
           heading
           line1
           line2
+          line3
         }
         services {
           heading
@@ -208,18 +241,13 @@ export const pageQuery = graphql`
           intro
           list
         }
+        rates {
+          heading
+          ei
+          subheading
+        }
         description
         intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
           heading
           description
         }
