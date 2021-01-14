@@ -17,83 +17,27 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    {/* start landing image */}
-    {/* <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            height: '150px',
-            lineHeight: '1',
-            justifyContent: 'space-around',
-            alignItems: 'flex-end',
-            flexDirection: 'column'
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              boxShadow:
-                'rgb(237,25,119) 0.5rem 0px 0px, rgb(237,25,119) -0.5rem 0px 0px',
-              backgroundColor: 'rgb(237,25,119)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.25em'
-            }}
-          >
-            {title}
-          </h1>
-          <h3
-            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-            style={{
-              boxShadow:
-                'rgb(237,25,119) 0.5rem 0px 0px, rgb(237,25,119) -0.5rem 0px 0px',
-              backgroundColor: 'rgb(237,25,119)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.25em',
-            }}
-          >
-            {subheading}
-          </h3>
-        </div>
-      </div> */}
-    {/* end landing image */}
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns">
-            <div className="content has-text-centered">
-              <div className="content">
-                <div className="tile">
-                  <h6>{mainpitch.line2}</h6>
-                </div>
-                <div className="tile">
-                  <h6>{mainpitch.line1}</h6>
-                </div>
-                <div className="tile">
-                  <h6>{mainpitch.line3}</h6>
-                </div>
-                <div class="tile">
-                  <button class="button is-primary">Schedule an Appointment</button>
-                </div>
-                <div class="tile">
-                  <button class="button is-primary">Register for Feeding Groups</button>
-                </div>
-                <div class="tile">
-                  <button class="button is-primary">View our Courses</button>
-                </div>
-                <div class="tile">
-                  <button class="button is-primary">Read our Blog</button>
-                </div>
+          <div className="columns is-mobile is-centered">
+            <div className="column is-half">
+              <button class="button is-primary">Schedule an Appointment</button>
+              {/* <div className="content">
+                <h6>Occupational Therapy Services</h6>
+                <h6>for children birth to 3 years old and their families</h6>
+                <h6>in the Denver-metro area</h6>
+              </div> */}
+              {/* 
+              <div class="tile">
+                <button class="button is-primary">Register for Feeding Groups</button>
               </div>
+              <div class="tile">
+                <button class="button is-primary">View our Courses</button>
+              </div>
+              <div class="tile">
+                <button class="button is-primary">Read our Blog</button>
+              </div> */}
             </div>
           </div>
         </div>
@@ -119,11 +63,6 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="tile">
                   <h6 className="subtitle">{services.intro}</h6>
-                </div>
-              </div>
-              <div className="column">
-                <div className="tile">
-                  {services.list[0]}
                 </div>
               </div>
             </div>
