@@ -180,11 +180,32 @@ $menu-label-color: $black;
 
 // Custom CSS
 
+.blue-background-color {
+  background-color: $peekaboo-blue;
+}
+
 .wave-container {
   position: relative;
   text-align: center;
-  overflow: hidden;
 }
 .wave-container > svg {
   display: block;
+}
+
+.child {
+  position: relative;
+  max-width: 512px;
+  float: right;
+  transform: rotate(-20deg);
+}
+
+.behind-container {
+  position: absolute;
+  width: 100%;
+  bottom: -3rem;
+  z-index:-1;
+}
+
+.front-container {
+  z-index: 100;
 }

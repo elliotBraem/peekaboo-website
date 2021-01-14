@@ -73,29 +73,26 @@ export const IndexPageTemplate = ({
             <div className="content has-text-centered">
               <div className="content">
                 <div className="tile">
-                  <h6 className="subtitle">{mainpitch.line1}</h6>
+                  <h6>{mainpitch.line2}</h6>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="columns is-mobile">
-            <div className="column is-5">
-              <div className="child">
-                <img src={child} alt="Child" style={{ width: '100%' }} />
-              </div>
-            </div>
-            <div className="column">
-              <div class="tile">
-                <button class="button is-primary">Schedule an Appointment</button>
-              </div>
-              <div class="tile">
-                <button class="button is-primary">Register for Feeding Groups</button>
-              </div>
-              <div class="tile">
-                <button class="button is-primary">View our Courses</button>
-              </div>
-              <div class="tile">
-                <button class="button is-primary">Read our Blog</button>
+                <div className="tile">
+                  <h6>{mainpitch.line1}</h6>
+                </div>
+                <div className="tile">
+                  <h6>{mainpitch.line3}</h6>
+                </div>
+                <div class="tile">
+                  <button class="button is-primary">Schedule an Appointment</button>
+                </div>
+                <div class="tile">
+                  <button class="button is-primary">Register for Feeding Groups</button>
+                </div>
+                <div class="tile">
+                  <button class="button is-primary">View our Courses</button>
+                </div>
+                <div class="tile">
+                  <button class="button is-primary">Read our Blog</button>
+                </div>
               </div>
             </div>
           </div>
@@ -104,10 +101,13 @@ export const IndexPageTemplate = ({
     </section>
     <div class="wave-container">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bde5ff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,80C384,75,480,85,576,128C672,171,768,245,864,266.7C960,288,1056,256,1152,213.3C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <div class="behind-container">
+        <img src={child} alt="Child" className="child red-shirt" />
+      </div>
     </div>
     {/* end mainpitch */}
     {/* start services */}
-    <section className="section section--gradient">
+    <section className="section section--gradient blue-background-color front-container">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -196,7 +196,7 @@ export const IndexPageTemplate = ({
                     </Link>
                     </div>
                   </div> */}
-  </div>
+  </div >
 )
 
 IndexPageTemplate.propTypes = {

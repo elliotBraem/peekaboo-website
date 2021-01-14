@@ -7,11 +7,11 @@ subheading: Let's give your child that chance
 mainpitch:
   heading: Welcome!
   line1: >
-    Occupational therapy services to children birth to 3 years old and their families in the Denver-metro area.
+    Occupational Therapy Services
   line2: >
-    We provide services in environments where your child experiences the most; your home, your daycare, or in the community.
+    Children birth to 3 years old
   line3: >
-    We are named Peek-a-boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life.
+    Denver-metro area
 services:
   heading: Our Services
   subheading: Our therapists are experts in all aspects of your child's development.
