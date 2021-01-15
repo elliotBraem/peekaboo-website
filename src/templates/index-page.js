@@ -20,24 +20,13 @@ export const IndexPageTemplate = ({
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns is-mobile is-centered">
-            <div className="column is-half">
-              <button class="button is-primary">Schedule an Appointment</button>
-              {/* <div className="content">
-                <h6>Occupational Therapy Services</h6>
-                <h6>for children birth to 3 years old and their families</h6>
-                <h6>in the Denver-metro area</h6>
-              </div> */}
-              {/* 
-              <div class="tile">
-                <button class="button is-primary">Register for Feeding Groups</button>
+          <div className="columns">
+            <div className="column is-two-thirds">
+              <div className="content">
+                <h4>Occupational therapy services to children birth to 3 years old and their families in the Denver-metro area.</h4>
+                <h4>We provide services in environments where your child experiences the most; your home, your daycare or in the community.</h4>
+                <h4>We are named Peek-a-boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life.</h4>
               </div>
-              <div class="tile">
-                <button class="button is-primary">View our Courses</button>
-              </div>
-              <div class="tile">
-                <button class="button is-primary">Read our Blog</button>
-              </div> */}
             </div>
           </div>
         </div>
@@ -54,7 +43,7 @@ export const IndexPageTemplate = ({
     <section className="section section--gradient blue-background-color front-container">
       <div className="container">
         <div className="section">
-          <div className="columns">
+          <div className="column is-mobile is-centered">
             <div className="column is-6">
               <div className="content has-text-centered">
                 <h1 className="title">{services.heading}</h1>
