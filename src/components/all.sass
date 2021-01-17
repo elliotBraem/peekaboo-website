@@ -175,7 +175,7 @@ $menu-label-color: $black;
 
 // Typography
 // body {
-//   font-family: "Roobert-Regular";
+//   font-family: "Circular-Black";
 // }
 
 // Custom CSS
@@ -196,8 +196,16 @@ $menu-label-color: $black;
   position: relative;
   max-width: 512px;
   width: 45%;
+}
+
+.red-shirt {
   float: right;
   transform: rotate(-20deg);
+}
+
+.black-hair {
+  float: left;
+  transform: rotate(20deg);
 }
 
 .behind-container {
@@ -208,5 +216,44 @@ $menu-label-color: $black;
 }
 
 .front-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   z-index: 100;
+}
+
+.crayon-container {
+  position: relative;
+  width: 256px;
+  display: inline-block;
+  p {
+    position: absolute;
+  }
+}
+
+// .crayon-list-container p:nth-of-type(even) {
+//   bottom: -1;  
+//   right: -1;
+// }
+
+// .crayon-list-container p:nth-of-type(odd) {
+//   bottom: 0;  
+//   right: 0;
+// }
+
+// .crayon-list-container div:nth-child(even) {
+//   img {
+//     transform: rotate(20deg);
+//   }
+// }
+
+// .crayon-list-container div:nth-child(odd) {
+//   img {
+//     transform: rotate(180deg);
+//   }
+// }
+
+.white-box {
+  background-color: $peekaboo-invert;
+  box-shadow: 9px 6px 19px 0 rgba(0,0,0,.3);
 }
