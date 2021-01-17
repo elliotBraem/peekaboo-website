@@ -171,11 +171,25 @@ $menu-label-color: $black;
   }
 }
 
++tablet {
+  .crayon-list-container div:nth-child(even) .crayon-container {
+    float: left;
+    img {
+      transform: rotate(180deg);
+    }
+    
+    p {
+      left: unset;
+      right: 1.75rem;
+    }
+  }
+}
+
 @import "../fonts/typography.css";
 
 // Typography
 // body {
-//   font-family: "Roobert-Regular";
+//   font-family: "Circular-Black";
 // }
 
 // Custom CSS
@@ -196,8 +210,16 @@ $menu-label-color: $black;
   position: relative;
   max-width: 512px;
   width: 45%;
+}
+
+.red-shirt {
   float: right;
   transform: rotate(-20deg);
+}
+
+.black-hair {
+  float: left;
+  transform: rotate(20deg);
 }
 
 .behind-container {
@@ -208,5 +230,24 @@ $menu-label-color: $black;
 }
 
 .front-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   z-index: 100;
+}
+
+.crayon-container {
+  position: relative;
+  width: 256px;
+  display: inline-block;
+  p {
+    position: absolute;
+    bottom: .5rem;
+    left: 1.75rem;
+  }
+}
+
+.white-box {
+  background-color: $peekaboo-invert;
+  box-shadow: 9px 6px 19px 0 rgba(0,0,0,.3);
 }
