@@ -65,21 +65,25 @@ export const IndexPageTemplate = ({
               </div>
             </div>
           </div>
-          <CrayonList treatments={[
-            'interoception',
-            'regulation',
-            'sensory processing',
-            'motor skills',
-            'play',
-            'social skills',
-            'speech and language',
-            'feeding',
-            'visual impairments',
-            'hearing impairments',
-            'assistive technology',
-            'movement and handling',
-            'trauma and attachment'
-          ]} />
+          <div className="columns">
+            <div className="column is-half-tablet is-offset-2-desktop">
+              <CrayonList treatments={[
+                'interoception',
+                'regulation',
+                'sensory processing',
+                'motor skills',
+                'play',
+                'social skills',
+                'speech and language',
+                'feeding',
+                'visual impairments',
+                'hearing impairments',
+                'assistive technology',
+                'movement and handling',
+                'trauma and attachment'
+              ]} />
+            </div>
+          </div>
         </div>
       </div>
     </section>

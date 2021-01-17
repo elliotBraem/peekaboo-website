@@ -11,8 +11,8 @@ const CrayonList = ({ treatments }) => (
   <div className="columns is-multiline crayon-list-container">
     {
       treatments.map((treatment, index) => (
-        <div key={treatment} className="column is-half">
-          <Crayon text={treatment} img={getCrayonImg()} isFlipped={index % 2 !== 0} />
+        <div key={treatment} className="column">
+          <Crayon text={treatment} img={getCrayonImg()}/>
         </div>
       ))
     }
@@ -42,7 +42,7 @@ CrayonList.defaultProps = {
 const Crayon = ({ text, isFlipped }) => {
   return (
     <div className="crayon-container">
-      <img src={getCrayonImg()} alt="Child" style={isFlipped ? { transform: 'rotate(180deg)' } : null} />
+      <img src={getCrayonImg()} alt="Child" />
       <p>{text}</p>
     </div>
   )

@@ -171,6 +171,20 @@ $menu-label-color: $black;
   }
 }
 
++tablet {
+  .crayon-list-container div:nth-child(even) .crayon-container {
+    float: left;
+    img {
+      transform: rotate(180deg);
+    }
+    
+    p {
+      left: unset;
+      right: 1.75rem;
+    }
+  }
+}
+
 @import "../fonts/typography.css";
 
 // Typography
@@ -228,30 +242,10 @@ $menu-label-color: $black;
   display: inline-block;
   p {
     position: absolute;
+    bottom: .5rem;
+    left: 1.75rem;
   }
 }
-
-// .crayon-list-container p:nth-of-type(even) {
-//   bottom: -1;  
-//   right: -1;
-// }
-
-// .crayon-list-container p:nth-of-type(odd) {
-//   bottom: 0;  
-//   right: 0;
-// }
-
-// .crayon-list-container div:nth-child(even) {
-//   img {
-//     transform: rotate(20deg);
-//   }
-// }
-
-// .crayon-list-container div:nth-child(odd) {
-//   img {
-//     transform: rotate(180deg);
-//   }
-// }
 
 .white-box {
   background-color: $peekaboo-invert;
