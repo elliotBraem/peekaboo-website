@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import redShirt from '../img/children/boy-red-shirt.svg'
 import blackHair from '../img/children/girl-black-hair.svg'
+import yellowShirt from '../img/children/boy-yellow-shirt.svg'
 
 import Layout from '../components/Layout'
 import CrayonList from '../components/CrayonList'
@@ -42,7 +43,7 @@ export const IndexPageTemplate = ({
     </div>
     {/* end mainpitch */}
     {/* start services */}
-    <section className="section section--gradient blue-background-color">
+    <section className="section section--gradient blue-background">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -51,13 +52,13 @@ export const IndexPageTemplate = ({
                 <div className="tile is-ancestor">
                   <div className="tile is-vertical">
                     <h4>We look at the child in how they</h4>
-                    <div className="white-box m-3 p-3">
+                    <div className="box white-background">
                       <h4>manage their body when happy, upset, nervous, etc.</h4>
                     </div>
-                    <div className="white-box m-3 p-3">
+                    <div className="box white-background">
                       <h4>interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.</h4>
                     </div>
-                    <div className="white-box m-3 p-3">
+                    <div className="box white-background">
                       <h4>interpret how they move and understanding the components needed to play with toys and their caregivers.</h4>
                     </div>
                   </div>
@@ -100,46 +101,48 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="content">
-              <h1 className="title">{rates.heading}</h1>
-              {/* <div className="div">
-                  <h3 className="subtitle">{rates.subheading}</h3>
+              <h3 className="subtitle">We contract with the following community center boards:</h3>
+              <div className="column">
+                <div className="tile">
+
                 </div>
-                <div className="div">
-                  <h3 className="subtitle">{rates.intro}</h3>
-                </div> */}
+              </div>
+              <div className="column">
+              </div>
+              <div className="column">
+              </div>
+              <div className="column">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    {/* <div className="content has-text-centered">
-                    <h1 className="title">{rates.heading}</h1>
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+          <div className="columns is-flex is-centered">
+            <div className="column is-half is-full-mobile">
+
+              <div className="tile">
+                <div class="behind-container">
+                  <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
+                </div>
+                <div className="box blue-background has-text-centered">
+                  <p>
+                    Early intervention is a state run program for children who have minimal to moderate/severe delays in one or more areas of development. To see if your child qualifies, you can call your local community center board intake coordinator to set up an initial evaluation. This is a no-cost to family program and in doing so, they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
                     <br />
-                    <div className="div">
-                      <h4 className="title">{rates.ei}</h4>
-                      <h5 className="subtitle">{rates.subheading}</h5>
-                    </div>
                     <br />
-                    <div className="div">
-                      <h3 className="subtitle">{mainpitch.line2}</h3>
-                    </div>
-                    <br />
-                    <div className="div">
-                      <h3 className="subtitle">{mainpitch.line3}</h3>
-                    </div>
-                  </div> */}
-    {/* end rates */}
-    {/* start team */}
-    {/* end team */}
-    {/* <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div> */}
-    {/* <CrayonList listItems={intro.blurbs} /> */}
+                    If you wish to not go through the Early Intervention program we offer private pay rates.
+                    Please contact us for more information.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div >
+    </section >
     {/* <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
