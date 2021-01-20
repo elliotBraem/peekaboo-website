@@ -4,6 +4,10 @@ import { graphql } from 'gatsby'
 import redShirt from '../img/children/boy-red-shirt.svg'
 import blackHair from '../img/children/girl-black-hair.svg'
 import yellowShirt from '../img/children/boy-yellow-shirt.svg'
+import dp from '../img/boards/dp.png'
+import rmhs from '../img/boards/rmhs.png'
+import ddrc from '../img/boards/ddrc.png'
+import nmcs from '../img/boards/nmcs.jpg'
 
 import Layout from '../components/Layout'
 import CrayonList from '../components/CrayonList'
@@ -49,6 +53,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-half is-offset-6-tablet">
               <div className="content">
+                <h1>Our Services</h1>
                 <div className="tile is-ancestor">
                   <div className="tile is-vertical">
                     <h4>We look at the child in how they</h4>
@@ -97,22 +102,34 @@ export const IndexPageTemplate = ({
     {/* end services */}
     {/* start rates */}
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container rates-container">
         <div className="section">
-          <div className="columns">
-            <div className="content">
-              <h3 className="subtitle">We contract with the following community center boards:</h3>
+          <div className="content">
+          <h1>Our Rates</h1>
+            <h3 className="subtitle">We contract with the following community center boards:</h3>
+              <div className="columns">
               <div className="column">
-                <div className="tile">
-
+                <figure class="image box">
+                  <img src={dp} alt="DP" className="board-image" />
+                </figure>
+              </div>
+              <div className="column">
+                <figure class="image box">
+                  <img src={rmhs} alt="RMHS" className="board-image" />
+                </figure>
+              </div>
+              </div>
+              <div className="columns">
+                <div className="column">
+                  <figure class="image box">
+                    <img src={ddrc} alt="DDRC" className="board-image" />
+                  </figure>
                 </div>
-              </div>
-              <div className="column">
-              </div>
-              <div className="column">
-              </div>
-              <div className="column">
-              </div>
+                <div className="column">
+                  <figure class="image box">
+                    <img src={nmcs} alt="NMCS" className="board-image" />
+                  </figure>
+                </div>
             </div>
           </div>
         </div>
@@ -123,7 +140,6 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns is-flex is-centered">
             <div className="column is-half is-full-mobile">
-
               <div className="tile">
                 <div class="behind-container">
                   <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
