@@ -11,6 +11,7 @@ import nmcs from '../img/boards/nmcs.jpg'
 
 import Layout from '../components/Layout'
 import CrayonList from '../components/CrayonList'
+import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -39,7 +40,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <div class="wave-container">
+    <div class="relative-container">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bde5ff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,80C384,75,480,85,576,128C672,171,768,245,864,266.7C960,288,1056,256,1152,213.3C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       <div class="behind-container">
         <img src={redShirt} alt="Child" className="child red-shirt" />
@@ -54,6 +55,7 @@ export const IndexPageTemplate = ({
             <div className="column is-half is-offset-6-tablet">
               <div className="content">
                 <h1>Our Services</h1>
+                <h3>Our therapists are experts in all aspects of your child's development.</h3>
                 <div className="tile is-ancestor">
                   <div className="tile is-vertical">
                     <h4>We look at the child in how they</h4>
@@ -73,27 +75,32 @@ export const IndexPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-half-tablet is-offset-2-desktop">
-              <CrayonList treatments={[
-                'interoception',
-                'regulation',
-                'sensory processing',
-                'motor skills',
-                'play',
-                'social skills',
-                'speech and language',
-                'feeding',
-                'visual impairments',
-                'hearing impairments',
-                'assistive technology',
-                'movement and handling',
-                'trauma and attachment'
-              ]} />
+              <div className="content">
+                <h4>Our therapists are trained in</h4>
+                <CrayonList treatments={[
+                  'interoception',
+                  'regulation',
+                  'sensory processing',
+                  'motor skills',
+                  'play',
+                  'social skills',
+                  'speech and language',
+                  'feeding',
+                  'visual impairments',
+                  'hearing impairments',
+                  'assistive technology',
+                  'movement and handling',
+                  'trauma and attachment'
+                ]} />
+                <h4>All to help with common childhood diagnosis such as:</h4>
+                <p>Sensory processing dysfunction • Developmental delays • Fine motor delays • Gross motor delays • Clumsy/discoordinated • Autism • Cerebral Palsy • Childhood syndromes • Neurological conditions • Prematurity • Orthopedic conditions • Hyperactivity • Learning disability • Feeding delays • Trauma • And more</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <div class="wave-container">
+    <div class="relative-container">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bde5ff" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,165.3C384,192,480,224,576,218.7C672,213,768,171,864,144C960,117,1056,107,1152,122.7C1248,139,1344,181,1392,202.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       <div class="front-container">
         <img src={blackHair} alt="Child" className="child black-hair" />
@@ -105,78 +112,70 @@ export const IndexPageTemplate = ({
       <div className="container rates-container">
         <div className="section">
           <div className="content">
-          <h1>Our Rates</h1>
+            <h1>Our Rates</h1>
             <h3 className="subtitle">We contract with the following community center boards:</h3>
-              <div className="columns">
-              <div className="column">
-                <figure class="image box">
-                  <img src={dp} alt="DP" className="board-image" />
-                </figure>
-              </div>
-              <div className="column">
-                <figure class="image box">
-                  <img src={rmhs} alt="RMHS" className="board-image" />
-                </figure>
-              </div>
-              </div>
-              <div className="columns">
-                <div className="column">
-                  <figure class="image box">
-                    <img src={ddrc} alt="DDRC" className="board-image" />
-                  </figure>
-                </div>
-                <div className="column">
-                  <figure class="image box">
-                    <img src={nmcs} alt="NMCS" className="board-image" />
-                  </figure>
-                </div>
+          </div>
+          <div className="columns">
+            <div className="column">
+              <figure class="image box">
+                <img src={dp} alt="DP" className="board-image" />
+              </figure>
+            </div>
+            <div className="column">
+              <figure class="image box">
+                <img src={rmhs} alt="RMHS" className="board-image" />
+              </figure>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column">
+              <figure class="image box">
+                <img src={ddrc} alt="DDRC" className="board-image" />
+              </figure>
+            </div>
+            <div className="column">
+              <figure class="image box">
+                <img src={nmcs} alt="NMCS" className="board-image" />
+              </figure>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns is-flex is-centered">
-            <div className="column is-half is-full-mobile">
-              <div className="tile">
-                <div class="behind-container">
-                  <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
-                </div>
-                <div className="box blue-background has-text-centered">
-                  <p>
-                    Early intervention is a state run program for children who have minimal to moderate/severe delays in one or more areas of development. To see if your child qualifies, you can call your local community center board intake coordinator to set up an initial evaluation. This is a no-cost to family program and in doing so, they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
-                    <br />
-                    <br />
-                    If you wish to not go through the Early Intervention program we offer private pay rates.
-                    Please contact us for more information.
-                  </p>
-                </div>
-              </div>
+    <div class="relative-container">
+      <div class="behind-container">
+        <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
+      </div>
+      <div className="columns is-mobile is-centered">
+        <div className="column is-two-thirds">
+          <div className="box blue-background has-text-centered">
+            <div className="content">
+              <p>
+                Early intervention is a state run program for children who have minimal to moderate/severe delays in one or more areas of development. To see if your child qualifies, you can call your local community center board intake coordinator to set up an initial evaluation. This is a no-cost to family program and in doing so, they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
+                <br />
+                <br />
+                If you wish to not go through the Early Intervention program we offer private pay rates.
+                Please contact us for more information.
+              </p>
             </div>
           </div>
         </div>
-      </div >
-    </section >
-    {/* <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                    </Link>
-                    </div>
-                  </div> */}
-    {/* <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                    </Link>
-                    </div>
-                  </div> */}
+      </div>
+    </div>
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-12">
+              <h3 className="has-text-weight-semibold is-size-2">
+                Blog
+              </h3>
+              <BlogRoll />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div >
 )
 
