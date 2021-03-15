@@ -52,48 +52,53 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-half is-offset-6-tablet">
+            <div className="column">
               <div className="content">
-                <h1>Our Services</h1>
-                <h3>Our therapists are experts in all aspects of your child's development.</h3>
-                <div className="tile is-ancestor">
-                  <div className="tile is-vertical">
-                    <h4>We look at the child in how they</h4>
-                    <div className="box white-background">
-                      <h4>manage their body when happy, upset, nervous, etc.</h4>
-                    </div>
-                    <div className="box white-background">
-                      <h4>interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.</h4>
-                    </div>
-                    <div className="box white-background">
-                      <h4>interpret how they move and understanding the components needed to play with toys and their caregivers.</h4>
-                    </div>
-                  </div>
+                <div className="box">
+                  <h3>Our therapists are experts in all aspects of your child's development.</h3>
+                  <br />
+                  <h4>We look at the child in how they:</h4>
+                  <ul>
+                    <li>
+                      <p>manage their body when happy, upset, nervous, etc.</p>
+                    </li>
+                    <li>
+                      <p>interact and react to different sensory experiences such as touch, taste, smell, sound, and what they look at.</p>
+                    </li>
+                    <li>
+                      <p>interpret how they move and understanding the components needed to play with toys and their caregivers.</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
           <div className="columns">
-            <div className="column is-half-tablet is-offset-2-desktop">
+            <div className="column">
               <div className="content">
-                <h4>Our therapists are trained in</h4>
-                <CrayonList treatments={[
-                  'interoception',
-                  'regulation',
-                  'sensory processing',
-                  'motor skills',
-                  'play',
-                  'social skills',
-                  'speech and language',
-                  'feeding',
-                  'visual impairments',
-                  'hearing impairments',
-                  'assistive technology',
-                  'movement and handling',
-                  'trauma and attachment'
-                ]} />
-                <h4>All to help with common childhood diagnosis such as:</h4>
-                <p>Sensory processing dysfunction • Developmental delays • Fine motor delays • Gross motor delays • Clumsy/discoordinated • Autism • Cerebral Palsy • Childhood syndromes • Neurological conditions • Prematurity • Orthopedic conditions • Hyperactivity • Learning disability • Feeding delays • Trauma • And more</p>
+                <div className="box">
+                  <h4>We are trained in:</h4>
+
+                  <CrayonList treatments={[
+                    'interoception',
+                    'regulation',
+                    'sensory processing',
+                    'motor skills',
+                    'play',
+                    'social skills',
+                    'speech and language',
+                    'feeding',
+                    'visual impairments',
+                    'hearing impairments',
+                    'assistive technology',
+                    'movement and handling',
+                    'trauma and attachment'
+                  ]} />
+                </div>
+                <div className="box">
+                  <h4>All to help with common childhood diagnosis, such as:</h4>
+                  <p>Sensory processing dysfunction • Developmental delays • Fine motor delays • Gross motor delays • Clumsy/discoordinated • Autism • Cerebral Palsy • Childhood syndromes • Neurological conditions • Prematurity • Orthopedic conditions • Hyperactivity • Learning disability • Feeding delays • Trauma • And more</p>
+                </div>
               </div>
             </div>
           </div>
