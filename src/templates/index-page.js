@@ -78,7 +78,6 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="box">
                   <h4>We are trained in:</h4>
-
                   <CrayonList treatments={[
                     'interoception',
                     'regulation',
@@ -95,7 +94,7 @@ export const IndexPageTemplate = ({
                     'trauma and attachment'
                   ]} />
                 </div>
-                <div className="box">
+                <div className="box has-text-centered">
                   <h4>All to help with common childhood diagnosis, such as:</h4>
                   <p>Sensory processing dysfunction • Developmental delays • Fine motor delays • Gross motor delays • Clumsy/discoordinated • Autism • Cerebral Palsy • Childhood syndromes • Neurological conditions • Prematurity • Orthopedic conditions • Hyperactivity • Learning disability • Feeding delays • Trauma • And more</p>
                 </div>
