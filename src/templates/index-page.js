@@ -104,11 +104,13 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <div class="relative-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bde5ff" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,165.3C384,192,480,224,576,218.7C672,213,768,171,864,144C960,117,1056,107,1152,122.7C1248,139,1344,181,1392,202.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="relative-container blue-background">
       <div class="front-container">
         <img src={blackHair} alt="Child" className="child black-hair" />
       </div>
+      <svg id="waves-black-hair" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,32L60,42.7C120,53,240,75,360,117.3C480,160,600,224,720,208C840,192,960,96,1080,69.3C1200,43,1320,85,1380,106.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+      </svg>
     </div>
     {/* end services */}
     {/* start rates */}
