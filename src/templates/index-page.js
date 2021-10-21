@@ -28,12 +28,24 @@ export const IndexPageTemplate = ({
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns">
+          <div className="columns is-centered">
             <div className="column is-two-thirds">
-              <div className="content">
-                <h4>Occupational therapy services to children birth to 3 years old and their families in the Denver-metro area.</h4>
-                <h4>We provide services in environments where your child experiences the most; your home, your daycare or in the community.</h4>
-                <h4>We are named Peek-a-boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life.</h4>
+              <div className="content has-text-centered">
+                <br />
+                <h1>Peek-a-boo Pediatric Therapy LLC</h1>
+                <h2>Occupational therapy services to children birth to 3 years old and their families in the Denver-metro area</h2>
+                <div class="field is-grouped is-justify-content-center">
+                  <p class="control">
+                    <button class="button is-primary">
+                      Courses
+                    </button>
+                  </p>
+                  <p class="control">
+                    <button class="button is-primary">
+                      Blog
+                    </button>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -56,6 +68,8 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="box">
                   <h3>Our therapists are experts in all aspects of your child's development.</h3>
+                  {/* <h4>We provide services in environments where your child experiences the most; your home, your daycare or in the community.</h4>
+                  <h4>We are named Peek-a-boo Pediatric Therapy because every child should have the opportunity to play the game of peek-a-boo with their parents, siblings, grandparents and any other person in their life.</h4> */}
                   <br />
                   <h4>We look at the child in how they:</h4>
                   <ul>
@@ -105,9 +119,9 @@ export const IndexPageTemplate = ({
       </div>
     </section>
     <div class="relative-container blue-background">
-      <div class="front-container">
+      {/* <div class="front-container">
         <img src={blackHair} alt="Child" className="child black-hair" />
-      </div>
+      </div> */}
       <svg id="waves-black-hair" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#ffffff" fill-opacity="1" d="M0,32L60,42.7C120,53,240,75,360,117.3C480,160,600,224,720,208C840,192,960,96,1080,69.3C1200,43,1320,85,1380,106.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
       </svg>
@@ -149,9 +163,9 @@ export const IndexPageTemplate = ({
       </div>
     </section>
     <div class="relative-container">
-      <div class="behind-container">
+      {/* <div class="behind-container">
         <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
-      </div>
+      </div> */}
       <div className="columns is-mobile is-centered">
         <div className="column is-two-thirds">
           <div className="box blue-background has-text-centered">
