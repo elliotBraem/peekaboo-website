@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import redShirt from '../img/children/boy-red-shirt.svg'
-import blackHair from '../img/children/girl-black-hair.svg'
-import yellowShirt from '../img/children/boy-yellow-shirt.svg'
+// import blackHair from '../img/children/girl-black-hair.svg'
+// import yellowShirt from '../img/children/boy-yellow-shirt.svg'
 import dp from '../img/boards/dp.png'
 import rmhs from '../img/boards/rmhs.png'
 import ddrc from '../img/boards/ddrc.png'
@@ -11,7 +11,7 @@ import nmcs from '../img/boards/nmcs.jpg'
 
 import Layout from '../components/Layout'
 import CrayonList from '../components/CrayonList'
-import BlogRoll from '../components/BlogRoll'
+// import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -36,13 +36,23 @@ export const IndexPageTemplate = ({
                 <h2>Occupational therapy services to children birth to 3 years old and their families in the Denver-metro area</h2>
                 <div class="field is-grouped is-justify-content-center">
                   <p class="control">
-                    <button class="button is-primary">
-                      Courses
+                    <button className="button is-secondary">
+                      <Link
+                        className="title has-text-primary is-size-4"
+                        to="/courses"
+                      >
+                        Courses
+                      </Link>
                     </button>
                   </p>
                   <p class="control">
-                    <button class="button is-primary">
-                      Blog
+                    <button className="button is-secondary">
+                      <Link
+                        className="title has-text-primary is-size-4"
+                        to="/blog"
+                      >
+                        Blog
+                      </Link>
                     </button>
                   </p>
                 </div>
@@ -160,20 +170,20 @@ export const IndexPageTemplate = ({
             </div>
           </div>
           <div className="columns is-centered">
-        <div className="column is-two-thirds">
-          <div className="box blue-background has-text-centered">
-            <div className="content">
-              <p>
-                Early intervention is a state run program for children who have minimal to moderate/severe delays in one or more areas of development. To see if your child qualifies, you can call your local community center board intake coordinator to set up an initial evaluation. This is a no-cost to family program and in doing so, they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
-                <br />
-                <br />
-                If you wish to not go through the Early Intervention program we offer private pay rates.
-                Please contact us for more information.
-              </p>
+            <div className="column is-two-thirds">
+              <div className="box blue-background has-text-centered">
+                <div className="content">
+                  <p>
+                    Early intervention is a state run program for children who have minimal to moderate/severe delays in one or more areas of development. To see if your child qualifies, you can call your local community center board intake coordinator to set up an initial evaluation. This is a no-cost to family program and in doing so, they will attempt to bill insurance and medicaid. You will not have to worry about your deductible or co-pays through this program.
+                    <br />
+                    <br />
+                    If you wish to not go through the Early Intervention program we offer private pay rates.
+                    Please contact us for more information.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
         </div>
       </div>
     </section>
@@ -181,7 +191,7 @@ export const IndexPageTemplate = ({
       {/* <div class="behind-container">
         <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
       </div> */}
-      
+
     </div>
     {/* <section className="section section--gradient">
       <div className="container">

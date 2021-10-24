@@ -1,7 +1,7 @@
 ---
 templateKey: course
-title:
+title: "Helping vs. Hindering Your Child: A Parent's Guide to Sensory-Motor Development for Infants and Toddlers"
 description:
-image: https://www.spdstar.org/sites/default/files/STAR-Institute-logo.png
+image: /img/courses/starinstitute-logo.png
 url: https://www.spdstar.org/basic/february-webinar
 ---

@@ -4,6 +4,7 @@ name: Briana Rigau
 title: Occupational Therapist
 credentials: OTD, OTR/L
 image: /img/therapists/briana-headshot.jpg
+amanda: false
 ---
 
 Briana graduated from the University of Colorado Denver with a Bachelor of Science in Biology

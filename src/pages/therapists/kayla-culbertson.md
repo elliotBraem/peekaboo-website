@@ -4,6 +4,7 @@ name: Kayla Culbertson
 title: Occupational Therapist
 credentials: OTR/L
 image: /img/therapists/kayla-headshot.jpg
+amanda: false
 ---
 
 Hello, my name is Kayla Culbertson! I am an occupational therapist at Peek-A-Boo Pediatric Therapy in Colorado. I earned my doctorate degree in Occupational Therapy from the University of Toledo and my bachelor of science degree in Psychology from Wayne State University. Prior to starting my journey with Peek-A-Boo, I worked as an occupational therapist at Children’s Hospital of Michigan Specialty Center.

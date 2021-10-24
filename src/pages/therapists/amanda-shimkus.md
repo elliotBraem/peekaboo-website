@@ -4,6 +4,7 @@ name: Amanda Shimkus
 title: Owner, Occupational Therapist
 credentials: MA, OTR/L SIPT certified, IMH-E®Infant Family Specialist
 image: /img/therapists/amanda-headshot.png
+amanda: true
 ---
 
 Amanda is a pediatric occupational therapist and the owner of Peek-A-Boo Pediatric Therapy LLC. She graduated with her bachelor's degree in Psychology at St. Ambrose University in Davenport, Iowa in 2006 and with her Master's degree in Occupational Therapy at St. Ambrose University in Davenport, Iowa in 2007. She was inspired to pursue occupational therapy from two family members; one with Cerebral Palsy and the other with sensory processing disorder.
