@@ -22,22 +22,18 @@ class CourseReel extends React.Component {
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.image,
-                          alt: `${post.frontmatter.name}`,
+                          alt: `${post.frontmatter.title}`,
                         }}
                       />
                     </div>
                   ) : null}
                   <p className="post-meta">
-                    <Link
+                    <a
                       className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      href={post.frontmatter.url}
                     >
-                      {post.frontmatter.name}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.title}
-                    </span>
+                    </a>
                   </p>
                 </header>
                 <p>
@@ -45,7 +41,7 @@ class CourseReel extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Learn More →
                   </Link>
                 </p>
               </article>
@@ -89,6 +85,7 @@ export default () => (
                     }
                   }
                 }
+                url
               }
             }
           }
