@@ -159,14 +159,7 @@ export const IndexPageTemplate = ({
               </figure>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <div class="relative-container">
-      {/* <div class="behind-container">
-        <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
-      </div> */}
-      <div className="columns is-mobile is-centered">
+          <div className="columns is-centered">
         <div className="column is-two-thirds">
           <div className="box blue-background has-text-centered">
             <div className="content">
@@ -181,8 +174,16 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
+        </div>
+      </div>
+    </section>
+    <div class="relative-container">
+      {/* <div class="behind-container">
+        <img src={yellowShirt} alt="Child" className="child yellow-shirt" />
+      </div> */}
+      
     </div>
-    <section className="section section--gradient">
+    {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -195,7 +196,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
   </div >
 )
 
